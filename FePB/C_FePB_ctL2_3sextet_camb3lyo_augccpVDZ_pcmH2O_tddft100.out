@@ -1,0 +1,3534 @@
+
+Running Job 1 of 1 C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in
+qchem C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in_897620.0 /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/ 0
+/opt/qchem/6.0.1/exe/qcprog.exe_s C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in_897620.0 /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.0, Q-Chem, Inc., Pleasanton, CA (2022)
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  V. Athavale,  D. Barton,  
+ K. Begam,  A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  
+ H. Burton,  A. Carreras,  K. Carter-Fenk,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  S. Fatehi,  
+ Qingguo Feng,  T. Friedhoff,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  
+ A. Gunina,  J. A. Gyamfi,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  
+ A. W. Hauser,  M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  
+ Z. C. Holden,  S. Houck,  Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  
+ K. Ikeda,  M. Ivanov,  Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  A. Manjanath,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  
+ S. Mason,  F. Matz,  S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ J. W. Mullinax,  K. J. Oosterbaan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  N. Sergueev,  S. M. Sharada,  Hengyuan Shen,  
+ W. Skomorowski,  D. W. Small,  C. J. Stein,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  J. Wenzel,  
+ Jonathan Wong,  J. Witte,  A. Yamada,  Chou-Hsun Yang,  Kun Yao,  
+ S. Yeganeh,  S. R. Yost,  A. Zech,  F. Zeller,  Igor Ying Zhang,  
+ Xing Zhang,  Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  
+ N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  
+ Hsing-Ta Chen,  S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  T. Head-Gordon,  
+ W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  A. Klamt,  
+ Jing Kong,  D. S. Lambrecht,  Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  T. Neudecker,  C. Ochsenfeld,  
+ J. A. Parkhill,  R. Peverati,  V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  
+ L. V. Slipchenko,  R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  
+ A. Tkatchenko,  D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  
+ T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  P. M. Zimmerman,  
+ S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.0.2 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Fri Mar  8 06:44:48 2024  
+
+ Host: 
+0
+
+     Scratch files written to /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403//
+ Dec722 |scratch|qcdevops|jenkins|workspace|build_RNUM 8907   
+ Processing $rem in /opt/qchem/6.0.1/config/preferences:
+ Processing $rem in /home/sgardner/.qchemrc:
+ Symmetry turned off for PCM/SM12/SMD calculation
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+-3 6
+C    3.0176011   -1.8048005   -0.4448772
+C    4.2892002   -2.3465632   -0.2483367
+C    5.2982122   -2.2203812   -1.2367737
+C    4.9867035   -1.6145791   -2.4615958
+C    3.7265160   -1.0410288   -2.6715993
+C    2.7539034   -1.0641345   -1.6568951
+H    4.4865114   -2.8568554    0.6987508
+O    1.5986100   -0.4360452   -1.7193468
+C    6.7379335   -2.4441611   -0.9524893
+O    7.5959692   -2.5612804   -1.8429974
+N    7.0847909   -2.4102010    0.3784139
+H    6.3402594   -2.1219501    1.0052229
+C    8.4146384   -1.9876200    0.8035117
+H    8.7420269   -2.6023872    1.6578816
+H    9.0986147   -2.1835135   -0.0341163
+C    8.4203282   -0.5011308    1.1930314
+H    9.4068016   -0.2547644    1.6211439
+H    7.6888630   -0.3536940    2.0074779
+C    8.0858051    0.4720258    0.0273967
+H    7.8010467   -0.1038194   -0.8670036
+H    8.9998797    1.0253065   -0.2453131
+N    7.0256760    1.4566040    0.2635248
+H    7.2287202    1.9597716    1.1315274
+C    4.6282106    1.9800107    0.5946063
+H    3.6518078    1.5017273    0.7740373
+H    4.8851652    2.5088184    1.5314044
+C    5.6770533    0.8913123    0.3555776
+H    5.5825079    0.1267836    1.1561858
+H    5.4675957    0.3587444   -0.5870166
+C    4.5020220    2.9979117   -0.5486555
+H    4.1648604    3.9700120   -0.1597349
+H    5.4976851    3.1597391   -0.9947591
+C    3.5262433    2.5867390   -1.6617677
+H    3.7727182    1.5858728   -2.0406548
+H    3.6183847    3.2987958   -2.4995220
+N    2.1331878    2.5434590   -1.2243561
+H    1.6477038    1.6439019   -1.2037352
+C    1.4587084    3.6620263   -0.8793254
+O    1.9540501    4.7965204   -0.9807817
+C    0.0403356    3.4874178   -0.3503483
+H   -0.6573921    3.5420800   -1.2030276
+H   -0.1477049    4.3626089    0.2857706
+C   -1.5807409    2.3136431    1.2113994
+H   -1.7452337    1.3575578    1.7331121
+H   -1.4975380    3.1152935    1.9560526
+C   -2.7773928    2.6174751    0.3204394
+O   -3.4910661    3.6169099    0.4869917
+N   -2.9728247    1.7043119   -0.6653398
+C   -3.8275616    1.9730489   -1.8181315
+H   -2.1388288    1.1150373   -0.8096056
+C   -5.2369379    1.3751218   -1.7475709
+H   -3.3114676    1.5601173   -2.6990000
+H   -3.9011831    3.0657382   -1.9534655
+C   -6.1533766    2.0044762   -0.6945592
+H   -5.6972405    1.5247910   -2.7432092
+H   -5.1716376    0.2845142   -1.6009870
+C   -7.6352756    1.6447857   -0.8976296
+H   -6.0584954    3.1032550   -0.7463464
+H   -5.8203798    1.7215947    0.3193076
+H   -8.2547198    2.2652021   -0.2259522
+H   -7.9162709    1.9261168   -1.9297209
+C   -5.7765062   -2.3656261   -0.4113233
+C   -4.4292903   -2.1808273    0.1773060
+O   -6.0371554   -2.0326582   -1.5860411
+C   -4.2459824   -1.9885042    1.5565029
+C   -3.3152003   -2.0681996   -0.6917814
+C   -2.9801685   -1.6752897    2.0689294
+C   -2.0422599   -1.7707300   -0.2026440
+C   -1.8714120   -1.5445596    1.2152395
+H   -2.8442391   -1.4878055    3.1379262
+O   -0.9549446   -1.6370092   -0.9507474
+C   -0.2492227    2.1737143    0.4103814
+O   -0.3338292    1.1088618   -0.4879575
+C    0.8797519    1.9147159    1.4476299
+O    1.3981336    0.7364816    1.4042862
+O    1.2129923    2.8179431    2.2338779
+H    3.5023440   -0.5104597   -3.6014529
+O    2.0228261   -1.8780964    0.4286243
+H   -3.4632001   -2.1928538   -1.7667430
+O   -0.6671390   -1.1919623    1.6145984
+Fe    0.5004684   -0.6069991    0.0313164
+N   -8.0323843    0.2493373   -0.6930239
+H   -7.4307702   -0.3602534   -1.2539122
+N   -6.7386166   -2.9072353    0.3952418
+H   -6.4707832   -3.1311032    1.3471284
+C   -8.1581877   -2.6962132    0.1498469
+H   -8.2761765   -2.5423266   -0.9306563
+H   -8.7116250   -3.6090516    0.4198863
+C   -8.7139837   -1.4983046    0.9354169
+H   -9.7743466   -1.3658433    0.6585072
+H   -8.6838966   -1.7327199    2.0143742
+C   -7.9605582   -0.1856425    0.7027355
+H   -8.4302151    0.5979079    1.3219243
+H   -6.9205774   -0.2909435    1.0763989
+H    5.7722177   -1.5222745   -3.2131573
+H   -5.0961202   -2.0206178    2.2409367
+$end
+
+$rem
+BASIS  =  gen
+CIS_N_ROOTS  =  100
+EXCHANGE  =  CAM-B3LYP
+GUI  =  2
+JOB_TYPE  =  SP
+NTO_PAIRS  =  2
+SCF_CONVERGENCE  =  8
+SOLVENT_METHOD  =  PCM
+UNRESTRICTED  =  1
+BASIS GEN
+PURECART 11
+MEM_TOTAL = 30000
+$end
+
+$pcm
+THEORY  CPCM
+$end
+
+$solvent
+DIELECTRIC  78.39
+$end
+
+$van_der_waals
+26   2.44
+$end
+
+!----------------------------------------------------------------------
+! Basis Set Exchange
+! Basis set: aug-cc-pVDZ
+!----------------------------------------------------------------------
+
+$basis
+H     0
+S   4   1.00
+1.301000D+01           1.968500D-02
+1.962000D+00           1.379770D-01
+4.446000D-01           4.781480D-01
+1.220000D-01           5.012400D-01
+S   1   1.00
+1.220000D-01           1.000000D+00
+S   1   1.00
+0.0297400              1.0000000
+P   1   1.00
+7.270000D-01           1.0000000
+P   1   1.00
+0.1410000              1.0000000
+****
+C     0
+S   9   1.00
+6.665000D+03           6.920000D-04
+1.000000D+03           5.329000D-03
+2.280000D+02           2.707700D-02
+6.471000D+01           1.017180D-01
+2.106000D+01           2.747400D-01
+7.495000D+00           4.485640D-01
+2.797000D+00           2.850740D-01
+5.215000D-01           1.520400D-02
+1.596000D-01          -3.191000D-03
+S   9   1.00
+6.665000D+03          -1.460000D-04
+1.000000D+03          -1.154000D-03
+2.280000D+02          -5.725000D-03
+6.471000D+01          -2.331200D-02
+2.106000D+01          -6.395500D-02
+7.495000D+00          -1.499810D-01
+2.797000D+00          -1.272620D-01
+5.215000D-01           5.445290D-01
+1.596000D-01           5.804960D-01
+S   1   1.00
+1.596000D-01           1.000000D+00
+S   1   1.00
+0.0469000              1.0000000
+P   4   1.00
+9.439000D+00           3.810900D-02
+2.002000D+00           2.094800D-01
+5.456000D-01           5.085570D-01
+1.517000D-01           4.688420D-01
+P   1   1.00
+1.517000D-01           1.000000D+00
+P   1   1.00
+0.0404100              1.0000000
+D   1   1.00
+5.500000D-01           1.0000000
+D   1   1.00
+0.1510000              1.0000000
+****
+N     0
+S   9   1.00
+9.046000D+03           7.000000D-04
+1.357000D+03           5.389000D-03
+3.093000D+02           2.740600D-02
+8.773000D+01           1.032070D-01
+2.856000D+01           2.787230D-01
+1.021000D+01           4.485400D-01
+3.838000D+00           2.782380D-01
+7.466000D-01           1.544000D-02
+2.248000D-01          -2.864000D-03
+S   9   1.00
+9.046000D+03          -1.530000D-04
+1.357000D+03          -1.208000D-03
+3.093000D+02          -5.992000D-03
+8.773000D+01          -2.454400D-02
+2.856000D+01          -6.745900D-02
+1.021000D+01          -1.580780D-01
+3.838000D+00          -1.218310D-01
+7.466000D-01           5.490030D-01
+2.248000D-01           5.788150D-01
+S   1   1.00
+2.248000D-01           1.000000D+00
+S   1   1.00
+0.0612400              1.0000000
+P   4   1.00
+1.355000D+01           3.991900D-02
+2.917000D+00           2.171690D-01
+7.973000D-01           5.103190D-01
+2.185000D-01           4.622140D-01
+P   1   1.00
+2.185000D-01           1.000000D+00
+P   1   1.00
+0.0561100              1.0000000
+D   1   1.00
+8.170000D-01           1.0000000
+D   1   1.00
+0.2300000              1.0000000
+****
+O     0
+S   9   1.00
+1.172000D+04           7.100000D-04
+1.759000D+03           5.470000D-03
+4.008000D+02           2.783700D-02
+1.137000D+02           1.048000D-01
+3.703000D+01           2.830620D-01
+1.327000D+01           4.487190D-01
+5.025000D+00           2.709520D-01
+1.013000D+00           1.545800D-02
+3.023000D-01          -2.585000D-03
+S   9   1.00
+1.172000D+04          -1.600000D-04
+1.759000D+03          -1.263000D-03
+4.008000D+02          -6.267000D-03
+1.137000D+02          -2.571600D-02
+3.703000D+01          -7.092400D-02
+1.327000D+01          -1.654110D-01
+5.025000D+00          -1.169550D-01
+1.013000D+00           5.573680D-01
+3.023000D-01           5.727590D-01
+S   1   1.00
+3.023000D-01           1.000000D+00
+S   1   1.00
+0.0789600              1.0000000
+P   4   1.00
+1.770000D+01           4.301800D-02
+3.854000D+00           2.289130D-01
+1.046000D+00           5.087280D-01
+2.753000D-01           4.605310D-01
+P   1   1.00
+2.753000D-01           1.000000D+00
+P   1   1.00
+0.0685600              1.0000000
+D   1   1.00
+1.185000D+00           1.0000000
+D   1   1.00
+0.3320000              1.0000000
+****
+Fe     0
+S   20   1.00
+4.316265D+06           8.048803D-06
+6.463424D+05           6.258306D-05
+1.470897D+05           3.290239D-04
+4.166152D+04           1.387355D-03
+1.359077D+04           5.023256D-03
+4.905750D+03           1.610140D-02
+1.912746D+03           4.590034D-02
+7.926043D+02           1.136154D-01
+3.448065D+02           2.283869D-01
+1.558999D+02           3.221159D-01
+7.223091D+01           2.383661D-01
+3.272506D+01           7.404667D-02
+1.566762D+01           9.214197D-02
+7.503483D+00           9.339790D-02
+3.312223D+00           1.573965D-02
+1.558471D+00          -4.186682D-04
+6.839140D-01           5.376318D-05
+1.467570D-01          -3.816654D-05
+7.058300D-02           4.319603D-05
+3.144900D-02          -3.401019D-06
+S   20   1.00
+4.316265D+06          -4.155954D-06
+6.463424D+05          -3.231401D-05
+1.470897D+05          -1.699525D-04
+4.166152D+04          -7.171369D-04
+1.359077D+04          -2.603625D-03
+4.905750D+03          -8.399109D-03
+1.912746D+03          -2.434109D-02
+7.926043D+02          -6.251948D-02
+3.448065D+02          -1.365929D-01
+1.558999D+02          -2.312707D-01
+7.223091D+01          -2.383734D-01
+3.272506D+01           3.123837D-02
+1.566762D+01           5.086818D-01
+7.503483D+00           4.987695D-01
+3.312223D+00           9.033552D-02
+1.558471D+00          -6.005337D-03
+6.839140D-01           2.312454D-04
+1.467570D-01          -5.643680D-04
+7.058300D-02           4.992260D-04
+3.144900D-02          -1.015293D-04
+S   20   1.00
+4.316265D+06           9.532178D-07
+6.463424D+05           7.414605D-06
+1.470897D+05           3.898393D-05
+4.166152D+04           1.647152D-04
+1.359077D+04           5.985980D-04
+4.905750D+03           1.942390D-03
+1.912746D+03           5.687237D-03
+7.926043D+02           1.501329D-02
+3.448065D+02           3.452455D-02
+1.558999D+02           6.495820D-02
+7.223091D+01           7.716194D-02
+3.272506D+01          -1.873411D-02
+1.566762D+01          -3.009185D-01
+7.503483D+00          -4.554661D-01
+3.312223D+00           1.286463D-01
+1.558471D+00           7.183316D-01
+6.839140D-01           4.051743D-01
+1.467570D-01           2.168227D-02
+7.058300D-02          -8.343566D-03
+3.144900D-02           3.658979D-03
+S   20   1.00
+4.316265D+06          -2.063008D-07
+6.463424D+05          -1.604169D-06
+1.470897D+05          -8.438437D-06
+4.166152D+04          -3.563151D-05
+1.359077D+04          -1.295998D-04
+4.905750D+03          -4.201534D-04
+1.912746D+03          -1.231954D-03
+7.926043D+02          -3.248922D-03
+3.448065D+02          -7.493717D-03
+1.558999D+02          -1.410102D-02
+7.223091D+01          -1.691600D-02
+3.272506D+01           4.218996D-03
+1.566762D+01           6.833810D-02
+7.503483D+00           1.098201D-01
+3.312223D+00          -4.009005D-02
+1.558471D+00          -2.174739D-01
+6.839140D-01          -2.465135D-01
+1.467570D-01           2.731435D-01
+7.058300D-02           5.748321D-01
+3.144900D-02           3.012713D-01
+S   20   1.00
+4.316265D+06          -4.009367D-07
+6.463424D+05          -3.189255D-06
+1.470897D+05          -1.623079D-05
+4.166152D+04          -7.157920D-05
+1.359077D+04          -2.463958D-04
+4.905750D+03          -8.544907D-04
+1.912746D+03          -2.307593D-03
+7.926043D+02          -6.728292D-03
+3.448065D+02          -1.366165D-02
+1.558999D+02          -3.062240D-02
+7.223091D+01          -2.631137D-02
+3.272506D+01          -9.760183D-03
+1.566762D+01           1.801906D-01
+7.503483D+00           1.529634D-01
+3.312223D+00           5.505413D-02
+1.558471D+00          -9.551364D-01
+6.839140D-01           2.586813D-01
+1.467570D-01           1.834049D+00
+7.058300D-02          -9.333240D-01
+3.144900D-02          -6.981605D-01
+S   1   1.00
+3.144900D-02           1.000000D+00
+S   1   1.00
+1.401000D-02           1.000000D+00
+P   16   1.00
+1.774569D+04           4.100000D-05
+4.200721D+03           3.690000D-04
+1.364429D+03           2.129000D-03
+5.220806D+02           9.369000D-03
+2.214595D+02           3.309700D-02
+1.009096D+02           9.443100D-02
+4.840115D+01           2.080770D-01
+2.398536D+01           3.323330D-01
+1.218250D+01           3.329870D-01
+6.242298D+00           1.568430D-01
+3.110944D+00           2.154900D-02
+1.509958D+00          -2.095000D-03
+7.108450D-01          -1.739000D-03
+2.731900D-01          -3.000000D-04
+1.042330D-01           2.900000D-05
+3.829100D-02          -1.100000D-05
+P   16   1.00
+1.774569D+04          -1.500000D-05
+4.200721D+03          -1.300000D-04
+1.364429D+03          -7.510000D-04
+5.220806D+02          -3.329000D-03
+2.214595D+02          -1.191200D-02
+1.009096D+02          -3.493300D-02
+4.840115D+01          -7.998900D-02
+2.398536D+01          -1.346360D-01
+1.218250D+01          -1.385980D-01
+6.242298D+00           3.027800D-02
+3.110944D+00           3.332160D-01
+1.509958D+00           4.561530D-01
+7.108450D-01           2.850510D-01
+2.731900D-01           4.614400D-02
+1.042330D-01          -3.249000D-03
+3.829100D-02           1.357000D-03
+P   16   1.00
+1.774569D+04           5.000000D-06
+4.200721D+03           4.200000D-05
+1.364429D+03           2.410000D-04
+5.220806D+02           1.085000D-03
+2.214595D+02           3.831000D-03
+1.009096D+02           1.142300D-02
+4.840115D+01           2.579200D-02
+2.398536D+01           4.481800D-02
+1.218250D+01           4.459800D-02
+6.242298D+00          -1.117700D-02
+3.110944D+00          -1.381340D-01
+1.509958D+00          -1.882850D-01
+7.108450D-01          -1.073990D-01
+2.731900D-01           4.448630D-01
+1.042330D-01           6.402390D-01
+3.829100D-02           6.445700D-02
+P   16   1.00
+1.774569D+04           3.000000D-06
+4.200721D+03           2.900000D-05
+1.364429D+03           1.650000D-04
+5.220806D+02           7.340000D-04
+2.214595D+02           2.626000D-03
+1.009096D+02           7.725000D-03
+4.840115D+01           1.773300D-02
+2.398536D+01           3.005500D-02
+1.218250D+01           3.109400D-02
+6.242298D+00          -1.004800D-02
+3.110944D+00          -8.830600D-02
+1.509958D+00          -1.298240D-01
+7.108450D-01          -7.693700D-02
+2.731900D-01           2.126610D-01
+1.042330D-01           5.730610D-01
+3.829100D-02           3.696510D-01
+P   1   1.00
+3.829100D-02           1.000000D+00
+P   1   1.00
+1.407000D-02           1.000000D+00
+D   8   1.00
+1.133440D+02           3.530000D-03
+3.364140D+01           2.578400D-02
+1.233100D+01           9.911900D-02
+4.994780D+00           2.390730D-01
+2.072800D+00           3.571990D-01
+8.307530D-01           3.621880D-01
+3.091780D-01           2.364610D-01
+1.001300D-01           6.011800D-02
+D   8   1.00
+1.133440D+02          -3.890000D-03
+3.364140D+01          -2.844200D-02
+1.233100D+01          -1.124290D-01
+4.994780D+00          -2.742570D-01
+2.072800D+00          -3.155460D-01
+8.307530D-01           5.710900D-02
+3.091780D-01           5.636040D-01
+1.001300D-01           3.846370D-01
+D   1   1.00
+1.001300D-01           1.000000D+00
+D   1   1.00
+3.243000D-02           1.000000D+00
+F   2   1.00
+3.224300D+00           4.222490D-01
+7.758000D-01           7.714680D-01
+F   1   1.00
+2.749000D-01           1.000000D+00
+****
+$end
+
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C       3.0176011000    -1.8048005000    -0.4448772000
+    2      C       4.2892002000    -2.3465632000    -0.2483367000
+    3      C       5.2982122000    -2.2203812000    -1.2367737000
+    4      C       4.9867035000    -1.6145791000    -2.4615958000
+    5      C       3.7265160000    -1.0410288000    -2.6715993000
+    6      C       2.7539034000    -1.0641345000    -1.6568951000
+    7      H       4.4865114000    -2.8568554000     0.6987508000
+    8      O       1.5986100000    -0.4360452000    -1.7193468000
+    9      C       6.7379335000    -2.4441611000    -0.9524893000
+   10      O       7.5959692000    -2.5612804000    -1.8429974000
+   11      N       7.0847909000    -2.4102010000     0.3784139000
+   12      H       6.3402594000    -2.1219501000     1.0052229000
+   13      C       8.4146384000    -1.9876200000     0.8035117000
+   14      H       8.7420269000    -2.6023872000     1.6578816000
+   15      H       9.0986147000    -2.1835135000    -0.0341163000
+   16      C       8.4203282000    -0.5011308000     1.1930314000
+   17      H       9.4068016000    -0.2547644000     1.6211439000
+   18      H       7.6888630000    -0.3536940000     2.0074779000
+   19      C       8.0858051000     0.4720258000     0.0273967000
+   20      H       7.8010467000    -0.1038194000    -0.8670036000
+   21      H       8.9998797000     1.0253065000    -0.2453131000
+   22      N       7.0256760000     1.4566040000     0.2635248000
+   23      H       7.2287202000     1.9597716000     1.1315274000
+   24      C       4.6282106000     1.9800107000     0.5946063000
+   25      H       3.6518078000     1.5017273000     0.7740373000
+   26      H       4.8851652000     2.5088184000     1.5314044000
+   27      C       5.6770533000     0.8913123000     0.3555776000
+   28      H       5.5825079000     0.1267836000     1.1561858000
+   29      H       5.4675957000     0.3587444000    -0.5870166000
+   30      C       4.5020220000     2.9979117000    -0.5486555000
+   31      H       4.1648604000     3.9700120000    -0.1597349000
+   32      H       5.4976851000     3.1597391000    -0.9947591000
+   33      C       3.5262433000     2.5867390000    -1.6617677000
+   34      H       3.7727182000     1.5858728000    -2.0406548000
+   35      H       3.6183847000     3.2987958000    -2.4995220000
+   36      N       2.1331878000     2.5434590000    -1.2243561000
+   37      H       1.6477038000     1.6439019000    -1.2037352000
+   38      C       1.4587084000     3.6620263000    -0.8793254000
+   39      O       1.9540501000     4.7965204000    -0.9807817000
+   40      C       0.0403356000     3.4874178000    -0.3503483000
+   41      H      -0.6573921000     3.5420800000    -1.2030276000
+   42      H      -0.1477049000     4.3626089000     0.2857706000
+   43      C      -1.5807409000     2.3136431000     1.2113994000
+   44      H      -1.7452337000     1.3575578000     1.7331121000
+   45      H      -1.4975380000     3.1152935000     1.9560526000
+   46      C      -2.7773928000     2.6174751000     0.3204394000
+   47      O      -3.4910661000     3.6169099000     0.4869917000
+   48      N      -2.9728247000     1.7043119000    -0.6653398000
+   49      C      -3.8275616000     1.9730489000    -1.8181315000
+   50      H      -2.1388288000     1.1150373000    -0.8096056000
+   51      C      -5.2369379000     1.3751218000    -1.7475709000
+   52      H      -3.3114676000     1.5601173000    -2.6990000000
+   53      H      -3.9011831000     3.0657382000    -1.9534655000
+   54      C      -6.1533766000     2.0044762000    -0.6945592000
+   55      H      -5.6972405000     1.5247910000    -2.7432092000
+   56      H      -5.1716376000     0.2845142000    -1.6009870000
+   57      C      -7.6352756000     1.6447857000    -0.8976296000
+   58      H      -6.0584954000     3.1032550000    -0.7463464000
+   59      H      -5.8203798000     1.7215947000     0.3193076000
+   60      H      -8.2547198000     2.2652021000    -0.2259522000
+   61      H      -7.9162709000     1.9261168000    -1.9297209000
+   62      C      -5.7765062000    -2.3656261000    -0.4113233000
+   63      C      -4.4292903000    -2.1808273000     0.1773060000
+   64      O      -6.0371554000    -2.0326582000    -1.5860411000
+   65      C      -4.2459824000    -1.9885042000     1.5565029000
+   66      C      -3.3152003000    -2.0681996000    -0.6917814000
+   67      C      -2.9801685000    -1.6752897000     2.0689294000
+   68      C      -2.0422599000    -1.7707300000    -0.2026440000
+   69      C      -1.8714120000    -1.5445596000     1.2152395000
+   70      H      -2.8442391000    -1.4878055000     3.1379262000
+   71      O      -0.9549446000    -1.6370092000    -0.9507474000
+   72      C      -0.2492227000     2.1737143000     0.4103814000
+   73      O      -0.3338292000     1.1088618000    -0.4879575000
+   74      C       0.8797519000     1.9147159000     1.4476299000
+   75      O       1.3981336000     0.7364816000     1.4042862000
+   76      O       1.2129923000     2.8179431000     2.2338779000
+   77      H       3.5023440000    -0.5104597000    -3.6014529000
+   78      O       2.0228261000    -1.8780964000     0.4286243000
+   79      H      -3.4632001000    -2.1928538000    -1.7667430000
+   80      O      -0.6671390000    -1.1919623000     1.6145984000
+   81      Fe      0.5004684000    -0.6069991000     0.0313164000
+   82      N      -8.0323843000     0.2493373000    -0.6930239000
+   83      H      -7.4307702000    -0.3602534000    -1.2539122000
+   84      N      -6.7386166000    -2.9072353000     0.3952418000
+   85      H      -6.4707832000    -3.1311032000     1.3471284000
+   86      C      -8.1581877000    -2.6962132000     0.1498469000
+   87      H      -8.2761765000    -2.5423266000    -0.9306563000
+   88      H      -8.7116250000    -3.6090516000     0.4198863000
+   89      C      -8.7139837000    -1.4983046000     0.9354169000
+   90      H      -9.7743466000    -1.3658433000     0.6585072000
+   91      H      -8.6838966000    -1.7327199000     2.0143742000
+   92      C      -7.9605582000    -0.1856425000     0.7027355000
+   93      H      -8.4302151000     0.5979079000     1.3219243000
+   94      H      -6.9205774000    -0.2909435000     1.0763989000
+   95      H       5.7722177000    -1.5222745000    -3.2131573000
+   96      H      -5.0961202000    -2.0206178000     2.2409367000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =        8376.50898875 hartrees
+ There are      206 alpha and      201 beta electrons
+ Requested basis set is non-standard
+ There are 698 shells and 1628 basis functions
+
+ Total QAlloc Memory Limit  30000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+ Using C-PCM dielectric factor f(eps) = (eps-1)/eps = 0.987243
+No default van der Waals radius is available for Z = 26
+	Found R = 2.4400 A in the $van_der_waals section
+ Discretize the solute cavity surface with Lebedev spheres
+	Using 110 Lebedev grid points for each H atom
+	Using 194 Lebedev grid points for other atoms
+	Atomic van der Waals radii (Bondi set) will be scaled by 1.20
+ Using smooth SwiG surface discretization
+ Remove points where switching function is < 1.0e-08
+ Keep 5518 surface tesserae and discard 9410 interior tesserae
+ Molecular Surface Area = 675.007 Angst**2
+
+ A cutoff of  1.0D-12 yielded 181840 shell pairs
+ There are    930184 function pairs (   1052515 Cartesian)
+ Smallest overlap matrix eigenvalue = 3.47E-07
+ Linear dependence detected in AO basis
+ Tighter screening thresholds may be required for diffuse basis sets
+ Use S2THRESH > 14 and THRESH = 14 in case of SCF convergence issues
+ Number of orthogonalized atomic orbitals = 1621
+ Maximum deviation from orthogonality = 1.302E-10
+
+ Scale SEOQF with 1.000000e-02/1.000000e-01/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000984 hartrees
+ ================ Generating on-the-fly SAD Guess ================
+ Attempting to make child job directory: /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403//Frg1/
+ Attempting to make child job directory: /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403//Frg2/
+ Attempting to make child job directory: /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403//Frg3/
+ Attempting to make child job directory: /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403//Frg4/
+ Attempting to make child job directory: /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403//Frg5/
+ Creating input file /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/Frg1.input
+ using default PutDataFrgm: nothing
+ calling putenv with: QCSCRATCH=/data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/ 
+ Spawning Job For Fragment 0
+ Done Job For Fragment 0
+ calling putenv with: QCSCRATCH=/data/scratch 
+ calling putenv with: QCTHREADS=20 
+ Creating input file /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/Frg2.input
+ using default PutDataFrgm: nothing
+ calling putenv with: QCSCRATCH=/data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/ 
+ Spawning Job For Fragment 1
+ Done Job For Fragment 1
+ calling putenv with: QCSCRATCH=/data/scratch 
+ calling putenv with: QCTHREADS=20 
+ Creating input file /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/Frg3.input
+ using default PutDataFrgm: nothing
+ calling putenv with: QCSCRATCH=/data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/ 
+ Spawning Job For Fragment 2
+ Done Job For Fragment 2
+ calling putenv with: QCSCRATCH=/data/scratch 
+ calling putenv with: QCTHREADS=20 
+ Creating input file /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/Frg4.input
+ using default PutDataFrgm: nothing
+ calling putenv with: QCSCRATCH=/data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/ 
+ Spawning Job For Fragment 3
+ Done Job For Fragment 3
+ calling putenv with: QCSCRATCH=/data/scratch 
+ calling putenv with: QCTHREADS=20 
+ Creating input file /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/Frg5.input
+ using default PutDataFrgm: nothing
+ calling putenv with: QCSCRATCH=/data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/ 
+ Spawning Job For Fragment 4
+ Done Job For Fragment 4
+ calling putenv with: QCSCRATCH=/data/scratch 
+ calling putenv with: QCTHREADS=20 
+ Time for running child jobs:  CPU 0.03 s  wall 98.34 s
+ ============= Method Specific SAD Guess Constructed =============
+ Guess from on-the-fly superposition of atomic densities
+ Warning: Energy on first SCF cycle will be non-variational
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:     0.1900 Hartree-Fock + 0.3500 B88 + 0.4600 muB88 + LR-HF
+ Correlation:  0.1900 VWN5 + 0.8100 LYP
+ Using SG-1 standard quadrature grid
+ using 20 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ C-PCM solvent model [f = (eps-1)/eps], solve by matrix inversion
+ A unrestricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1   -3770.9488125681      8.94e-03  
+    2   -3740.4504104043      1.03e-03  
+    3   -3739.4722396275      1.67e-03  
+    4   -3741.5658872906      5.29e-04  
+    5   -3741.7774023919      1.23e-04  
+    6   -3741.7933246379      7.39e-05  
+    7   -3741.8001515134      2.01e-05  
+    8   -3741.8010514891      1.28e-05  
+    9   -3741.8013495965      5.21e-06  
+   10   -3741.8014153220      1.81e-06  
+   11   -3741.8014275532      9.54e-07  
+   12   -3741.8014314669      4.56e-07  
+   13   -3741.8014326084      2.56e-07  
+   14   -3741.8014330295      1.61e-07  
+   15   -3741.8014331832      9.62e-08  
+   16   -3741.8014332623      5.45e-08  
+   17   -3741.8014332932      3.79e-08  
+   18   -3741.8014333007      2.42e-08  
+   19   -3741.8014333045      1.11e-08  
+   20   -3741.8014333012      6.08e-09  Convergence criterion met
+ ---------------------------------------
+ SCF time:   CPU 640903.74s  wall 37641.00s 
+<S^2> =          8.757035792
+
+************** Final PCM Free Energy Summary **************
+ G_electrostatic  =      -0.51180069 hartree =    -321.15978117 kcal/mol
+ G_cavitation     =       0.00000000 hartree =       0.00000000 kcal/mol
+ G_dispersion     =       0.00000000 hartree =       0.00000000 kcal/mol
+ G_repulsion      =       0.00000000 hartree =       0.00000000 kcal/mol
+ --------------------------------------------------
+ Non-electrostatic Free Energy =       0.00000000 hartree =       0.00000000 kcal/mol
+ Total                         =      -0.51180069 hartree =    -321.15978117 kcal/mol
+ --------------------------------------------------
+ SCF Energy (H0 + V/2)                       =   -3741.80143330 
+ Solute Internal Energy (H0)                 =   -3741.28963261 
+ Total Free Energy (H0 + V/2 + non-elec)     =   -3741.80143330 hartree
+                                             = -2348015.83799790 kcal/mol
+***********************************************************
+
+ SCF   energy in the final basis set =    -3741.8014333012
+ Total energy in the final basis set =    -3741.8014333012
+ 
+ MAX_CIS_SUBSPACE fits in available memory
+ Direct TDDFT/TDA calculation will be performed
+ Exchange:     0.1900 Hartree-Fock + 0.3500 B88 + 0.4600 muB88 + LR-HF
+ Correlation:  0.1900 VWN5 + 0.8100 LYP
+ Using SG-1 standard quadrature grid
+ Adding PCM contribution to the XC response (LR-PCM)
+ CIS energy converged when residual is below 10e- 6
+ ---------------------------------------------------
+ Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
+ ---------------------------------------------------
+   1         0         100      0.004060    0.000206
+   2         0         100      0.002485    0.000079
+   3         0         100      0.002133    0.000084
+   4         0         100      0.003141    0.000129
+   5         5          95      0.002662    0.000091
+   6        12          88      0.001895    0.000060
+   7        16          84      0.001164    0.000042
+   8        28          72      0.000522    0.000025
+   9        50          50      0.000324    0.000036
+  10        72          28      0.000112    0.000014
+  11        91           9      0.000040    0.000004
+  12        99           1      0.000022    0.000001
+  13       100           0      0.000020    0.000001    Roots Converged
+ ---------------------------------------------------
+ 
+ ---------------------------------------------------
+         TDDFT/TDA Excitation Energies              
+ ---------------------------------------------------
+
+ Excited state   1: excitation energy (eV) =    2.4521
+ Total energy for state  1:                 -3741.71131989 au
+    <S**2>     :  8.8105
+    Trans. Mom.:  0.2886 X   0.1003 Y  -0.0526 Z
+    Strength   :     0.0057742371
+    D(  200) --> S(    1) amplitude =  0.2235 beta
+    D(  201) --> S(    1) amplitude =  0.8028 beta
+    D(  201) --> S(    2) amplitude = -0.4297 beta
+    D(  201) --> S(    3) amplitude =  0.2450 beta
+
+ Excited state   2: excitation energy (eV) =    2.5211
+ Total energy for state  2:                 -3741.70878326 au
+    <S**2>     :  8.8647
+    Trans. Mom.:  0.6089 X  -0.0257 Y  -0.1035 Z
+    Strength   :     0.0236045672
+    D(  200) --> S(    1) amplitude =  0.8242 beta
+    D(  200) --> S(    2) amplitude = -0.3701 beta
+    D(  200) --> S(    3) amplitude =  0.1742 beta
+    D(  201) --> S(    1) amplitude = -0.2434 beta
+
+ Excited state   3: excitation energy (eV) =    2.5400
+ Total energy for state  3:                 -3741.70809084 au
+    <S**2>     :  8.8863
+    Trans. Mom.: -0.4404 X   0.1179 Y   0.1378 Z
+    Strength   :     0.0141190266
+    D(  200) --> S(    1) amplitude =  0.2514 beta
+    D(  200) --> S(    2) amplitude =  0.2127 beta
+    D(  201) --> S(    1) amplitude =  0.3846 beta
+    D(  201) --> S(    2) amplitude =  0.8080 beta
+
+ Excited state   4: excitation energy (eV) =    2.6147
+ Total energy for state  4:                 -3741.70534569 au
+    <S**2>     :  8.8811
+    Trans. Mom.: -1.3839 X  -0.0489 Y   0.2543 Z
+    Strength   :     0.1269752710
+    D(  200) --> S(    1) amplitude = -0.2065 beta
+    D(  200) --> S(    2) amplitude = -0.5458 beta
+    D(  200) --> S(    3) amplitude =  0.3836 beta
+    D(  201) --> S(    2) amplitude =  0.2987 beta
+    D(  201) --> S(    3) amplitude =  0.5953 beta
+
+ Excited state   5: excitation energy (eV) =    2.6920
+ Total energy for state  5:                 -3741.70250338 au
+    <S**2>     :  8.9315
+    Trans. Mom.: -0.1143 X  -0.2008 Y   0.0144 Z
+    Strength   :     0.0035333978
+    D(  200) --> S(    1) amplitude =  0.2559 beta
+    D(  200) --> S(    2) amplitude =  0.2681 beta
+    D(  200) --> S(    3) amplitude = -0.5079 beta
+    D(  201) --> S(    1) amplitude = -0.1971 beta
+    D(  201) --> S(    3) amplitude =  0.6708 beta
+
+ Excited state   6: excitation energy (eV) =    2.8701
+ Total energy for state  6:                 -3741.69596080 au
+    <S**2>     :  8.9491
+    Trans. Mom.:  0.0885 X  -0.4674 Y  -0.1093 Z
+    Strength   :     0.0167506427
+    D(  200) --> S(    2) amplitude =  0.5856 beta
+    D(  200) --> S(    3) amplitude =  0.6709 beta
+    D(  201) --> S(    1) amplitude = -0.1624 beta
+    D(  201) --> S(    3) amplitude =  0.1641 beta
+
+ Excited state   7: excitation energy (eV) =    2.9911
+ Total energy for state  7:                 -3741.69151279 au
+    <S**2>     : 10.3975
+    Trans. Mom.:  0.3797 X  -0.1874 Y  -0.0421 Z
+    Strength   :     0.0132679433
+    S(    4) --> V(    2) amplitude =  0.3760 alpha
+    S(    4) --> V(    3) amplitude = -0.2252 alpha
+    S(    4) --> V(    4) amplitude =  0.1893 alpha
+    S(    4) --> V(    5) amplitude =  0.2912 alpha
+    S(    4) --> V(    7) amplitude =  0.2851 alpha
+    D(  200) --> S(    5) amplitude = -0.1758 beta
+    D(  200) --> V(    3) amplitude =  0.2975 beta
+    D(  200) --> V(    5) amplitude =  0.2353 beta
+    D(  201) --> S(    5) amplitude =  0.2017 beta
+    D(  201) --> V(    3) amplitude = -0.1732 beta
+    D(  201) --> V(    5) amplitude = -0.2204 beta
+
+ Excited state   8: excitation energy (eV) =    3.0221
+ Total energy for state  8:                 -3741.69037410 au
+    <S**2>     : 10.3807
+    Trans. Mom.:  0.1320 X   0.1974 Y   0.0408 Z
+    Strength   :     0.0042976981
+    S(    5) --> V(    2) amplitude = -0.1773 alpha
+    S(    5) --> V(    4) amplitude =  0.3259 alpha
+    S(    5) --> V(    5) amplitude =  0.3278 alpha
+    S(    5) --> V(    6) amplitude = -0.2207 alpha
+    S(    5) --> V(    7) amplitude = -0.2247 alpha
+    D(  200) --> S(    5) amplitude =  0.1612 beta
+    D(  200) --> V(    3) amplitude =  0.1818 beta
+    D(  200) --> V(    4) amplitude = -0.2017 beta
+    D(  201) --> V(    3) amplitude =  0.3294 beta
+    D(  201) --> V(    4) amplitude = -0.2347 beta
+    D(  201) --> V(    7) amplitude = -0.1560 beta
+
+ Excited state   9: excitation energy (eV) =    3.4916
+ Total energy for state  9:                 -3741.67311942 au
+    <S**2>     :  9.1279
+    Trans. Mom.:  0.2224 X   0.0546 Y   0.0557 Z
+    Strength   :     0.0047500783
+    S(    5) --> V(   22) amplitude = -0.1606 alpha
+    D(  200) --> V(    8) amplitude =  0.3696 beta
+    D(  201) --> V(    4) amplitude =  0.2088 beta
+    D(  201) --> V(    5) amplitude =  0.2376 beta
+    D(  201) --> V(    8) amplitude =  0.6283 beta
+    D(  201) --> V(   12) amplitude =  0.1736 beta
+
+ Excited state  10: excitation energy (eV) =    3.6356
+ Total energy for state 10:                 -3741.66782758 au
+    <S**2>     : 10.3441
+    Trans. Mom.: -0.1852 X   0.0741 Y  -0.0171 Z
+    Strength   :     0.0035683240
+    S(    4) --> V(   22) amplitude = -0.1590 alpha
+    S(    4) --> V(   23) amplitude =  0.2509 alpha
+    S(    5) --> V(   20) amplitude = -0.1552 alpha
+    S(    5) --> V(   22) amplitude = -0.2806 alpha
+    D(  200) --> V(   25) amplitude = -0.1826 beta
+    D(  201) --> V(    8) amplitude = -0.1944 beta
+    D(  201) --> V(   14) amplitude = -0.1731 beta
+    D(  201) --> V(   20) amplitude = -0.1553 beta
+    D(  201) --> V(   22) amplitude = -0.1990 beta
+    D(  201) --> V(   27) amplitude =  0.1786 beta
+
+ Excited state  11: excitation energy (eV) =    3.6403
+ Total energy for state 11:                 -3741.66765385 au
+    <S**2>     : 10.4730
+    Trans. Mom.:  0.1817 X  -0.0119 Y  -0.1106 Z
+    Strength   :     0.0040494495
+    S(    4) --> V(   22) amplitude =  0.2277 alpha
+    S(    4) --> V(   23) amplitude = -0.2906 alpha
+    S(    4) --> V(   25) amplitude =  0.1577 alpha
+    S(    5) --> V(   20) amplitude = -0.1544 alpha
+    S(    5) --> V(   22) amplitude = -0.2289 alpha
+    D(  200) --> V(   24) amplitude =  0.1611 beta
+    D(  201) --> V(   22) amplitude = -0.1682 beta
+    D(  201) --> V(   25) amplitude = -0.2041 beta
+
+ Excited state  12: excitation energy (eV) =    3.7186
+ Total energy for state 12:                 -3741.66477642 au
+    <S**2>     :  8.9009
+    Trans. Mom.: -0.2280 X   0.0101 Y  -0.0467 Z
+    Strength   :     0.0049439043
+    D(  200) --> V(    4) amplitude =  0.2330 beta
+    D(  200) --> V(    5) amplitude =  0.2300 beta
+    D(  200) --> V(    8) amplitude =  0.5649 beta
+    D(  200) --> V(    9) amplitude = -0.1852 beta
+    D(  200) --> V(   12) amplitude =  0.2066 beta
+    D(  200) --> V(   14) amplitude =  0.2343 beta
+    D(  201) --> V(    8) amplitude = -0.2426 beta
+    D(  201) --> V(   14) amplitude = -0.2481 beta
+
+ Excited state  13: excitation energy (eV) =    3.8145
+ Total energy for state 13:                 -3741.66125348 au
+    <S**2>     :  8.7963
+    Trans. Mom.:  0.1438 X  -0.0383 Y  -0.0480 Z
+    Strength   :     0.0022851775
+    D(  194) --> S(    2) amplitude =  0.1767 beta
+    D(  195) --> S(    1) amplitude = -0.4553 beta
+    D(  195) --> S(    2) amplitude =  0.4655 beta
+    D(  196) --> S(    1) amplitude = -0.2523 beta
+    D(  196) --> S(    2) amplitude =  0.2559 beta
+    D(  198) --> S(    1) amplitude = -0.1616 beta
+    D(  198) --> S(    2) amplitude =  0.1575 beta
+    D(  199) --> S(    1) amplitude = -0.2221 beta
+    D(  199) --> S(    2) amplitude =  0.2147 beta
+
+ Excited state  14: excitation energy (eV) =    3.8309
+ Total energy for state 14:                 -3741.66065145 au
+    <S**2>     :  8.7856
+    Trans. Mom.:  0.1375 X   0.0151 Y   0.0236 Z
+    Strength   :     0.0018472482
+    D(  200) --> V(    8) amplitude =  0.3231 beta
+    D(  200) --> V(   14) amplitude = -0.3611 beta
+    D(  201) --> V(    8) amplitude = -0.3668 beta
+    D(  201) --> V(   14) amplitude =  0.6645 beta
+
+ Excited state  15: excitation energy (eV) =    3.8917
+ Total energy for state 15:                 -3741.65841574 au
+    <S**2>     :  8.8244
+    Trans. Mom.:  0.2354 X   0.1267 Y   0.0958 Z
+    Strength   :     0.0076925473
+    D(  195) --> S(    1) amplitude =  0.2865 beta
+    D(  195) --> S(    2) amplitude =  0.3229 beta
+    D(  195) --> S(    3) amplitude = -0.1738 beta
+    D(  196) --> S(    1) amplitude =  0.1864 beta
+    D(  196) --> S(    2) amplitude =  0.1871 beta
+    D(  199) --> S(    1) amplitude =  0.2251 beta
+    D(  199) --> S(    2) amplitude =  0.1969 beta
+    D(  200) --> V(    8) amplitude = -0.2012 beta
+    D(  200) --> V(   14) amplitude =  0.4469 beta
+    D(  201) --> V(   14) amplitude =  0.2338 beta
+
+ Excited state  16: excitation energy (eV) =    3.9246
+ Total energy for state 16:                 -3741.65720688 au
+    <S**2>     :  8.8572
+    Trans. Mom.:  0.7441 X   0.1126 Y   0.0841 Z
+    Strength   :     0.0551424617
+    D(  195) --> S(    1) amplitude = -0.2652 beta
+    D(  195) --> S(    2) amplitude = -0.2550 beta
+    D(  196) --> S(    1) amplitude = -0.1919 beta
+    D(  196) --> S(    2) amplitude = -0.1699 beta
+    D(  198) --> S(    1) amplitude = -0.1676 beta
+    D(  199) --> S(    1) amplitude = -0.2596 beta
+    D(  199) --> S(    2) amplitude = -0.2380 beta
+    D(  200) --> V(   14) amplitude =  0.5038 beta
+    D(  201) --> V(   14) amplitude =  0.2553 beta
+
+ Excited state  17: excitation energy (eV) =    3.9983
+ Total energy for state 17:                 -3741.65449956 au
+    <S**2>     :  8.8002
+    Trans. Mom.:  0.2574 X  -0.0876 Y  -0.0289 Z
+    Strength   :     0.0073255979
+    D(  187) --> S(    2) amplitude =  0.1572 beta
+    D(  194) --> S(    1) amplitude = -0.2259 beta
+    D(  194) --> S(    2) amplitude =  0.6032 beta
+    D(  195) --> S(    3) amplitude =  0.4128 beta
+    D(  196) --> S(    3) amplitude =  0.2284 beta
+    D(  198) --> S(    3) amplitude =  0.1641 beta
+    D(  199) --> S(    3) amplitude =  0.2118 beta
+    D(  200) --> V(   14) amplitude =  0.1534 beta
+
+ Excited state  18: excitation energy (eV) =    4.0682
+ Total energy for state 18:                 -3741.65193020 au
+    <S**2>     :  8.9152
+    Trans. Mom.:  0.0322 X  -0.3521 Y  -0.0617 Z
+    Strength   :     0.0128376091
+    D(  179) --> S(    1) amplitude = -0.1609 beta
+    D(  187) --> S(    1) amplitude =  0.1958 beta
+    D(  194) --> S(    1) amplitude =  0.7137 beta
+    D(  195) --> S(    3) amplitude =  0.2590 beta
+    D(  198) --> S(    1) amplitude = -0.1895 beta
+    D(  198) --> S(    3) amplitude =  0.1606 beta
+
+ Excited state  19: excitation energy (eV) =    4.0834
+ Total energy for state 19:                 -3741.65137072 au
+    <S**2>     :  9.7722
+    Trans. Mom.:  0.4468 X  -0.0770 Y   0.0171 Z
+    Strength   :     0.0205942231
+    S(    3) --> V(    2) amplitude =  0.2112 alpha
+    S(    3) --> V(    5) amplitude =  0.1563 alpha
+    S(    3) --> V(    7) amplitude =  0.1612 alpha
+    D(  194) --> S(    2) amplitude =  0.1695 beta
+    D(  195) --> S(    1) amplitude =  0.3354 beta
+    D(  195) --> S(    2) amplitude =  0.2304 beta
+    D(  199) --> S(    1) amplitude = -0.3157 beta
+    D(  199) --> S(    2) amplitude = -0.2384 beta
+    D(  199) --> V(    3) amplitude =  0.1688 beta
+    D(  199) --> V(    5) amplitude =  0.1561 beta
+
+ Excited state  20: excitation energy (eV) =    4.0987
+ Total energy for state 20:                 -3741.65080719 au
+    <S**2>     :  8.8817
+    Trans. Mom.:  0.2547 X  -0.2595 Y   0.0312 Z
+    Strength   :     0.0133694454
+    D(  179) --> S(    3) amplitude = -0.1863 beta
+    D(  187) --> S(    3) amplitude =  0.2148 beta
+    D(  194) --> S(    3) amplitude =  0.7992 beta
+
+ Excited state  21: excitation energy (eV) =    4.1126
+ Total energy for state 21:                 -3741.65029798 au
+    <S**2>     :  9.6932
+    Trans. Mom.:  0.9882 X   0.0179 Y   0.2323 Z
+    Strength   :     0.1038715096
+    S(    2) --> V(    4) amplitude =  0.1954 alpha
+    S(    2) --> V(    5) amplitude =  0.1915 alpha
+    D(  194) --> S(    3) amplitude =  0.2004 beta
+    D(  198) --> S(    1) amplitude = -0.2998 beta
+    D(  198) --> S(    3) amplitude =  0.3544 beta
+    D(  199) --> S(    3) amplitude = -0.1979 beta
+
+ Excited state  22: excitation energy (eV) =    4.1740
+ Total energy for state 22:                 -3741.64804269 au
+    <S**2>     :  9.1683
+    Trans. Mom.:  1.4245 X  -0.3934 Y   0.3121 Z
+    Strength   :     0.2332975684
+    S(    4) --> V(    2) amplitude =  0.2840 alpha
+    S(    4) --> V(    3) amplitude = -0.2067 alpha
+    S(    4) --> V(    5) amplitude =  0.1989 alpha
+    D(  194) --> S(    1) amplitude =  0.1959 beta
+    D(  194) --> S(    2) amplitude =  0.1583 beta
+    D(  200) --> S(    5) amplitude =  0.1603 beta
+    D(  200) --> V(    3) amplitude = -0.2469 beta
+    D(  200) --> V(    5) amplitude = -0.1701 beta
+    D(  201) --> S(    5) amplitude = -0.2225 beta
+    D(  201) --> V(    3) amplitude =  0.2085 beta
+    D(  201) --> V(    5) amplitude =  0.1650 beta
+
+ Excited state  23: excitation energy (eV) =    4.1928
+ Total energy for state 23:                 -3741.64735242 au
+    <S**2>     :  9.1944
+    Trans. Mom.:  0.5522 X  -0.0100 Y   0.3535 Z
+    Strength   :     0.0441730690
+    S(    5) --> V(    4) amplitude =  0.1853 alpha
+    S(    5) --> V(    5) amplitude =  0.1520 alpha
+    D(  194) --> S(    2) amplitude = -0.2063 beta
+    D(  195) --> S(    3) amplitude =  0.1573 beta
+    D(  198) --> S(    2) amplitude =  0.3973 beta
+    D(  198) --> V(    3) amplitude = -0.1642 beta
+    D(  198) --> V(    4) amplitude =  0.1506 beta
+    D(  199) --> S(    3) amplitude =  0.1906 beta
+    D(  201) --> V(    3) amplitude = -0.1894 beta
+    D(  201) --> V(   14) amplitude = -0.1765 beta
+
+ Excited state  24: excitation energy (eV) =    4.2086
+ Total energy for state 24:                 -3741.64677129 au
+    <S**2>     :  8.7957
+    Trans. Mom.: -0.4198 X   0.6619 Y  -0.0066 Z
+    Strength   :     0.0633448147
+    D(  194) --> S(    1) amplitude =  0.3206 beta
+    D(  194) --> S(    2) amplitude =  0.4813 beta
+    D(  195) --> S(    3) amplitude = -0.2432 beta
+    D(  199) --> S(    2) amplitude = -0.1508 beta
+    D(  199) --> S(    3) amplitude = -0.1547 beta
+    D(  201) --> V(    3) amplitude = -0.2075 beta
+
+ Excited state  25: excitation energy (eV) =    4.2490
+ Total energy for state 25:                 -3741.64528502 au
+    <S**2>     :  8.8542
+    Trans. Mom.: -1.2219 X  -0.1300 Y  -0.1784 Z
+    Strength   :     0.1605109027
+    D(  188) --> S(    1) amplitude = -0.1665 beta
+    D(  190) --> S(    1) amplitude = -0.1962 beta
+    D(  190) --> S(    2) amplitude =  0.1905 beta
+    D(  191) --> S(    1) amplitude =  0.1847 beta
+    D(  198) --> S(    1) amplitude = -0.3351 beta
+    D(  198) --> S(    3) amplitude = -0.1902 beta
+    D(  199) --> S(    1) amplitude =  0.3623 beta
+    D(  199) --> S(    2) amplitude = -0.3494 beta
+
+ Excited state  26: excitation energy (eV) =    4.2946
+ Total energy for state 26:                 -3741.64360795 au
+    <S**2>     :  8.8966
+    Trans. Mom.: -0.3782 X  -0.2566 Y  -0.2105 Z
+    Strength   :     0.0266392789
+    D(  182) --> S(    1) amplitude = -0.1830 beta
+    D(  182) --> S(    2) amplitude = -0.1556 beta
+    D(  190) --> S(    1) amplitude =  0.1560 beta
+    D(  190) --> S(    2) amplitude =  0.1897 beta
+    D(  191) --> S(    1) amplitude = -0.1510 beta
+    D(  191) --> S(    2) amplitude = -0.1834 beta
+    D(  198) --> S(    1) amplitude =  0.3044 beta
+    D(  198) --> S(    2) amplitude =  0.4557 beta
+    D(  198) --> S(    3) amplitude =  0.2653 beta
+    D(  199) --> S(    1) amplitude = -0.1558 beta
+    D(  199) --> S(    2) amplitude = -0.2174 beta
+
+ Excited state  27: excitation energy (eV) =    4.3613
+ Total energy for state 27:                 -3741.64116019 au
+    <S**2>     :  8.8723
+    Trans. Mom.:  0.2351 X   0.1502 Y   0.1772 Z
+    Strength   :     0.0116735203
+    D(  188) --> S(    1) amplitude = -0.2999 beta
+    D(  188) --> S(    2) amplitude =  0.1836 beta
+    D(  190) --> S(    1) amplitude = -0.2791 beta
+    D(  190) --> S(    2) amplitude =  0.2094 beta
+    D(  191) --> S(    1) amplitude =  0.2864 beta
+    D(  191) --> S(    2) amplitude = -0.2007 beta
+    D(  193) --> S(    1) amplitude = -0.1513 beta
+    D(  195) --> S(    1) amplitude = -0.1656 beta
+    D(  198) --> S(    1) amplitude =  0.3817 beta
+    D(  198) --> S(    2) amplitude = -0.2396 beta
+
+ Excited state  28: excitation energy (eV) =    4.4051
+ Total energy for state 28:                 -3741.63954755 au
+    <S**2>     :  8.9011
+    Trans. Mom.:  0.5115 X  -0.1333 Y  -0.0937 Z
+    Strength   :     0.0310988927
+    D(  184) --> S(    1) amplitude = -0.1635 beta
+    D(  188) --> S(    1) amplitude =  0.2522 beta
+    D(  190) --> S(    2) amplitude =  0.2241 beta
+    D(  190) --> S(    3) amplitude =  0.1682 beta
+    D(  191) --> S(    2) amplitude = -0.1974 beta
+    D(  195) --> S(    1) amplitude =  0.1994 beta
+    D(  198) --> S(    1) amplitude = -0.2029 beta
+    D(  198) --> S(    2) amplitude = -0.1581 beta
+    D(  199) --> S(    1) amplitude = -0.1698 beta
+    D(  199) --> S(    2) amplitude =  0.3184 beta
+    D(  199) --> S(    3) amplitude = -0.1653 beta
+
+ Excited state  29: excitation energy (eV) =    4.4245
+ Total energy for state 29:                 -3741.63883730 au
+    <S**2>     :  9.0133
+    Trans. Mom.: -0.2367 X   0.1797 Y   0.0117 Z
+    Strength   :     0.0095871886
+    D(  188) --> S(    3) amplitude =  0.2193 beta
+    D(  190) --> S(    3) amplitude =  0.2187 beta
+    D(  191) --> S(    2) amplitude =  0.1680 beta
+    D(  191) --> S(    3) amplitude = -0.2453 beta
+    D(  195) --> S(    1) amplitude = -0.2073 beta
+    D(  195) --> S(    2) amplitude =  0.1741 beta
+    D(  198) --> S(    1) amplitude =  0.1683 beta
+    D(  198) --> S(    2) amplitude = -0.2514 beta
+    D(  198) --> S(    3) amplitude =  0.2093 beta
+    D(  199) --> S(    1) amplitude =  0.3579 beta
+    D(  199) --> S(    2) amplitude = -0.2582 beta
+
+ Excited state  30: excitation energy (eV) =    4.4318
+ Total energy for state 30:                 -3741.63856767 au
+    <S**2>     :  9.0382
+    Trans. Mom.: -0.0075 X   0.0153 Y   0.0520 Z
+    Strength   :     0.0003257042
+    D(  184) --> S(    1) amplitude = -0.2038 beta
+    D(  188) --> S(    1) amplitude =  0.3316 beta
+    D(  188) --> S(    2) amplitude =  0.1764 beta
+    D(  191) --> S(    1) amplitude = -0.2553 beta
+    D(  191) --> S(    2) amplitude = -0.1654 beta
+    D(  195) --> S(    2) amplitude =  0.1764 beta
+    D(  198) --> S(    2) amplitude = -0.1873 beta
+    D(  198) --> S(    3) amplitude = -0.2012 beta
+    D(  199) --> S(    3) amplitude =  0.4252 beta
+
+ Excited state  31: excitation energy (eV) =    4.4402
+ Total energy for state 31:                 -3741.63825809 au
+    <S**2>     : 10.3534
+    Trans. Mom.:  0.0019 X  -0.0060 Y  -0.0610 Z
+    Strength   :     0.0004092687
+    S(    5) --> V(    1) amplitude =  0.4622 alpha
+    S(    5) --> V(    2) amplitude =  0.1652 alpha
+    S(    5) --> V(    7) amplitude = -0.1981 alpha
+    D(  201) --> S(    4) amplitude = -0.4528 beta
+    D(  201) --> V(    5) amplitude = -0.2397 beta
+
+ Excited state  32: excitation energy (eV) =    4.4532
+ Total energy for state 32:                 -3741.63778033 au
+    <S**2>     :  9.1055
+    Trans. Mom.: -0.0213 X   0.0928 Y   0.1539 Z
+    Strength   :     0.0035723711
+    S(    5) --> V(    1) amplitude =  0.4287 alpha
+    S(    5) --> V(    7) amplitude = -0.2294 alpha
+    S(    5) --> V(   11) amplitude =  0.1616 alpha
+    D(  190) --> S(    3) amplitude = -0.1697 beta
+    D(  199) --> S(    1) amplitude = -0.1563 beta
+    D(  199) --> S(    2) amplitude = -0.2887 beta
+    D(  201) --> S(    4) amplitude =  0.1981 beta
+
+ Excited state  33: excitation energy (eV) =    4.4730
+ Total energy for state 33:                 -3741.63705412 au
+    <S**2>     :  9.1801
+    Trans. Mom.:  0.2147 X   0.0047 Y   0.1627 Z
+    Strength   :     0.0079526003
+    S(    3) --> V(    2) amplitude =  0.1726 alpha
+    D(  188) --> S(    3) amplitude = -0.1622 beta
+    D(  195) --> S(    1) amplitude = -0.1594 beta
+    D(  195) --> S(    2) amplitude = -0.1550 beta
+    D(  195) --> S(    3) amplitude = -0.1923 beta
+    D(  198) --> S(    1) amplitude =  0.1763 beta
+    D(  198) --> S(    3) amplitude =  0.2086 beta
+    D(  199) --> S(    1) amplitude =  0.2203 beta
+    D(  199) --> S(    2) amplitude =  0.2078 beta
+    D(  199) --> S(    3) amplitude =  0.1531 beta
+    D(  200) --> S(    4) amplitude =  0.1707 beta
+    D(  201) --> S(    4) amplitude =  0.2855 beta
+    D(  201) --> V(    5) amplitude =  0.1681 beta
+
+ Excited state  34: excitation energy (eV) =    4.5129
+ Total energy for state 34:                 -3741.63558566 au
+    <S**2>     :  9.3441
+    Trans. Mom.: -0.5895 X  -0.0441 Y  -0.0717 Z
+    Strength   :     0.0392111137
+    S(    4) --> V(    1) amplitude =  0.3896 alpha
+    S(    4) --> V(    3) amplitude = -0.2787 alpha
+    S(    4) --> V(    7) amplitude = -0.2466 alpha
+    S(    4) --> V(   10) amplitude =  0.1718 alpha
+    D(  188) --> S(    2) amplitude = -0.2190 beta
+    D(  198) --> S(    1) amplitude =  0.2074 beta
+    D(  198) --> S(    2) amplitude =  0.1606 beta
+    D(  198) --> S(    3) amplitude = -0.2397 beta
+
+ Excited state  35: excitation energy (eV) =    4.5156
+ Total energy for state 35:                 -3741.63548974 au
+    <S**2>     :  9.2388
+    Trans. Mom.:  0.0347 X   0.1539 Y  -0.1209 Z
+    Strength   :     0.0043697178
+    S(    4) --> V(    1) amplitude =  0.4149 alpha
+    S(    4) --> V(    3) amplitude = -0.2883 alpha
+    S(    4) --> V(    7) amplitude = -0.2628 alpha
+    S(    4) --> V(   10) amplitude =  0.1780 alpha
+    D(  184) --> S(    2) amplitude = -0.1581 beta
+    D(  188) --> S(    2) amplitude =  0.2576 beta
+    D(  198) --> S(    1) amplitude = -0.2278 beta
+    D(  198) --> S(    2) amplitude = -0.1517 beta
+
+ Excited state  36: excitation energy (eV) =    4.5259
+ Total energy for state 36:                 -3741.63510936 au
+    <S**2>     :  9.0076
+    Trans. Mom.: -0.6921 X  -0.0757 Y  -0.1417 Z
+    Strength   :     0.0559750446
+    D(  184) --> S(    1) amplitude = -0.2426 beta
+    D(  186) --> S(    1) amplitude = -0.2025 beta
+    D(  188) --> S(    1) amplitude =  0.2477 beta
+    D(  188) --> S(    3) amplitude = -0.1654 beta
+    D(  190) --> S(    1) amplitude = -0.1596 beta
+    D(  190) --> S(    3) amplitude = -0.2210 beta
+    D(  191) --> S(    3) amplitude =  0.1978 beta
+    D(  198) --> S(    3) amplitude =  0.2345 beta
+    D(  199) --> S(    3) amplitude = -0.2191 beta
+    D(  201) --> S(    4) amplitude = -0.2156 beta
+
+ Excited state  37: excitation energy (eV) =    4.5663
+ Total energy for state 37:                 -3741.63362367 au
+    <S**2>     :  9.2698
+    Trans. Mom.: -0.1601 X   0.0163 Y   0.0043 Z
+    Strength   :     0.0029002530
+    D(  184) --> S(    2) amplitude = -0.1830 beta
+    D(  188) --> S(    2) amplitude =  0.1951 beta
+    D(  195) --> S(    3) amplitude =  0.2296 beta
+    D(  198) --> S(    3) amplitude = -0.2728 beta
+    D(  199) --> S(    3) amplitude = -0.2808 beta
+    D(  200) --> S(    4) amplitude =  0.3475 beta
+    D(  200) --> V(    5) amplitude =  0.1830 beta
+    D(  201) --> V(    1) amplitude = -0.2276 beta
+    D(  201) --> V(    9) amplitude = -0.1543 beta
+
+ Excited state  38: excitation energy (eV) =    4.5917
+ Total energy for state 38:                 -3741.63269164 au
+    <S**2>     :  9.1791
+    Trans. Mom.:  0.1333 X   0.1313 Y  -0.1856 Z
+    Strength   :     0.0078101958
+    D(  180) --> S(    1) amplitude =  0.1967 beta
+    D(  184) --> S(    2) amplitude =  0.1584 beta
+    D(  188) --> S(    2) amplitude = -0.1795 beta
+    D(  195) --> S(    3) amplitude = -0.1563 beta
+    D(  199) --> S(    3) amplitude =  0.2545 beta
+    D(  200) --> S(    4) amplitude =  0.4001 beta
+    D(  200) --> V(    1) amplitude =  0.1529 beta
+    D(  200) --> V(    5) amplitude =  0.2047 beta
+    D(  201) --> V(    1) amplitude = -0.2475 beta
+    D(  201) --> V(    9) amplitude = -0.1937 beta
+
+ Excited state  39: excitation energy (eV) =    4.6123
+ Total energy for state 39:                 -3741.63193600 au
+    <S**2>     :  8.8583
+    Trans. Mom.:  0.1982 X   0.1629 Y  -0.1350 Z
+    Strength   :     0.0094957748
+    D(  179) --> S(    2) amplitude = -0.1686 beta
+    D(  181) --> S(    2) amplitude = -0.2432 beta
+    D(  182) --> S(    1) amplitude = -0.1738 beta
+    D(  182) --> S(    2) amplitude =  0.1851 beta
+    D(  182) --> S(    3) amplitude = -0.1634 beta
+    D(  183) --> S(    2) amplitude = -0.1613 beta
+    D(  184) --> S(    2) amplitude =  0.1827 beta
+    D(  185) --> S(    2) amplitude = -0.1993 beta
+    D(  185) --> S(    3) amplitude =  0.1658 beta
+    D(  186) --> S(    2) amplitude =  0.2464 beta
+    D(  187) --> S(    2) amplitude = -0.2157 beta
+    D(  188) --> S(    2) amplitude = -0.2850 beta
+    D(  188) --> S(    3) amplitude = -0.1866 beta
+    D(  190) --> S(    2) amplitude =  0.3390 beta
+    D(  191) --> S(    2) amplitude =  0.1750 beta
+
+ Excited state  40: excitation energy (eV) =    4.6406
+ Total energy for state 40:                 -3741.63089463 au
+    <S**2>     :  8.9033
+    Trans. Mom.: -0.0555 X  -0.1050 Y   0.0162 Z
+    Strength   :     0.0016344746
+    D(  180) --> S(    1) amplitude = -0.3333 beta
+    D(  182) --> S(    2) amplitude =  0.1948 beta
+    D(  184) --> S(    1) amplitude = -0.1973 beta
+    D(  185) --> S(    1) amplitude =  0.1546 beta
+    D(  186) --> S(    1) amplitude = -0.1503 beta
+    D(  187) --> S(    1) amplitude =  0.1563 beta
+    D(  190) --> S(    1) amplitude = -0.3418 beta
+    D(  190) --> S(    3) amplitude =  0.2028 beta
+    D(  195) --> S(    3) amplitude = -0.1685 beta
+    D(  199) --> S(    3) amplitude =  0.2276 beta
+
+ Excited state  41: excitation energy (eV) =    4.6704
+ Total energy for state 41:                 -3741.62979916 au
+    <S**2>     :  8.8072
+    Trans. Mom.:  0.0709 X   0.0711 Y  -0.0053 Z
+    Strength   :     0.0011570408
+    D(  179) --> S(    2) amplitude =  0.1513 beta
+    D(  180) --> S(    1) amplitude = -0.2706 beta
+    D(  181) --> S(    2) amplitude =  0.3388 beta
+    D(  182) --> S(    1) amplitude = -0.2140 beta
+    D(  182) --> S(    2) amplitude = -0.2882 beta
+    D(  184) --> S(    2) amplitude =  0.2352 beta
+    D(  185) --> S(    1) amplitude =  0.1817 beta
+    D(  185) --> S(    2) amplitude =  0.2987 beta
+    D(  188) --> S(    2) amplitude = -0.2111 beta
+    D(  190) --> S(    1) amplitude = -0.1559 beta
+    D(  190) --> S(    3) amplitude = -0.1847 beta
+    D(  199) --> S(    3) amplitude = -0.1606 beta
+
+ Excited state  42: excitation energy (eV) =    4.6834
+ Total energy for state 42:                 -3741.62932129 au
+    <S**2>     :  8.9230
+    Trans. Mom.:  0.1598 X  -0.0934 Y  -0.0712 Z
+    Strength   :     0.0045135962
+    D(  179) --> S(    1) amplitude =  0.2426 beta
+    D(  180) --> S(    1) amplitude =  0.2614 beta
+    D(  180) --> S(    3) amplitude =  0.2126 beta
+    D(  181) --> S(    1) amplitude =  0.4576 beta
+    D(  181) --> S(    3) amplitude =  0.1880 beta
+    D(  182) --> S(    1) amplitude = -0.1501 beta
+    D(  185) --> S(    1) amplitude =  0.2065 beta
+    D(  187) --> S(    1) amplitude =  0.1520 beta
+    D(  190) --> S(    1) amplitude = -0.1908 beta
+    D(  199) --> S(    3) amplitude =  0.1848 beta
+
+ Excited state  43: excitation energy (eV) =    4.7071
+ Total energy for state 43:                 -3741.62844927 au
+    <S**2>     :  8.8300
+    Trans. Mom.: -0.3421 X  -0.0608 Y  -0.1986 Z
+    Strength   :     0.0184735704
+    D(  180) --> S(    3) amplitude = -0.1912 beta
+    D(  182) --> S(    3) amplitude = -0.2288 beta
+    D(  183) --> S(    3) amplitude = -0.1997 beta
+    D(  184) --> S(    3) amplitude =  0.3194 beta
+    D(  186) --> S(    3) amplitude =  0.2988 beta
+    D(  188) --> S(    3) amplitude = -0.3442 beta
+    D(  190) --> S(    2) amplitude = -0.2789 beta
+    D(  190) --> S(    3) amplitude =  0.2339 beta
+
+ Excited state  44: excitation energy (eV) =    4.7498
+ Total energy for state 44:                 -3741.62688160 au
+    <S**2>     :  9.8431
+    Trans. Mom.: -0.2187 X  -0.1086 Y   0.3400 Z
+    Strength   :     0.0203918408
+    S(    2) --> V(   20) amplitude =  0.1632 alpha
+    S(    2) --> V(   22) amplitude =  0.2771 alpha
+    D(  180) --> S(    1) amplitude = -0.1863 beta
+    D(  198) --> S(    2) amplitude =  0.2396 beta
+    D(  198) --> V(    3) amplitude =  0.1655 beta
+    D(  198) --> V(    4) amplitude = -0.1633 beta
+    D(  198) --> V(   22) amplitude =  0.2327 beta
+    D(  198) --> V(   27) amplitude = -0.1938 beta
+
+ Excited state  45: excitation energy (eV) =    4.7839
+ Total energy for state 45:                 -3741.62562985 au
+    <S**2>     :  9.0753
+    Trans. Mom.: -0.1921 X  -0.0520 Y  -0.5213 Z
+    Strength   :     0.0364880245
+    S(    5) --> V(   22) amplitude = -0.2012 alpha
+    D(  180) --> S(    1) amplitude =  0.1889 beta
+    D(  180) --> S(    2) amplitude = -0.1539 beta
+    D(  182) --> S(    1) amplitude =  0.1596 beta
+    D(  186) --> S(    3) amplitude = -0.1577 beta
+    D(  198) --> S(    3) amplitude =  0.3432 beta
+
+ Excited state  46: excitation energy (eV) =    4.7967
+ Total energy for state 46:                 -3741.62515628 au
+    <S**2>     :  9.0571
+    Trans. Mom.:  0.1542 X  -0.1942 Y   0.3513 Z
+    Strength   :     0.0217235603
+    S(    4) --> V(    5) amplitude =  0.1566 alpha
+    S(    4) --> V(   22) amplitude = -0.1519 alpha
+    S(    4) --> V(   23) amplitude =  0.2104 alpha
+    D(  179) --> S(    1) amplitude =  0.1576 beta
+    D(  180) --> S(    1) amplitude =  0.3017 beta
+    D(  181) --> S(    1) amplitude =  0.2833 beta
+    D(  199) --> S(    1) amplitude =  0.1631 beta
+
+ Excited state  47: excitation energy (eV) =    4.8261
+ Total energy for state 47:                 -3741.62407831 au
+    <S**2>     :  9.7822
+    Trans. Mom.: -0.1377 X  -0.0557 Y   0.1304 Z
+    Strength   :     0.0046222287
+    S(    3) --> V(   22) amplitude = -0.1634 alpha
+    S(    3) --> V(   23) amplitude =  0.2271 alpha
+    D(  180) --> S(    2) amplitude =  0.1597 beta
+    D(  182) --> S(    3) amplitude = -0.1587 beta
+    D(  199) --> S(    2) amplitude = -0.1566 beta
+    D(  199) --> S(    3) amplitude = -0.1810 beta
+    D(  199) --> V(    5) amplitude =  0.1515 beta
+    D(  199) --> V(   24) amplitude = -0.1724 beta
+    D(  199) --> V(   25) amplitude = -0.1910 beta
+
+ Excited state  48: excitation energy (eV) =    4.8554
+ Total energy for state 48:                 -3741.62300144 au
+    <S**2>     : 10.5297
+    Trans. Mom.:  0.0100 X   0.0221 Y   0.0479 Z
+    Strength   :     0.0003430370
+    S(    5) --> V(    2) amplitude = -0.1520 alpha
+    S(    5) --> V(    3) amplitude =  0.4015 alpha
+    S(    5) --> V(    4) amplitude = -0.2293 alpha
+    S(    5) --> V(    5) amplitude =  0.3036 alpha
+    S(    5) --> V(    7) amplitude =  0.1658 alpha
+    S(    5) --> V(    8) amplitude =  0.1865 alpha
+    S(    5) --> V(    9) amplitude =  0.1618 alpha
+    S(    5) --> V(   12) amplitude = -0.1717 alpha
+    D(  200) --> V(    1) amplitude =  0.1533 beta
+    D(  201) --> V(    1) amplitude =  0.1878 beta
+    D(  201) --> V(    2) amplitude = -0.3801 beta
+
+ Excited state  49: excitation energy (eV) =    4.8678
+ Total energy for state 49:                 -3741.62254676 au
+    <S**2>     :  9.3482
+    Trans. Mom.: -0.1069 X   0.0590 Y   0.0780 Z
+    Strength   :     0.0025041102
+    S(    5) --> V(    3) amplitude =  0.3000 alpha
+    S(    5) --> V(    4) amplitude = -0.1972 alpha
+    S(    5) --> V(    5) amplitude =  0.2308 alpha
+    D(  200) --> V(    6) amplitude = -0.1555 beta
+    D(  201) --> V(    1) amplitude = -0.1733 beta
+    D(  201) --> V(    2) amplitude =  0.4820 beta
+
+ Excited state  50: excitation energy (eV) =    4.8737
+ Total energy for state 50:                 -3741.62232739 au
+    <S**2>     :  8.9578
+    Trans. Mom.:  0.0356 X   0.1910 Y   0.4094 Z
+    Strength   :     0.0245150593
+    D(  180) --> S(    1) amplitude = -0.1607 beta
+    D(  180) --> S(    2) amplitude = -0.6023 beta
+    D(  180) --> S(    3) amplitude =  0.2325 beta
+    D(  182) --> S(    2) amplitude = -0.1728 beta
+    D(  182) --> S(    3) amplitude =  0.1768 beta
+    D(  198) --> S(    2) amplitude = -0.1874 beta
+
+ Excited state  51: excitation energy (eV) =    4.8853
+ Total energy for state 51:                 -3741.62190143 au
+    <S**2>     :  9.7217
+    Trans. Mom.: -0.0772 X   0.0856 Y   0.1220 Z
+    Strength   :     0.0033725634
+    S(    4) --> V(    4) amplitude =  0.4613 alpha
+    S(    4) --> V(    5) amplitude = -0.3681 alpha
+    S(    4) --> V(    8) amplitude =  0.2978 alpha
+    S(    4) --> V(   13) amplitude = -0.1954 alpha
+
+ Excited state  52: excitation energy (eV) =    4.8898
+ Total energy for state 52:                 -3741.62173529 au
+    <S**2>     : 10.0610
+    Trans. Mom.:  0.3297 X  -0.1598 Y   0.1502 Z
+    Strength   :     0.0187878899
+    D(  194) --> V(    2) amplitude =  0.1675 alpha
+    S(    4) --> V(    4) amplitude = -0.2292 alpha
+    S(    4) --> V(    5) amplitude =  0.2196 alpha
+    S(    4) --> V(    8) amplitude = -0.1678 alpha
+    D(  181) --> S(    3) amplitude =  0.1568 beta
+    D(  182) --> S(    3) amplitude = -0.1919 beta
+    D(  185) --> S(    3) amplitude =  0.1596 beta
+    D(  191) --> S(    5) amplitude =  0.1600 beta
+    D(  191) --> V(    3) amplitude = -0.1811 beta
+    D(  191) --> V(    5) amplitude = -0.1822 beta
+
+ Excited state  53: excitation energy (eV) =    4.8983
+ Total energy for state 53:                 -3741.62142591 au
+    <S**2>     : 10.7383
+    Trans. Mom.:  0.0063 X  -0.0081 Y   0.0144 Z
+    Strength   :     0.0000377082
+    D(  193) --> V(    4) amplitude = -0.2350 alpha
+    D(  193) --> V(    5) amplitude = -0.2464 alpha
+    D(  193) --> V(    6) amplitude =  0.1712 alpha
+    D(  193) --> V(    7) amplitude =  0.1755 alpha
+    D(  189) --> S(    3) amplitude =  0.1571 beta
+    D(  189) --> S(    5) amplitude =  0.1504 beta
+    D(  189) --> V(    3) amplitude =  0.2544 beta
+    D(  189) --> V(    4) amplitude = -0.2196 beta
+
+ Excited state  54: excitation energy (eV) =    4.9117
+ Total energy for state 54:                 -3741.62093019 au
+    <S**2>     :  9.0669
+    Trans. Mom.:  0.6040 X  -0.3098 Y   0.1128 Z
+    Strength   :     0.0569815769
+    S(    4) --> V(    4) amplitude =  0.1970 alpha
+    D(  180) --> S(    2) amplitude = -0.2300 beta
+    D(  181) --> S(    1) amplitude = -0.2242 beta
+    D(  181) --> S(    3) amplitude =  0.1776 beta
+    D(  182) --> S(    3) amplitude = -0.3246 beta
+    D(  185) --> S(    3) amplitude =  0.2385 beta
+    D(  187) --> S(    3) amplitude =  0.1681 beta
+    D(  188) --> S(    3) amplitude =  0.1582 beta
+    D(  191) --> S(    3) amplitude = -0.1753 beta
+
+ Excited state  55: excitation energy (eV) =    4.9301
+ Total energy for state 55:                 -3741.62025599 au
+    <S**2>     :  9.5899
+    Trans. Mom.:  0.1191 X  -0.0690 Y  -0.0019 Z
+    Strength   :     0.0022887342
+    D(  200) --> V(    1) amplitude = -0.2641 beta
+    D(  200) --> V(    2) amplitude =  0.5166 beta
+    D(  201) --> V(    1) amplitude = -0.1875 beta
+    D(  201) --> V(    2) amplitude = -0.2857 beta
+    D(  201) --> V(    6) amplitude = -0.3545 beta
+
+ Excited state  56: excitation energy (eV) =    4.9508
+ Total energy for state 56:                 -3741.61949364 au
+    <S**2>     :  8.8503
+    Trans. Mom.: -0.4870 X  -0.0585 Y  -0.0590 Z
+    Strength   :     0.0295998807
+    D(  180) --> S(    1) amplitude =  0.3970 beta
+    D(  181) --> S(    1) amplitude = -0.3035 beta
+    D(  181) --> S(    3) amplitude = -0.2281 beta
+    D(  182) --> S(    1) amplitude = -0.3613 beta
+    D(  183) --> S(    1) amplitude = -0.1617 beta
+    D(  185) --> S(    1) amplitude =  0.2869 beta
+    D(  186) --> S(    1) amplitude = -0.1990 beta
+    D(  187) --> S(    1) amplitude =  0.2428 beta
+    D(  189) --> S(    1) amplitude =  0.1735 beta
+    D(  192) --> S(    1) amplitude = -0.1664 beta
+    D(  195) --> S(    1) amplitude =  0.1734 beta
+
+ Excited state  57: excitation energy (eV) =    5.0043
+ Total energy for state 57:                 -3741.61752686 au
+    <S**2>     :  8.7810
+    Trans. Mom.:  0.0841 X   0.0142 Y   0.1245 Z
+    Strength   :     0.0027924217
+    D(  194) --> V(   14) amplitude =  0.1523 beta
+    D(  195) --> V(    8) amplitude = -0.4693 beta
+    D(  195) --> V(   14) amplitude =  0.3785 beta
+    D(  196) --> V(    8) amplitude = -0.2499 beta
+    D(  196) --> V(   14) amplitude =  0.2008 beta
+    D(  198) --> V(    8) amplitude = -0.1648 beta
+    D(  199) --> V(    8) amplitude = -0.1957 beta
+    D(  199) --> V(   14) amplitude =  0.1587 beta
+
+ Excited state  58: excitation energy (eV) =    5.0293
+ Total energy for state 58:                 -3741.61661004 au
+    <S**2>     :  8.8331
+    Trans. Mom.: -0.1924 X   0.3180 Y  -0.0766 Z
+    Strength   :     0.0177449789
+    D(  179) --> S(    3) amplitude = -0.2004 beta
+    D(  180) --> S(    2) amplitude = -0.2780 beta
+    D(  180) --> S(    3) amplitude = -0.5358 beta
+    D(  181) --> S(    1) amplitude =  0.2306 beta
+    D(  181) --> S(    3) amplitude = -0.3596 beta
+    D(  184) --> S(    3) amplitude = -0.2532 beta
+
+ Excited state  59: excitation energy (eV) =    5.0458
+ Total energy for state 59:                 -3741.61600412 au
+    <S**2>     : 10.1488
+    Trans. Mom.:  0.1415 X   0.0396 Y  -0.0520 Z
+    Strength   :     0.0030021654
+    S(    5) --> V(    2) amplitude =  0.1774 alpha
+    S(    5) --> V(    3) amplitude =  0.3971 alpha
+    S(    5) --> V(    4) amplitude =  0.2740 alpha
+    S(    5) --> V(    5) amplitude = -0.3253 alpha
+    S(    5) --> V(    6) amplitude = -0.2395 alpha
+    S(    5) --> V(    7) amplitude =  0.2414 alpha
+    S(    5) --> V(   10) amplitude = -0.2872 alpha
+    S(    5) --> V(   11) amplitude = -0.1608 alpha
+    S(    5) --> V(   16) amplitude =  0.2740 alpha
+
+ Excited state  60: excitation energy (eV) =    5.0573
+ Total energy for state 60:                 -3741.61558231 au
+    <S**2>     : 10.1092
+    Trans. Mom.:  0.0625 X   0.0108 Y  -0.0856 Z
+    Strength   :     0.0014075234
+    S(    4) --> V(    2) amplitude =  0.4746 alpha
+    S(    4) --> V(    3) amplitude =  0.2388 alpha
+    S(    4) --> V(    5) amplitude = -0.2371 alpha
+    S(    4) --> V(    6) amplitude =  0.1656 alpha
+    S(    4) --> V(    7) amplitude = -0.3296 alpha
+    S(    4) --> V(   11) amplitude =  0.2215 alpha
+    S(    4) --> V(   12) amplitude =  0.3183 alpha
+    S(    4) --> V(   23) amplitude =  0.1542 alpha
+
+ Excited state  61: excitation energy (eV) =    5.0724
+ Total energy for state 61:                 -3741.61502468 au
+    <S**2>     :  8.9721
+    Trans. Mom.:  0.2355 X   0.0980 Y   0.1729 Z
+    Strength   :     0.0118015541
+    D(  180) --> S(    2) amplitude = -0.2739 beta
+    D(  181) --> S(    2) amplitude =  0.3417 beta
+    D(  182) --> S(    2) amplitude =  0.2423 beta
+    D(  185) --> S(    2) amplitude = -0.1823 beta
+    D(  186) --> S(    2) amplitude =  0.1507 beta
+    D(  187) --> S(    2) amplitude = -0.1623 beta
+    D(  189) --> S(    2) amplitude = -0.1512 beta
+    D(  200) --> V(    2) amplitude =  0.1763 beta
+    D(  201) --> V(    1) amplitude =  0.1850 beta
+
+ Excited state  62: excitation energy (eV) =    5.0807
+ Total energy for state 62:                 -3741.61472130 au
+    <S**2>     :  9.0682
+    Trans. Mom.: -0.5044 X  -0.1142 Y  -0.0631 Z
+    Strength   :     0.0337889212
+    D(  180) --> S(    2) amplitude =  0.1742 beta
+    D(  181) --> S(    2) amplitude = -0.2219 beta
+    D(  182) --> S(    2) amplitude = -0.1527 beta
+    D(  200) --> V(    1) amplitude =  0.1512 beta
+    D(  200) --> V(    2) amplitude =  0.1762 beta
+    D(  200) --> V(    5) amplitude =  0.2062 beta
+    D(  201) --> S(    5) amplitude = -0.2651 beta
+    D(  201) --> V(    1) amplitude =  0.2943 beta
+    D(  201) --> V(    3) amplitude = -0.1921 beta
+    D(  201) --> V(    9) amplitude =  0.1572 beta
+
+ Excited state  63: excitation energy (eV) =    5.1019
+ Total energy for state 63:                 -3741.61394215 au
+    <S**2>     : 10.6245
+    Trans. Mom.:  0.0050 X  -0.0177 Y   0.0295 Z
+    Strength   :     0.0001507297
+    D(  189) --> V(    4) amplitude = -0.2041 alpha
+    D(  189) --> V(    5) amplitude = -0.2142 alpha
+    D(  184) --> V(    3) amplitude =  0.1519 beta
+    D(  185) --> V(    3) amplitude = -0.1652 beta
+    D(  186) --> V(    3) amplitude = -0.1749 beta
+    D(  186) --> V(    4) amplitude =  0.1527 beta
+
+ Excited state  64: excitation energy (eV) =    5.1112
+ Total energy for state 64:                 -3741.61360063 au
+    <S**2>     :  9.4037
+    Trans. Mom.:  0.3353 X   0.0123 Y  -0.1047 Z
+    Strength   :     0.0154658212
+    D(  200) --> S(    5) amplitude =  0.3900 beta
+    D(  200) --> V(    1) amplitude = -0.1648 beta
+    D(  200) --> V(    2) amplitude = -0.3122 beta
+    D(  200) --> V(    5) amplitude =  0.1957 beta
+    D(  200) --> V(   11) amplitude =  0.2229 beta
+    D(  201) --> S(    4) amplitude =  0.1523 beta
+    D(  201) --> S(    5) amplitude = -0.2835 beta
+    D(  201) --> V(    5) amplitude = -0.2728 beta
+    D(  201) --> V(   10) amplitude = -0.1961 beta
+    D(  201) --> V(   11) amplitude = -0.1575 beta
+    D(  201) --> V(   16) amplitude = -0.1859 beta
+
+ Excited state  65: excitation energy (eV) =    5.1192
+ Total energy for state 65:                 -3741.61330483 au
+    <S**2>     : 10.4324
+    Trans. Mom.:  0.0088 X  -0.0368 Y   0.0344 Z
+    Strength   :     0.0003275185
+    S(    5) --> V(    4) amplitude =  0.2020 alpha
+    S(    5) --> V(    6) amplitude =  0.1694 alpha
+    D(  201) --> S(    4) amplitude = -0.2153 beta
+    D(  201) --> S(    5) amplitude =  0.2612 beta
+    D(  201) --> V(    1) amplitude =  0.1758 beta
+    D(  201) --> V(    2) amplitude =  0.2263 beta
+    D(  201) --> V(    3) amplitude =  0.1961 beta
+    D(  201) --> V(    4) amplitude =  0.3614 beta
+    D(  201) --> V(    6) amplitude = -0.1757 beta
+    D(  201) --> V(   12) amplitude = -0.2110 beta
+
+ Excited state  66: excitation energy (eV) =    5.1359
+ Total energy for state 66:                 -3741.61269392 au
+    <S**2>     :  8.8124
+    Trans. Mom.: -0.3099 X   0.0737 Y   0.2770 Z
+    Strength   :     0.0224245051
+    D(  194) --> V(   14) amplitude = -0.2462 beta
+    D(  195) --> V(    4) amplitude = -0.1720 beta
+    D(  195) --> V(    8) amplitude = -0.2118 beta
+    D(  195) --> V(   14) amplitude = -0.3880 beta
+    D(  196) --> V(   14) amplitude = -0.2300 beta
+    D(  199) --> V(   14) amplitude = -0.2103 beta
+
+ Excited state  67: excitation energy (eV) =    5.1412
+ Total energy for state 67:                 -3741.61249888 au
+    <S**2>     :  9.3154
+    Trans. Mom.: -0.0103 X   0.0002 Y  -0.1593 Z
+    Strength   :     0.0032079952
+    S(    5) --> V(    1) amplitude =  0.2190 alpha
+    S(    5) --> V(    2) amplitude = -0.2316 alpha
+    S(    5) --> V(    4) amplitude =  0.3065 alpha
+    S(    5) --> V(    6) amplitude =  0.3260 alpha
+    S(    5) --> V(   13) amplitude = -0.2509 alpha
+    S(    5) --> V(   18) amplitude =  0.1711 alpha
+    D(  201) --> S(    5) amplitude = -0.1637 beta
+    D(  201) --> V(    4) amplitude = -0.2172 beta
+
+ Excited state  68: excitation energy (eV) =    5.1476
+ Total energy for state 68:                 -3741.61226159 au
+    <S**2>     : 10.6942
+    Trans. Mom.:  0.0167 X   0.0274 Y  -0.0379 Z
+    Strength   :     0.0003107679
+    D(  187) --> V(    2) amplitude =  0.1553 alpha
+    D(  191) --> V(    2) amplitude = -0.1887 alpha
+    D(  191) --> V(    5) amplitude = -0.1530 alpha
+    D(  185) --> V(    3) amplitude = -0.1740 beta
+    D(  185) --> V(    5) amplitude = -0.1707 beta
+
+ Excited state  69: excitation energy (eV) =    5.1750
+ Total energy for state 69:                 -3741.61125409 au
+    <S**2>     :  9.7294
+    Trans. Mom.:  0.1614 X  -0.0544 Y   0.0176 Z
+    Strength   :     0.0037173446
+    S(    4) --> V(    1) amplitude =  0.3864 alpha
+    S(    4) --> V(    2) amplitude = -0.3116 alpha
+    S(    4) --> V(    3) amplitude =  0.1955 alpha
+    S(    4) --> V(    4) amplitude =  0.1927 alpha
+    S(    4) --> V(    6) amplitude =  0.4448 alpha
+    S(    4) --> V(    9) amplitude = -0.3026 alpha
+    S(    4) --> V(   14) amplitude =  0.2655 alpha
+    S(    4) --> V(   16) amplitude = -0.1807 alpha
+
+ Excited state  70: excitation energy (eV) =    5.1839
+ Total energy for state 70:                 -3741.61093025 au
+    <S**2>     : 10.5263
+    Trans. Mom.:  0.0045 X  -0.0448 Y  -0.0872 Z
+    Strength   :     0.0012224171
+    D(  195) --> V(   31) amplitude =  0.1634 alpha
+    S(    5) --> V(    6) amplitude =  0.1608 alpha
+    D(  192) --> V(   29) amplitude = -0.1568 beta
+    D(  192) --> V(   31) amplitude =  0.1957 beta
+
+ Excited state  71: excitation energy (eV) =    5.2085
+ Total energy for state 71:                 -3741.61002603 au
+    <S**2>     :  8.8858
+    Trans. Mom.:  0.2225 X  -0.1865 Y  -0.2027 Z
+    Strength   :     0.0160016792
+    D(  180) --> S(    3) amplitude =  0.4216 beta
+    D(  181) --> S(    3) amplitude = -0.4452 beta
+    D(  182) --> S(    3) amplitude = -0.2645 beta
+    D(  183) --> S(    3) amplitude = -0.1812 beta
+    D(  185) --> S(    3) amplitude =  0.1864 beta
+    D(  186) --> S(    3) amplitude = -0.1955 beta
+    D(  187) --> S(    3) amplitude =  0.1850 beta
+    D(  188) --> S(    3) amplitude = -0.1580 beta
+    D(  189) --> S(    3) amplitude =  0.2137 beta
+    D(  190) --> S(    3) amplitude =  0.1627 beta
+    D(  192) --> S(    3) amplitude = -0.2348 beta
+    D(  195) --> S(    3) amplitude =  0.1699 beta
+
+ Excited state  72: excitation energy (eV) =    5.2301
+ Total energy for state 72:                 -3741.60923209 au
+    <S**2>     :  9.4979
+    Trans. Mom.: -0.1824 X   0.0475 Y   0.1445 Z
+    Strength   :     0.0072282151
+    D(  200) --> S(    4) amplitude = -0.3364 beta
+    D(  200) --> S(    5) amplitude =  0.2388 beta
+    D(  200) --> V(    2) amplitude =  0.1775 beta
+    D(  200) --> V(    3) amplitude =  0.1836 beta
+    D(  200) --> V(    4) amplitude =  0.3547 beta
+    D(  200) --> V(   12) amplitude = -0.2278 beta
+    D(  201) --> V(    3) amplitude =  0.2094 beta
+    D(  201) --> V(    7) amplitude =  0.2827 beta
+    D(  201) --> V(   13) amplitude = -0.1671 beta
+
+ Excited state  73: excitation energy (eV) =    5.2467
+ Total energy for state 73:                 -3741.60862013 au
+    <S**2>     : 10.7470
+    Trans. Mom.:  0.0133 X   0.0041 Y  -0.0051 Z
+    Strength   :     0.0000283584
+    D(  197) --> V(   36) amplitude =  0.2422 alpha
+    D(  197) --> V(   39) amplitude = -0.2143 alpha
+    D(  197) --> V(   41) amplitude = -0.1602 alpha
+    D(  193) --> V(   31) amplitude = -0.1565 beta
+    D(  193) --> V(   36) amplitude =  0.2651 beta
+    D(  193) --> V(   39) amplitude = -0.2565 beta
+    D(  193) --> V(   41) amplitude =  0.1735 beta
+
+ Excited state  74: excitation energy (eV) =    5.2552
+ Total energy for state 74:                 -3741.60830685 au
+    <S**2>     :  9.5567
+    Trans. Mom.:  0.1937 X   0.0424 Y  -0.0846 Z
+    Strength   :     0.0059827643
+    S(    5) --> V(    2) amplitude =  0.5721 alpha
+    S(    5) --> V(    3) amplitude = -0.3138 alpha
+    S(    5) --> V(    4) amplitude =  0.2807 alpha
+    S(    5) --> V(    5) amplitude =  0.4772 alpha
+    S(    5) --> V(    7) amplitude =  0.3747 alpha
+
+ Excited state  75: excitation energy (eV) =    5.2755
+ Total energy for state 75:                 -3741.60756347 au
+    <S**2>     :  9.7108
+    Trans. Mom.: -0.5641 X  -0.0184 Y   0.3324 Z
+    Strength   :     0.0554504076
+    D(  194) --> V(    8) amplitude = -0.1513 beta
+    D(  200) --> S(    5) amplitude = -0.3117 beta
+    D(  200) --> V(    1) amplitude = -0.2081 beta
+    D(  200) --> V(    3) amplitude =  0.2808 beta
+    D(  200) --> V(    5) amplitude =  0.3165 beta
+    D(  201) --> S(    5) amplitude = -0.2861 beta
+    D(  201) --> V(    3) amplitude =  0.3750 beta
+    D(  201) --> V(    5) amplitude =  0.2751 beta
+    D(  201) --> V(    6) amplitude =  0.1526 beta
+
+ Excited state  76: excitation energy (eV) =    5.2782
+ Total energy for state 76:                 -3741.60746279 au
+    <S**2>     :  8.8878
+    Trans. Mom.:  0.3452 X  -0.1490 Y   0.1047 Z
+    Strength   :     0.0196931031
+    D(  183) --> S(    1) amplitude =  0.3040 beta
+    D(  187) --> V(    8) amplitude = -0.1587 beta
+    D(  194) --> V(    4) amplitude = -0.1721 beta
+    D(  194) --> V(    5) amplitude = -0.1953 beta
+    D(  194) --> V(    8) amplitude = -0.5710 beta
+    D(  198) --> V(    8) amplitude =  0.2040 beta
+
+ Excited state  77: excitation energy (eV) =    5.3117
+ Total energy for state 77:                 -3741.60623344 au
+    <S**2>     :  9.6985
+    Trans. Mom.: -0.3076 X  -0.0243 Y   0.0695 Z
+    Strength   :     0.0130150568
+    S(    4) --> V(    1) amplitude = -0.2752 alpha
+    S(    4) --> V(    2) amplitude = -0.2333 alpha
+    S(    4) --> V(    4) amplitude =  0.5107 alpha
+    S(    4) --> V(    5) amplitude =  0.4919 alpha
+    S(    4) --> V(    6) amplitude = -0.2248 alpha
+    S(    4) --> V(    7) amplitude = -0.3576 alpha
+
+ Excited state  78: excitation energy (eV) =    5.3224
+ Total energy for state 78:                 -3741.60583821 au
+    <S**2>     :  8.9156
+    Trans. Mom.:  1.1390 X   0.5231 Y  -0.2567 Z
+    Strength   :     0.2134476688
+    D(  183) --> S(    1) amplitude =  0.4343 beta
+    D(  193) --> S(    1) amplitude =  0.1896 beta
+    D(  194) --> V(    8) amplitude =  0.2221 beta
+
+ Excited state  79: excitation energy (eV) =    5.3274
+ Total energy for state 79:                 -3741.60565573 au
+    <S**2>     :  9.0487
+    Trans. Mom.: -0.0360 X  -0.1837 Y  -0.1003 Z
+    Strength   :     0.0058838380
+    D(  183) --> S(    1) amplitude =  0.2651 beta
+    D(  190) --> V(    8) amplitude = -0.1835 beta
+    D(  198) --> V(    5) amplitude = -0.1520 beta
+    D(  198) --> V(    8) amplitude = -0.4735 beta
+    D(  198) --> V(   12) amplitude = -0.1611 beta
+    D(  199) --> V(    8) amplitude =  0.2733 beta
+
+ Excited state  80: excitation energy (eV) =    5.3342
+ Total energy for state 80:                 -3741.60540631 au
+    <S**2>     : 10.4487
+    Trans. Mom.: -0.1571 X  -0.0098 Y   0.0751 Z
+    Strength   :     0.0039759379
+    D(  192) --> V(   31) amplitude =  0.1506 beta
+
+ Excited state  81: excitation energy (eV) =    5.3474
+ Total energy for state 81:                 -3741.60492157 au
+    <S**2>     :  8.9076
+    Trans. Mom.:  0.9064 X  -0.0983 Y  -0.5752 Z
+    Strength   :     0.1522281577
+    D(  183) --> S(    1) amplitude = -0.3886 beta
+    D(  193) --> S(    1) amplitude = -0.1915 beta
+    D(  194) --> V(    8) amplitude = -0.2230 beta
+    D(  198) --> V(    8) amplitude = -0.1831 beta
+    D(  199) --> V(    8) amplitude =  0.1874 beta
+    D(  201) --> V(    3) amplitude =  0.1607 beta
+
+ Excited state  82: excitation energy (eV) =    5.3660
+ Total energy for state 82:                 -3741.60423470 au
+    <S**2>     :  8.8385
+    Trans. Mom.: -0.3368 X   0.0740 Y   0.2940 Z
+    Strength   :     0.0269944027
+    D(  191) --> S(    5) amplitude = -0.1579 beta
+    D(  191) --> V(    3) amplitude =  0.1859 beta
+    D(  191) --> V(    5) amplitude =  0.1814 beta
+
+ Excited state  83: excitation energy (eV) =    5.3736
+ Total energy for state 83:                 -3741.60395560 au
+    <S**2>     :  9.5109
+    Trans. Mom.:  0.7840 X   0.1243 Y  -0.2000 Z
+    Strength   :     0.0882253269
+    D(  200) --> S(    4) amplitude =  0.1871 beta
+    D(  200) --> S(    5) amplitude =  0.1816 beta
+    D(  200) --> V(    2) amplitude =  0.1800 beta
+    D(  200) --> V(    3) amplitude =  0.4171 beta
+    D(  200) --> V(    4) amplitude = -0.1501 beta
+    D(  200) --> V(    8) amplitude =  0.1799 beta
+    D(  201) --> S(    4) amplitude = -0.1728 beta
+    D(  201) --> V(    3) amplitude = -0.2430 beta
+    D(  201) --> V(    6) amplitude =  0.1705 beta
+    D(  201) --> V(    8) amplitude = -0.1538 beta
+
+ Excited state  84: excitation energy (eV) =    5.3975
+ Total energy for state 84:                 -3741.60307953 au
+    <S**2>     : 10.2636
+    Trans. Mom.:  0.3909 X  -0.1988 Y  -0.1990 Z
+    Strength   :     0.0306714283
+    S(    5) --> V(    8) amplitude =  0.2133 alpha
+    S(    5) --> V(    9) amplitude =  0.3742 alpha
+    S(    5) --> V(   12) amplitude =  0.2828 alpha
+    S(    5) --> V(   14) amplitude = -0.1643 alpha
+    D(  200) --> V(    7) amplitude =  0.1566 beta
+    D(  201) --> V(    6) amplitude =  0.1557 beta
+    D(  201) --> V(    7) amplitude =  0.1640 beta
+    D(  201) --> V(   11) amplitude = -0.1645 beta
+
+ Excited state  85: excitation energy (eV) =    5.4022
+ Total energy for state 85:                 -3741.60290447 au
+    <S**2>     :  9.9903
+    Trans. Mom.: -0.6182 X   0.2247 Y   0.2642 Z
+    Strength   :     0.0664965259
+    S(    5) --> V(    8) amplitude =  0.1802 alpha
+    S(    5) --> V(    9) amplitude =  0.2827 alpha
+    S(    5) --> V(   12) amplitude =  0.2226 alpha
+    D(  194) --> V(   14) amplitude = -0.1948 beta
+
+ Excited state  86: excitation energy (eV) =    5.4084
+ Total energy for state 86:                 -3741.60267885 au
+    <S**2>     :  9.4622
+    Trans. Mom.: -0.7104 X   0.1860 Y   0.2183 Z
+    Strength   :     0.0777641871
+    S(    5) --> V(    9) amplitude =  0.1750 alpha
+    D(  194) --> V(   14) amplitude = -0.1916 beta
+    D(  201) --> V(   11) amplitude =  0.1702 beta
+
+ Excited state  87: excitation energy (eV) =    5.4235
+ Total energy for state 87:                 -3741.60212233 au
+    <S**2>     :  9.1955
+    Trans. Mom.: -0.3878 X   0.1865 Y   0.2781 Z
+    Strength   :     0.0348790507
+    S(    5) --> V(    8) amplitude = -0.1692 alpha
+    S(    5) --> V(    9) amplitude = -0.1959 alpha
+    S(    5) --> V(   12) amplitude = -0.1685 alpha
+    D(  194) --> V(   14) amplitude = -0.1971 beta
+    D(  200) --> V(    7) amplitude =  0.2418 beta
+    D(  200) --> V(   11) amplitude = -0.1738 beta
+    D(  201) --> V(    6) amplitude =  0.2646 beta
+    D(  201) --> V(    7) amplitude =  0.2486 beta
+    D(  201) --> V(   10) amplitude = -0.1647 beta
+    D(  201) --> V(   11) amplitude = -0.2260 beta
+
+ Excited state  88: excitation energy (eV) =    5.4281
+ Total energy for state 88:                 -3741.60195452 au
+    <S**2>     : 10.4818
+    Trans. Mom.:  0.0736 X   0.0445 Y   0.0099 Z
+    Strength   :     0.0009980857
+    S(    4) --> V(    8) amplitude =  0.2281 alpha
+    S(    4) --> V(   11) amplitude =  0.2148 alpha
+    D(  187) --> V(   36) amplitude =  0.1614 beta
+    D(  187) --> V(   39) amplitude = -0.1566 beta
+    D(  201) --> V(    7) amplitude =  0.1502 beta
+
+ Excited state  89: excitation energy (eV) =    5.4374
+ Total energy for state 89:                 -3741.60161411 au
+    <S**2>     :  8.9802
+    Trans. Mom.:  0.1663 X   0.1084 Y  -0.1087 Z
+    Strength   :     0.0068249463
+    S(    4) --> V(    8) amplitude = -0.1578 alpha
+    D(  181) --> S(    2) amplitude =  0.1581 beta
+    D(  183) --> S(    2) amplitude = -0.6771 beta
+    D(  184) --> S(    2) amplitude = -0.2082 beta
+    D(  193) --> S(    2) amplitude = -0.3321 beta
+
+ Excited state  90: excitation energy (eV) =    5.4395
+ Total energy for state 90:                 -3741.60153661 au
+    <S**2>     :  9.8232
+    Trans. Mom.:  0.0483 X   0.0422 Y   0.0628 Z
+    Strength   :     0.0010740246
+    S(    4) --> V(    3) amplitude =  0.2492 alpha
+    S(    4) --> V(    5) amplitude =  0.2050 alpha
+    S(    4) --> V(    8) amplitude =  0.4893 alpha
+    S(    4) --> V(   11) amplitude =  0.3720 alpha
+    S(    4) --> V(   12) amplitude = -0.2751 alpha
+    S(    4) --> V(   13) amplitude =  0.2064 alpha
+    D(  183) --> S(    2) amplitude = -0.1858 beta
+
+ Excited state  91: excitation energy (eV) =    5.4501
+ Total energy for state 91:                 -3741.60114568 au
+    <S**2>     : 10.4008
+    Trans. Mom.:  0.0257 X   0.0797 Y   0.0914 Z
+    Strength   :     0.0020524510
+    S(    5) --> V(    1) amplitude =  0.1638 alpha
+    S(    5) --> V(    3) amplitude = -0.1761 alpha
+    S(    5) --> V(    6) amplitude = -0.2247 alpha
+    S(    5) --> V(    8) amplitude =  0.3094 alpha
+    S(    5) --> V(   11) amplitude = -0.2139 alpha
+    S(    5) --> V(   12) amplitude =  0.2013 alpha
+    S(    5) --> V(   14) amplitude =  0.1689 alpha
+    S(    5) --> V(   17) amplitude =  0.1769 alpha
+    S(    5) --> V(   19) amplitude = -0.1718 alpha
+    D(  183) --> S(    2) amplitude =  0.1949 beta
+    D(  201) --> V(    6) amplitude =  0.1866 beta
+    D(  201) --> V(   11) amplitude = -0.1561 beta
+
+ Excited state  92: excitation energy (eV) =    5.4649
+ Total energy for state 92:                 -3741.60060145 au
+    <S**2>     :  9.0245
+    Trans. Mom.: -0.1957 X  -0.1225 Y  -0.1056 Z
+    Strength   :     0.0086310029
+    S(    5) --> V(    8) amplitude = -0.1535 alpha
+    D(  200) --> S(    4) amplitude = -0.1593 beta
+    D(  200) --> V(    4) amplitude = -0.1873 beta
+    D(  200) --> V(    6) amplitude =  0.2847 beta
+    D(  201) --> V(    1) amplitude = -0.2224 beta
+    D(  201) --> V(   10) amplitude =  0.2721 beta
+    D(  201) --> V(   11) amplitude = -0.2286 beta
+    D(  201) --> V(   12) amplitude = -0.2004 beta
+    D(  201) --> V(   24) amplitude =  0.1642 beta
+
+ Excited state  93: excitation energy (eV) =    5.4731
+ Total energy for state 93:                 -3741.60029941 au
+    <S**2>     :  9.4098
+    Trans. Mom.:  0.2980 X   0.1316 Y  -0.1707 Z
+    Strength   :     0.0181393305
+    D(  200) --> V(    1) amplitude = -0.2160 beta
+    D(  200) --> V(    6) amplitude = -0.2999 beta
+    D(  200) --> V(   10) amplitude =  0.3193 beta
+    D(  200) --> V(   12) amplitude = -0.2103 beta
+    D(  201) --> V(    1) amplitude =  0.1622 beta
+    D(  201) --> V(    6) amplitude =  0.3012 beta
+    D(  201) --> V(   10) amplitude = -0.1560 beta
+    D(  201) --> V(   12) amplitude =  0.1526 beta
+
+ Excited state  94: excitation energy (eV) =    5.4790
+ Total energy for state 94:                 -3741.60008303 au
+    <S**2>     :  8.8910
+    Trans. Mom.: -0.8323 X  -0.5519 Y   0.1617 Z
+    Strength   :     0.1373748829
+    D(  183) --> S(    2) amplitude = -0.1591 beta
+    D(  190) --> V(    8) amplitude = -0.2312 beta
+    D(  194) --> V(   14) amplitude =  0.2603 beta
+
+ Excited state  95: excitation energy (eV) =    5.4853
+ Total energy for state 95:                 -3741.59985301 au
+    <S**2>     :  8.8977
+    Trans. Mom.:  0.0411 X   0.3144 Y  -0.5088 Z
+    Strength   :     0.0483054711
+    D(  188) --> V(    8) amplitude = -0.1884 beta
+    D(  190) --> V(    8) amplitude = -0.2305 beta
+    D(  191) --> V(    8) amplitude =  0.1788 beta
+    D(  194) --> V(   14) amplitude = -0.2803 beta
+    D(  195) --> V(    8) amplitude = -0.1594 beta
+    D(  198) --> V(    8) amplitude =  0.1617 beta
+    D(  201) --> V(    6) amplitude = -0.1874 beta
+
+ Excited state  96: excitation energy (eV) =    5.4975
+ Total energy for state 96:                 -3741.59940326 au
+    <S**2>     : 10.3055
+    Trans. Mom.: -0.0835 X  -0.0929 Y  -0.0154 Z
+    Strength   :     0.0021333284
+    D(  201) --> S(    5) amplitude = -0.1600 beta
+    D(  201) --> V(    2) amplitude =  0.2128 beta
+    D(  201) --> V(    5) amplitude = -0.1944 beta
+    D(  201) --> V(    7) amplitude =  0.3147 beta
+    D(  201) --> V(   10) amplitude =  0.2125 beta
+    D(  201) --> V(   12) amplitude =  0.2404 beta
+    D(  201) --> V(   13) amplitude =  0.3834 beta
+
+ Excited state  97: excitation energy (eV) =    5.5016
+ Total energy for state 97:                 -3741.59925453 au
+    <S**2>     :  9.3625
+    Trans. Mom.: -0.2473 X  -0.1568 Y   0.1707 Z
+    Strength   :     0.0154860659
+    S(    4) --> V(    2) amplitude = -0.3167 alpha
+    S(    4) --> V(    7) amplitude =  0.3471 alpha
+    S(    4) --> V(    9) amplitude = -0.3207 alpha
+    S(    4) --> V(   11) amplitude =  0.3211 alpha
+    S(    4) --> V(   12) amplitude =  0.2465 alpha
+    S(    4) --> V(   14) amplitude = -0.1947 alpha
+    S(    4) --> V(   23) amplitude =  0.1586 alpha
+    S(    4) --> V(   27) amplitude =  0.1659 alpha
+    D(  201) --> V(   12) amplitude = -0.1513 beta
+    D(  201) --> V(   13) amplitude = -0.1716 beta
+
+ Excited state  98: excitation energy (eV) =    5.5103
+ Total energy for state 98:                 -3741.59893233 au
+    <S**2>     : 10.1864
+    Trans. Mom.:  0.2364 X   0.0284 Y  -0.1481 Z
+    Strength   :     0.0106148413
+    S(    4) --> V(    1) amplitude = -0.3015 alpha
+    S(    4) --> V(    4) amplitude = -0.1609 alpha
+    S(    4) --> V(    6) amplitude =  0.1985 alpha
+    S(    4) --> V(   10) amplitude =  0.4197 alpha
+    S(    4) --> V(   13) amplitude = -0.3562 alpha
+    S(    4) --> V(   15) amplitude = -0.1994 alpha
+    D(  201) --> V(    5) amplitude =  0.1942 beta
+
+ Excited state  99: excitation energy (eV) =    5.5220
+ Total energy for state 99:                 -3741.59850414 au
+    <S**2>     : 10.1716
+    Trans. Mom.: -0.0428 X   0.0063 Y  -0.0191 Z
+    Strength   :     0.0003026634
+    S(    5) --> V(    1) amplitude =  0.3365 alpha
+    S(    5) --> V(    5) amplitude =  0.1975 alpha
+    S(    5) --> V(    6) amplitude = -0.2899 alpha
+    S(    5) --> V(    7) amplitude =  0.2198 alpha
+    S(    5) --> V(    8) amplitude = -0.2544 alpha
+    S(    5) --> V(   10) amplitude =  0.4376 alpha
+    S(    5) --> V(   14) amplitude = -0.2969 alpha
+    S(    5) --> V(   18) amplitude =  0.2095 alpha
+    S(    5) --> V(   25) amplitude =  0.1520 alpha
+
+ Excited state 100: excitation energy (eV) =    5.5259
+ Total energy for state100:                 -3741.59836150 au
+    <S**2>     :  9.2629
+    Trans. Mom.: -0.3699 X  -0.1722 Y   0.2458 Z
+    Strength   :     0.0307205737
+    S(    4) --> V(   10) amplitude = -0.1864 alpha
+    D(  200) --> V(    9) amplitude = -0.2503 beta
+    D(  201) --> S(    4) amplitude = -0.2713 beta
+    D(  201) --> S(    5) amplitude =  0.2010 beta
+    D(  201) --> V(    2) amplitude =  0.1707 beta
+    D(  201) --> V(    5) amplitude =  0.3073 beta
+    D(  201) --> V(    8) amplitude = -0.1790 beta
+    D(  201) --> V(   11) amplitude = -0.2361 beta
+    D(  201) --> V(   12) amplitude =  0.3010 beta
+ 
+ ---------------------------------------------------
+  SETman timing summary (seconds)
+  CPU time           **********s
+  System time              5.59s
+  Wall time           707746.97s
+ Created directory /data/scratch/C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft10020240307223403/NTOs
+ ======================================================
+      TDA excitation amplitudes in the NTO basis  
+               (Print if |ampl| > 0.15)
+ ======================================================
+  Excited state 1:   2.4521 eV 
+    e-/hole pair  1 beta :  ampl =  0.9880   (97.6 %)
+  These amplitudes account for 97.6 % of total amplitude
+
+  Excited state 2:   2.5211 eV 
+    e-/hole pair  1 beta :  ampl =  0.9732   (94.7 %)
+    e-/hole pair  2 beta :  ampl =  0.1942   ( 3.8 %)
+  These amplitudes account for 98.5 % of total amplitude
+
+  Excited state 3:   2.5400 eV 
+    e-/hole pair  1 beta :  ampl =  0.9757   (95.2 %)
+    e-/hole pair  2 beta :  ampl =  0.1662   ( 2.8 %)
+  These amplitudes account for 98.0 % of total amplitude
+
+  Excited state 4:   2.6147 eV 
+    e-/hole pair  1 beta :  ampl =  0.7485   (56.0 %)
+    e-/hole pair  2 beta :  ampl =  0.6476   (41.9 %)
+  These amplitudes account for 98.0 % of total amplitude
+
+  Excited state 5:   2.6920 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1653   ( 2.7 %)
+    e-/hole pair  1 beta :  ampl =  0.9444   (89.2 %)
+    e-/hole pair  2 beta :  ampl =  0.2670   ( 7.1 %)
+  These amplitudes account for 99.0 % of total amplitude
+
+  Excited state 6:   2.8701 eV 
+    e-/hole pair  1 beta :  ampl =  0.9160   (83.9 %)
+    e-/hole pair  2 beta :  ampl =  0.2744   ( 7.5 %)
+  These amplitudes account for 91.4 % of total amplitude
+
+  Excited state 7:   2.9911 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6854   (47.0 %)
+    e-/hole pair  1 beta :  ampl =  0.6730   (45.3 %)
+    e-/hole pair  2 beta :  ampl =  0.1609   ( 2.6 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 8:   3.0221 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6746   (45.5 %)
+    e-/hole pair  1 beta :  ampl =  0.6907   (47.7 %)
+    e-/hole pair  2 beta :  ampl =  0.1519   ( 2.3 %)
+  These amplitudes account for 95.5 % of total amplitude
+
+  Excited state 9:   3.4916 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3186   (10.2 %)
+    e-/hole pair  1 beta :  ampl =  0.9375   (87.9 %)
+  These amplitudes account for 98.0 % of total amplitude
+
+  Excited state 10:   3.6356 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4839   (23.4 %)
+    e-/hole pair  2 alpha:  ampl =  0.4389   (19.3 %)
+    e-/hole pair  1 beta :  ampl =  0.5737   (32.9 %)
+    e-/hole pair  2 beta :  ampl =  0.4084   (16.7 %)
+  These amplitudes account for 92.3 % of total amplitude
+
+  Excited state 11:   3.6403 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5300   (28.1 %)
+    e-/hole pair  2 alpha:  ampl =  0.4329   (18.7 %)
+    e-/hole pair  3 alpha:  ampl =  0.1509   ( 2.3 %)
+    e-/hole pair  1 beta :  ampl =  0.4837   (23.4 %)
+    e-/hole pair  2 beta :  ampl =  0.4614   (21.3 %)
+  These amplitudes account for 93.8 % of total amplitude
+
+  Excited state 12:   3.7186 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1866   ( 3.5 %)
+    e-/hole pair  1 beta :  ampl =  0.9536   (90.9 %)
+    e-/hole pair  2 beta :  ampl =  0.1551   ( 2.4 %)
+  These amplitudes account for 96.8 % of total amplitude
+
+  Excited state 13:   3.8145 eV 
+    e-/hole pair  1 beta :  ampl =  0.9893   (97.9 %)
+  These amplitudes account for 97.9 % of total amplitude
+
+  Excited state 14:   3.8309 eV 
+    e-/hole pair  1 beta :  ampl =  0.9773   (95.5 %)
+  These amplitudes account for 95.5 % of total amplitude
+
+  Excited state 15:   3.8917 eV 
+    e-/hole pair  1 beta :  ampl =  0.7336   (53.8 %)
+    e-/hole pair  2 beta :  ampl =  0.6207   (38.5 %)
+    e-/hole pair  3 beta :  ampl =  0.1693   ( 2.9 %)
+  These amplitudes account for 95.2 % of total amplitude
+
+  Excited state 16:   3.9246 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1626   ( 2.6 %)
+    e-/hole pair  1 beta :  ampl =  0.6908   (47.7 %)
+    e-/hole pair  2 beta :  ampl =  0.6613   (43.7 %)
+    e-/hole pair  3 beta :  ampl =  0.1528   ( 2.3 %)
+  These amplitudes account for 96.4 % of total amplitude
+
+  Excited state 17:   3.9983 eV 
+    e-/hole pair  1 beta :  ampl =  0.7358   (54.1 %)
+    e-/hole pair  2 beta :  ampl =  0.6129   (37.6 %)
+    e-/hole pair  3 beta :  ampl =  0.2379   ( 5.7 %)
+  These amplitudes account for 97.4 % of total amplitude
+
+  Excited state 18:   4.0682 eV 
+    e-/hole pair  1 beta :  ampl =  0.8851   (78.3 %)
+    e-/hole pair  2 beta :  ampl =  0.3742   (14.0 %)
+    e-/hole pair  3 beta :  ampl =  0.1612   ( 2.6 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 19:   4.0834 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4781   (22.9 %)
+    e-/hole pair  2 alpha:  ampl =  0.2072   ( 4.3 %)
+    e-/hole pair  1 beta :  ampl =  0.6842   (46.8 %)
+    e-/hole pair  2 beta :  ampl =  0.3731   (13.9 %)
+    e-/hole pair  3 beta :  ampl =  0.2535   ( 6.4 %)
+  These amplitudes account for 94.3 % of total amplitude
+
+  Excited state 20:   4.0987 eV 
+    e-/hole pair  1 beta :  ampl =  0.9448   (89.3 %)
+    e-/hole pair  2 beta :  ampl =  0.1928   ( 3.7 %)
+    e-/hole pair  3 beta :  ampl =  0.1537   ( 2.4 %)
+  These amplitudes account for 95.3 % of total amplitude
+
+  Excited state 21:   4.1126 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4964   (24.6 %)
+    e-/hole pair  2 alpha:  ampl =  0.1752   ( 3.1 %)
+    e-/hole pair  3 alpha:  ampl =  0.1552   ( 2.4 %)
+    e-/hole pair  1 beta :  ampl =  0.7212   (52.0 %)
+    e-/hole pair  2 beta :  ampl =  0.3171   (10.1 %)
+    e-/hole pair  3 beta :  ampl =  0.1749   ( 3.1 %)
+  These amplitudes account for 95.3 % of total amplitude
+
+  Excited state 22:   4.1740 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5489   (30.1 %)
+    e-/hole pair  1 beta :  ampl =  0.6803   (46.3 %)
+    e-/hole pair  2 beta :  ampl =  0.3121   ( 9.7 %)
+    e-/hole pair  3 beta :  ampl =  0.2112   ( 4.5 %)
+    e-/hole pair  4 beta :  ampl =  0.1549   ( 2.4 %)
+  These amplitudes account for 93.0 % of total amplitude
+
+  Excited state 23:   4.1928 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4158   (17.3 %)
+    e-/hole pair  1 beta :  ampl =  0.6684   (44.7 %)
+    e-/hole pair  2 beta :  ampl =  0.4165   (17.4 %)
+    e-/hole pair  3 beta :  ampl =  0.3589   (12.9 %)
+    e-/hole pair  4 beta :  ampl =  0.2089   ( 4.4 %)
+  These amplitudes account for 96.6 % of total amplitude
+
+  Excited state 24:   4.2086 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2512   ( 6.3 %)
+    e-/hole pair  2 alpha:  ampl =  0.1925   ( 3.7 %)
+    e-/hole pair  1 beta :  ampl =  0.7377   (54.4 %)
+    e-/hole pair  2 beta :  ampl =  0.3849   (14.8 %)
+    e-/hole pair  3 beta :  ampl =  0.2928   ( 8.6 %)
+    e-/hole pair  4 beta :  ampl =  0.2727   ( 7.4 %)
+  These amplitudes account for 95.3 % of total amplitude
+
+  Excited state 25:   4.2490 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2691   ( 7.2 %)
+    e-/hole pair  1 beta :  ampl =  0.8485   (72.0 %)
+    e-/hole pair  2 beta :  ampl =  0.3051   ( 9.3 %)
+    e-/hole pair  3 beta :  ampl =  0.2441   ( 6.0 %)
+  These amplitudes account for 94.5 % of total amplitude
+
+  Excited state 26:   4.2946 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1739   ( 3.0 %)
+    e-/hole pair  1 beta :  ampl =  0.9228   (85.2 %)
+    e-/hole pair  2 beta :  ampl =  0.1917   ( 3.7 %)
+    e-/hole pair  3 beta :  ampl =  0.1529   ( 2.3 %)
+  These amplitudes account for 94.2 % of total amplitude
+
+  Excited state 27:   4.3613 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1665   ( 2.8 %)
+    e-/hole pair  1 beta :  ampl =  0.9174   (84.2 %)
+    e-/hole pair  2 beta :  ampl =  0.2009   ( 4.0 %)
+    e-/hole pair  3 beta :  ampl =  0.1984   ( 3.9 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 28:   4.4051 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2355   ( 5.5 %)
+    e-/hole pair  2 alpha:  ampl =  0.1808   ( 3.3 %)
+    e-/hole pair  1 beta :  ampl =  0.6507   (42.3 %)
+    e-/hole pair  2 beta :  ampl =  0.5220   (27.2 %)
+    e-/hole pair  3 beta :  ampl =  0.3521   (12.4 %)
+    e-/hole pair  4 beta :  ampl =  0.2524   ( 6.4 %)
+  These amplitudes account for 97.2 % of total amplitude
+
+  Excited state 29:   4.4245 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1950   ( 3.8 %)
+    e-/hole pair  2 alpha:  ampl =  0.1732   ( 3.0 %)
+    e-/hole pair  1 beta :  ampl =  0.7300   (53.3 %)
+    e-/hole pair  2 beta :  ampl =  0.5366   (28.8 %)
+    e-/hole pair  3 beta :  ampl =  0.1938   ( 3.8 %)
+    e-/hole pair  4 beta :  ampl =  0.1830   ( 3.3 %)
+  These amplitudes account for 96.0 % of total amplitude
+
+  Excited state 30:   4.4318 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2544   ( 6.5 %)
+    e-/hole pair  1 beta :  ampl =  0.6080   (37.0 %)
+    e-/hole pair  2 beta :  ampl =  0.5684   (32.3 %)
+    e-/hole pair  3 beta :  ampl =  0.4056   (16.4 %)
+    e-/hole pair  4 beta :  ampl =  0.2119   ( 4.5 %)
+  These amplitudes account for 96.7 % of total amplitude
+
+  Excited state 31:   4.4402 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6503   (42.3 %)
+    e-/hole pair  2 alpha:  ampl =  0.1674   ( 2.8 %)
+    e-/hole pair  1 beta :  ampl =  0.6163   (38.0 %)
+    e-/hole pair  2 beta :  ampl =  0.2575   ( 6.6 %)
+    e-/hole pair  3 beta :  ampl =  0.2342   ( 5.5 %)
+  These amplitudes account for 95.2 % of total amplitude
+
+  Excited state 32:   4.4532 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6363   (40.5 %)
+    e-/hole pair  2 alpha:  ampl =  0.2878   ( 8.3 %)
+    e-/hole pair  1 beta :  ampl =  0.4719   (22.3 %)
+    e-/hole pair  2 beta :  ampl =  0.3300   (10.9 %)
+    e-/hole pair  3 beta :  ampl =  0.3143   ( 9.9 %)
+    e-/hole pair  4 beta :  ampl =  0.1953   ( 3.8 %)
+  These amplitudes account for 95.6 % of total amplitude
+
+  Excited state 33:   4.4730 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3492   (12.2 %)
+    e-/hole pair  2 alpha:  ampl =  0.2326   ( 5.4 %)
+    e-/hole pair  3 alpha:  ampl =  0.1538   ( 2.4 %)
+    e-/hole pair  1 beta :  ampl =  0.6259   (39.2 %)
+    e-/hole pair  2 beta :  ampl =  0.4862   (23.6 %)
+    e-/hole pair  3 beta :  ampl =  0.3287   (10.8 %)
+    e-/hole pair  4 beta :  ampl =  0.1828   ( 3.3 %)
+  These amplitudes account for 96.9 % of total amplitude
+
+  Excited state 34:   4.5129 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6396   (40.9 %)
+    e-/hole pair  2 alpha:  ampl =  0.1951   ( 3.8 %)
+    e-/hole pair  1 beta :  ampl =  0.5090   (25.9 %)
+    e-/hole pair  2 beta :  ampl =  0.4344   (18.9 %)
+    e-/hole pair  3 beta :  ampl =  0.2454   ( 6.0 %)
+  These amplitudes account for 95.5 % of total amplitude
+
+  Excited state 35:   4.5156 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6702   (44.9 %)
+    e-/hole pair  2 alpha:  ampl =  0.1596   ( 2.5 %)
+    e-/hole pair  1 beta :  ampl =  0.5112   (26.1 %)
+    e-/hole pair  2 beta :  ampl =  0.3908   (15.3 %)
+    e-/hole pair  3 beta :  ampl =  0.2234   ( 5.0 %)
+  These amplitudes account for 93.9 % of total amplitude
+
+  Excited state 36:   4.5259 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3234   (10.5 %)
+    e-/hole pair  2 alpha:  ampl =  0.2640   ( 7.0 %)
+    e-/hole pair  1 beta :  ampl =  0.6056   (36.7 %)
+    e-/hole pair  2 beta :  ampl =  0.4892   (23.9 %)
+    e-/hole pair  3 beta :  ampl =  0.3572   (12.8 %)
+    e-/hole pair  4 beta :  ampl =  0.2307   ( 5.3 %)
+  These amplitudes account for 96.1 % of total amplitude
+
+  Excited state 37:   4.5663 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2401   ( 5.8 %)
+    e-/hole pair  1 beta :  ampl =  0.5737   (32.9 %)
+    e-/hole pair  2 beta :  ampl =  0.4796   (23.0 %)
+    e-/hole pair  3 beta :  ampl =  0.3886   (15.1 %)
+    e-/hole pair  4 beta :  ampl =  0.3771   (14.2 %)
+    e-/hole pair  5 beta :  ampl =  0.1574   ( 2.5 %)
+  These amplitudes account for 93.5 % of total amplitude
+
+  Excited state 38:   4.5917 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1695   ( 2.9 %)
+    e-/hole pair  1 beta :  ampl =  0.6713   (45.1 %)
+    e-/hole pair  2 beta :  ampl =  0.4682   (21.9 %)
+    e-/hole pair  3 beta :  ampl =  0.3663   (13.4 %)
+    e-/hole pair  4 beta :  ampl =  0.2660   ( 7.1 %)
+    e-/hole pair  5 beta :  ampl =  0.2637   ( 7.0 %)
+  These amplitudes account for 97.3 % of total amplitude
+
+  Excited state 39:   4.6123 eV 
+    e-/hole pair  1 beta :  ampl =  0.8092   (65.5 %)
+    e-/hole pair  2 beta :  ampl =  0.4493   (20.2 %)
+    e-/hole pair  3 beta :  ampl =  0.2553   ( 6.5 %)
+  These amplitudes account for 92.2 % of total amplitude
+
+  Excited state 40:   4.6406 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1507   ( 2.3 %)
+    e-/hole pair  1 beta :  ampl =  0.7017   (49.2 %)
+    e-/hole pair  2 beta :  ampl =  0.4350   (18.9 %)
+    e-/hole pair  3 beta :  ampl =  0.3704   (13.7 %)
+    e-/hole pair  4 beta :  ampl =  0.2327   ( 5.4 %)
+    e-/hole pair  5 beta :  ampl =  0.2122   ( 4.5 %)
+  These amplitudes account for 94.1 % of total amplitude
+
+  Excited state 41:   4.6704 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1623   ( 2.6 %)
+    e-/hole pair  1 beta :  ampl =  0.7908   (62.5 %)
+    e-/hole pair  2 beta :  ampl =  0.4199   (17.6 %)
+    e-/hole pair  3 beta :  ampl =  0.3157   (10.0 %)
+    e-/hole pair  4 beta :  ampl =  0.1655   ( 2.7 %)
+  These amplitudes account for 95.5 % of total amplitude
+
+  Excited state 42:   4.6834 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2493   ( 6.2 %)
+    e-/hole pair  2 alpha:  ampl =  0.1646   ( 2.7 %)
+    e-/hole pair  1 beta :  ampl =  0.8074   (65.2 %)
+    e-/hole pair  2 beta :  ampl =  0.3319   (11.0 %)
+    e-/hole pair  3 beta :  ampl =  0.2405   ( 5.8 %)
+    e-/hole pair  4 beta :  ampl =  0.1602   ( 2.6 %)
+  These amplitudes account for 93.5 % of total amplitude
+
+  Excited state 43:   4.7071 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2261   ( 5.1 %)
+    e-/hole pair  1 beta :  ampl =  0.8207   (67.4 %)
+    e-/hole pair  2 beta :  ampl =  0.4145   (17.2 %)
+    e-/hole pair  3 beta :  ampl =  0.1726   ( 3.0 %)
+  These amplitudes account for 92.6 % of total amplitude
+
+  Excited state 44:   4.7498 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5068   (25.7 %)
+    e-/hole pair  1 beta :  ampl =  0.6942   (48.2 %)
+    e-/hole pair  2 beta :  ampl =  0.3071   ( 9.4 %)
+    e-/hole pair  3 beta :  ampl =  0.2830   ( 8.0 %)
+  These amplitudes account for 91.3 % of total amplitude
+
+  Excited state 45:   4.7839 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5010   (25.1 %)
+    e-/hole pair  1 beta :  ampl =  0.5908   (34.9 %)
+    e-/hole pair  2 beta :  ampl =  0.3689   (13.6 %)
+    e-/hole pair  3 beta :  ampl =  0.3198   (10.2 %)
+    e-/hole pair  4 beta :  ampl =  0.2457   ( 6.0 %)
+    e-/hole pair  5 beta :  ampl =  0.1835   ( 3.4 %)
+  These amplitudes account for 93.2 % of total amplitude
+
+  Excited state 46:   4.7967 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5072   (25.7 %)
+    e-/hole pair  2 alpha:  ampl =  0.1903   ( 3.6 %)
+    e-/hole pair  1 beta :  ampl =  0.6098   (37.2 %)
+    e-/hole pair  2 beta :  ampl =  0.4117   (16.9 %)
+    e-/hole pair  3 beta :  ampl =  0.2862   ( 8.2 %)
+    e-/hole pair  4 beta :  ampl =  0.2010   ( 4.0 %)
+  These amplitudes account for 95.7 % of total amplitude
+
+  Excited state 47:   4.8261 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4407   (19.4 %)
+    e-/hole pair  2 alpha:  ampl =  0.1780   ( 3.2 %)
+    e-/hole pair  1 beta :  ampl =  0.6748   (45.5 %)
+    e-/hole pair  2 beta :  ampl =  0.3552   (12.6 %)
+    e-/hole pair  3 beta :  ampl =  0.2697   ( 7.3 %)
+    e-/hole pair  4 beta :  ampl =  0.2053   ( 4.2 %)
+    e-/hole pair  5 beta :  ampl =  0.1799   ( 3.2 %)
+  These amplitudes account for 95.5 % of total amplitude
+
+  Excited state 48:   4.8554 eV 
+    e-/hole pair  1 alpha:  ampl =  0.7592   (57.6 %)
+    e-/hole pair  1 beta :  ampl =  0.5633   (31.7 %)
+    e-/hole pair  2 beta :  ampl =  0.2150   ( 4.6 %)
+  These amplitudes account for 94.0 % of total amplitude
+
+  Excited state 49:   4.8678 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5773   (33.3 %)
+    e-/hole pair  2 alpha:  ampl =  0.2207   ( 4.9 %)
+    e-/hole pair  3 alpha:  ampl =  0.2024   ( 4.1 %)
+    e-/hole pair  1 beta :  ampl =  0.6195   (38.4 %)
+    e-/hole pair  2 beta :  ampl =  0.2953   ( 8.7 %)
+    e-/hole pair  3 beta :  ampl =  0.2263   ( 5.1 %)
+  These amplitudes account for 94.5 % of total amplitude
+
+  Excited state 50:   4.8737 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1806   ( 3.3 %)
+    e-/hole pair  2 alpha:  ampl =  0.1537   ( 2.4 %)
+    e-/hole pair  1 beta :  ampl =  0.8554   (73.2 %)
+    e-/hole pair  2 beta :  ampl =  0.3015   ( 9.1 %)
+    e-/hole pair  3 beta :  ampl =  0.1953   ( 3.8 %)
+  These amplitudes account for 91.7 % of total amplitude
+
+  Excited state 51:   4.8853 eV 
+    e-/hole pair  1 alpha:  ampl =  0.7889   (62.2 %)
+    e-/hole pair  2 alpha:  ampl =  0.2778   ( 7.7 %)
+    e-/hole pair  1 beta :  ampl =  0.3163   (10.0 %)
+    e-/hole pair  2 beta :  ampl =  0.2961   ( 8.8 %)
+    e-/hole pair  3 beta :  ampl =  0.2041   ( 4.2 %)
+  These amplitudes account for 92.9 % of total amplitude
+
+  Excited state 52:   4.8898 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5091   (25.9 %)
+    e-/hole pair  2 alpha:  ampl =  0.4151   (17.2 %)
+    e-/hole pair  1 beta :  ampl =  0.5421   (29.4 %)
+    e-/hole pair  2 beta :  ampl =  0.3924   (15.4 %)
+    e-/hole pair  3 beta :  ampl =  0.1843   ( 3.4 %)
+    e-/hole pair  4 beta :  ampl =  0.1720   ( 3.0 %)
+  These amplitudes account for 94.3 % of total amplitude
+
+  Excited state 53:   4.8983 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6987   (48.8 %)
+    e-/hole pair  1 beta :  ampl =  0.7086   (50.2 %)
+  These amplitudes account for 99.0 % of total amplitude
+
+  Excited state 54:   4.9117 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3581   (12.8 %)
+    e-/hole pair  2 alpha:  ampl =  0.2601   ( 6.8 %)
+    e-/hole pair  1 beta :  ampl =  0.6781   (46.0 %)
+    e-/hole pair  2 beta :  ampl =  0.4159   (17.3 %)
+    e-/hole pair  3 beta :  ampl =  0.2271   ( 5.2 %)
+    e-/hole pair  4 beta :  ampl =  0.1848   ( 3.4 %)
+    e-/hole pair  5 beta :  ampl =  0.1634   ( 2.7 %)
+  These amplitudes account for 94.1 % of total amplitude
+
+  Excited state 55:   4.9301 eV 
+    e-/hole pair  1 beta :  ampl =  0.7960   (63.4 %)
+    e-/hole pair  2 beta :  ampl =  0.5013   (25.1 %)
+    e-/hole pair  3 beta :  ampl =  0.1920   ( 3.7 %)
+  These amplitudes account for 92.2 % of total amplitude
+
+  Excited state 56:   4.9508 eV 
+    e-/hole pair  1 beta :  ampl =  0.9091   (82.6 %)
+    e-/hole pair  2 beta :  ampl =  0.3170   (10.0 %)
+  These amplitudes account for 92.7 % of total amplitude
+
+  Excited state 57:   5.0043 eV 
+    e-/hole pair  1 beta :  ampl =  0.9251   (85.6 %)
+    e-/hole pair  2 beta :  ampl =  0.3264   (10.7 %)
+    e-/hole pair  3 beta :  ampl =  0.1550   ( 2.4 %)
+  These amplitudes account for 98.6 % of total amplitude
+
+  Excited state 58:   5.0293 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1564   ( 2.4 %)
+    e-/hole pair  1 beta :  ampl =  0.9009   (81.2 %)
+    e-/hole pair  2 beta :  ampl =  0.2623   ( 6.9 %)
+    e-/hole pair  3 beta :  ampl =  0.2108   ( 4.4 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 59:   5.0458 eV 
+    e-/hole pair  1 alpha:  ampl =  0.9352   (87.5 %)
+    e-/hole pair  1 beta :  ampl =  0.2620   ( 6.9 %)
+  These amplitudes account for 94.3 % of total amplitude
+
+  Excited state 60:   5.0573 eV 
+    e-/hole pair  1 alpha:  ampl =  0.9373   (87.9 %)
+    e-/hole pair  1 beta :  ampl =  0.2536   ( 6.4 %)
+    e-/hole pair  2 beta :  ampl =  0.1523   ( 2.3 %)
+  These amplitudes account for 96.6 % of total amplitude
+
+  Excited state 61:   5.0724 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1955   ( 3.8 %)
+    e-/hole pair  1 beta :  ampl =  0.7315   (53.5 %)
+    e-/hole pair  2 beta :  ampl =  0.4737   (22.4 %)
+    e-/hole pair  3 beta :  ampl =  0.3393   (11.5 %)
+    e-/hole pair  4 beta :  ampl =  0.1931   ( 3.7 %)
+  These amplitudes account for 95.0 % of total amplitude
+
+  Excited state 62:   5.0807 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2514   ( 6.3 %)
+    e-/hole pair  2 alpha:  ampl =  0.1686   ( 2.8 %)
+    e-/hole pair  1 beta :  ampl =  0.6569   (43.2 %)
+    e-/hole pair  2 beta :  ampl =  0.4688   (22.0 %)
+    e-/hole pair  3 beta :  ampl =  0.3860   (14.9 %)
+    e-/hole pair  4 beta :  ampl =  0.1827   ( 3.3 %)
+    e-/hole pair  5 beta :  ampl =  0.1660   ( 2.8 %)
+  These amplitudes account for 95.3 % of total amplitude
+
+  Excited state 63:   5.1019 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6543   (42.8 %)
+    e-/hole pair  2 alpha:  ampl =  0.1651   ( 2.7 %)
+    e-/hole pair  1 beta :  ampl =  0.6615   (43.8 %)
+    e-/hole pair  2 beta :  ampl =  0.1826   ( 3.3 %)
+  These amplitudes account for 92.6 % of total amplitude
+
+  Excited state 64:   5.1112 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1856   ( 3.4 %)
+    e-/hole pair  1 beta :  ampl =  0.8478   (71.9 %)
+    e-/hole pair  2 beta :  ampl =  0.4267   (18.2 %)
+  These amplitudes account for 93.5 % of total amplitude
+
+  Excited state 65:   5.1192 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4405   (19.4 %)
+    e-/hole pair  1 beta :  ampl =  0.7851   (61.6 %)
+    e-/hole pair  2 beta :  ampl =  0.3233   (10.5 %)
+  These amplitudes account for 91.5 % of total amplitude
+
+  Excited state 66:   5.1359 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2392   ( 5.7 %)
+    e-/hole pair  1 beta :  ampl =  0.9043   (81.8 %)
+    e-/hole pair  2 beta :  ampl =  0.1919   ( 3.7 %)
+    e-/hole pair  3 beta :  ampl =  0.1649   ( 2.7 %)
+  These amplitudes account for 93.9 % of total amplitude
+
+  Excited state 67:   5.1412 eV 
+    e-/hole pair  1 alpha:  ampl =  0.7551   (57.0 %)
+    e-/hole pair  2 alpha:  ampl =  0.2109   ( 4.4 %)
+    e-/hole pair  1 beta :  ampl =  0.4244   (18.0 %)
+    e-/hole pair  2 beta :  ampl =  0.2468   ( 6.1 %)
+    e-/hole pair  3 beta :  ampl =  0.1874   ( 3.5 %)
+    e-/hole pair  4 beta :  ampl =  0.1806   ( 3.3 %)
+  These amplitudes account for 92.4 % of total amplitude
+
+  Excited state 68:   5.1476 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6861   (47.1 %)
+    e-/hole pair  1 beta :  ampl =  0.6880   (47.3 %)
+  These amplitudes account for 94.4 % of total amplitude
+
+  Excited state 69:   5.1750 eV 
+    e-/hole pair  1 alpha:  ampl =  0.9649   (93.1 %)
+  These amplitudes account for 93.1 % of total amplitude
+
+  Excited state 70:   5.1839 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6323   (40.0 %)
+    e-/hole pair  2 alpha:  ampl =  0.3681   (13.6 %)
+    e-/hole pair  1 beta :  ampl =  0.6279   (39.4 %)
+  These amplitudes account for 93.0 % of total amplitude
+
+  Excited state 71:   5.2085 eV 
+    e-/hole pair  1 beta :  ampl =  0.9451   (89.3 %)
+    e-/hole pair  2 beta :  ampl =  0.1533   ( 2.4 %)
+  These amplitudes account for 91.7 % of total amplitude
+
+  Excited state 72:   5.2301 eV 
+    e-/hole pair  1 beta :  ampl =  0.8068   (65.1 %)
+    e-/hole pair  2 beta :  ampl =  0.5232   (27.4 %)
+  These amplitudes account for 92.5 % of total amplitude
+
+  Excited state 73:   5.2467 eV 
+    e-/hole pair  1 alpha:  ampl =  0.7024   (49.3 %)
+    e-/hole pair  1 beta :  ampl =  0.7035   (49.5 %)
+  These amplitudes account for 98.8 % of total amplitude
+
+  Excited state 74:   5.2552 eV 
+    e-/hole pair  1 alpha:  ampl =  0.9870   (97.4 %)
+  These amplitudes account for 97.4 % of total amplitude
+
+  Excited state 75:   5.2755 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1552   ( 2.4 %)
+    e-/hole pair  1 beta :  ampl =  0.8782   (77.1 %)
+    e-/hole pair  2 beta :  ampl =  0.2532   ( 6.4 %)
+    e-/hole pair  3 beta :  ampl =  0.2481   ( 6.2 %)
+    e-/hole pair  4 beta :  ampl =  0.1666   ( 2.8 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 76:   5.2782 eV 
+    e-/hole pair  1 beta :  ampl =  0.8401   (70.6 %)
+    e-/hole pair  2 beta :  ampl =  0.3971   (15.8 %)
+    e-/hole pair  3 beta :  ampl =  0.2659   ( 7.1 %)
+  These amplitudes account for 93.4 % of total amplitude
+
+  Excited state 77:   5.3117 eV 
+    e-/hole pair  1 alpha:  ampl =  0.9845   (96.9 %)
+  These amplitudes account for 96.9 % of total amplitude
+
+  Excited state 78:   5.3224 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3977   (15.8 %)
+    e-/hole pair  2 alpha:  ampl =  0.2188   ( 4.8 %)
+    e-/hole pair  1 beta :  ampl =  0.5686   (32.3 %)
+    e-/hole pair  2 beta :  ampl =  0.4537   (20.6 %)
+    e-/hole pair  3 beta :  ampl =  0.3645   (13.3 %)
+    e-/hole pair  4 beta :  ampl =  0.2493   ( 6.2 %)
+  These amplitudes account for 93.0 % of total amplitude
+
+  Excited state 79:   5.3274 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2293   ( 5.3 %)
+    e-/hole pair  2 alpha:  ampl =  0.1617   ( 2.6 %)
+    e-/hole pair  1 beta :  ampl =  0.7841   (61.5 %)
+    e-/hole pair  2 beta :  ampl =  0.3372   (11.4 %)
+    e-/hole pair  3 beta :  ampl =  0.2631   ( 6.9 %)
+    e-/hole pair  4 beta :  ampl =  0.1883   ( 3.5 %)
+    e-/hole pair  5 beta :  ampl =  0.1650   ( 2.7 %)
+  These amplitudes account for 93.9 % of total amplitude
+
+  Excited state 80:   5.3342 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5818   (33.9 %)
+    e-/hole pair  2 alpha:  ampl =  0.3052   ( 9.3 %)
+    e-/hole pair  1 beta :  ampl =  0.5858   (34.3 %)
+    e-/hole pair  2 beta :  ampl =  0.2662   ( 7.1 %)
+    e-/hole pair  3 beta :  ampl =  0.2456   ( 6.0 %)
+    e-/hole pair  4 beta :  ampl =  0.2062   ( 4.3 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 81:   5.3474 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2598   ( 6.7 %)
+    e-/hole pair  2 alpha:  ampl =  0.1843   ( 3.4 %)
+    e-/hole pair  1 beta :  ampl =  0.5741   (33.0 %)
+    e-/hole pair  2 beta :  ampl =  0.5113   (26.1 %)
+    e-/hole pair  3 beta :  ampl =  0.3504   (12.3 %)
+    e-/hole pair  4 beta :  ampl =  0.2594   ( 6.7 %)
+    e-/hole pair  5 beta :  ampl =  0.1598   ( 2.6 %)
+  These amplitudes account for 90.8 % of total amplitude
+
+  Excited state 82:   5.3660 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6564   (43.1 %)
+    e-/hole pair  1 beta :  ampl =  0.6646   (44.2 %)
+    e-/hole pair  2 beta :  ampl =  0.1810   ( 3.3 %)
+    e-/hole pair  3 beta :  ampl =  0.1732   ( 3.0 %)
+  These amplitudes account for 93.5 % of total amplitude
+
+  Excited state 83:   5.3736 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2363   ( 5.6 %)
+    e-/hole pair  1 beta :  ampl =  0.8791   (77.3 %)
+    e-/hole pair  2 beta :  ampl =  0.2034   ( 4.1 %)
+    e-/hole pair  3 beta :  ampl =  0.1826   ( 3.3 %)
+    e-/hole pair  4 beta :  ampl =  0.1523   ( 2.3 %)
+  These amplitudes account for 92.7 % of total amplitude
+
+  Excited state 84:   5.3975 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6904   (47.7 %)
+    e-/hole pair  2 alpha:  ampl =  0.1957   ( 3.8 %)
+    e-/hole pair  3 alpha:  ampl =  0.1836   ( 3.4 %)
+    e-/hole pair  1 beta :  ampl =  0.4667   (21.8 %)
+    e-/hole pair  2 beta :  ampl =  0.2481   ( 6.2 %)
+    e-/hole pair  3 beta :  ampl =  0.1788   ( 3.2 %)
+    e-/hole pair  4 beta :  ampl =  0.1735   ( 3.0 %)
+  These amplitudes account for 89.0 % of total amplitude
+
+  Excited state 85:   5.4022 eV 
+    e-/hole pair  1 alpha:  ampl =  0.5123   (26.2 %)
+    e-/hole pair  2 alpha:  ampl =  0.4223   (17.8 %)
+    e-/hole pair  3 alpha:  ampl =  0.2481   ( 6.2 %)
+    e-/hole pair  4 alpha:  ampl =  0.1942   ( 3.8 %)
+    e-/hole pair  1 beta :  ampl =  0.4045   (16.4 %)
+    e-/hole pair  2 beta :  ampl =  0.2698   ( 7.3 %)
+    e-/hole pair  3 beta :  ampl =  0.2508   ( 6.3 %)
+    e-/hole pair  4 beta :  ampl =  0.2333   ( 5.4 %)
+    e-/hole pair  5 beta :  ampl =  0.1557   ( 2.4 %)
+  These amplitudes account for 91.8 % of total amplitude
+
+  Excited state 86:   5.4084 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4001   (16.0 %)
+    e-/hole pair  2 alpha:  ampl =  0.3177   (10.1 %)
+    e-/hole pair  3 alpha:  ampl =  0.2337   ( 5.5 %)
+    e-/hole pair  4 alpha:  ampl =  0.2122   ( 4.5 %)
+    e-/hole pair  1 beta :  ampl =  0.4228   (17.9 %)
+    e-/hole pair  2 beta :  ampl =  0.3727   (13.9 %)
+    e-/hole pair  3 beta :  ampl =  0.2546   ( 6.5 %)
+    e-/hole pair  4 beta :  ampl =  0.2318   ( 5.4 %)
+    e-/hole pair  5 beta :  ampl =  0.2234   ( 5.0 %)
+    e-/hole pair  6 beta :  ampl =  0.2128   ( 4.5 %)
+    e-/hole pair  7 beta :  ampl =  0.1553   ( 2.4 %)
+  These amplitudes account for 91.6 % of total amplitude
+
+  Excited state 87:   5.4235 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3620   (13.1 %)
+    e-/hole pair  2 alpha:  ampl =  0.1922   ( 3.7 %)
+    e-/hole pair  3 alpha:  ampl =  0.1841   ( 3.4 %)
+    e-/hole pair  4 alpha:  ampl =  0.1509   ( 2.3 %)
+    e-/hole pair  1 beta :  ampl =  0.6836   (46.7 %)
+    e-/hole pair  2 beta :  ampl =  0.3203   (10.3 %)
+    e-/hole pair  3 beta :  ampl =  0.2669   ( 7.1 %)
+    e-/hole pair  4 beta :  ampl =  0.2039   ( 4.2 %)
+  These amplitudes account for 90.7 % of total amplitude
+
+  Excited state 88:   5.4281 eV 
+    e-/hole pair  1 alpha:  ampl =  0.6184   (38.2 %)
+    e-/hole pair  2 alpha:  ampl =  0.3770   (14.2 %)
+    e-/hole pair  1 beta :  ampl =  0.6016   (36.2 %)
+    e-/hole pair  2 beta :  ampl =  0.2274   ( 5.2 %)
+  These amplitudes account for 93.8 % of total amplitude
+
+  Excited state 89:   5.4374 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2654   ( 7.0 %)
+    e-/hole pair  2 alpha:  ampl =  0.2474   ( 6.1 %)
+    e-/hole pair  1 beta :  ampl =  0.8798   (77.4 %)
+  These amplitudes account for 90.6 % of total amplitude
+
+  Excited state 90:   5.4395 eV 
+    e-/hole pair  1 alpha:  ampl =  0.8559   (73.2 %)
+    e-/hole pair  2 alpha:  ampl =  0.2861   ( 8.2 %)
+    e-/hole pair  1 beta :  ampl =  0.2990   ( 8.9 %)
+    e-/hole pair  2 beta :  ampl =  0.2401   ( 5.8 %)
+  These amplitudes account for 96.1 % of total amplitude
+
+  Excited state 91:   5.4501 eV 
+    e-/hole pair  1 alpha:  ampl =  0.7795   (60.8 %)
+    e-/hole pair  1 beta :  ampl =  0.5146   (26.5 %)
+    e-/hole pair  2 beta :  ampl =  0.2536   ( 6.4 %)
+  These amplitudes account for 93.7 % of total amplitude
+
+  Excited state 92:   5.4649 eV 
+    e-/hole pair  1 alpha:  ampl =  0.4493   (20.2 %)
+    e-/hole pair  1 beta :  ampl =  0.7348   (54.0 %)
+    e-/hole pair  2 beta :  ampl =  0.4154   (17.3 %)
+    e-/hole pair  3 beta :  ampl =  0.1954   ( 3.8 %)
+  These amplitudes account for 95.3 % of total amplitude
+
+  Excited state 93:   5.4731 eV 
+    e-/hole pair  1 alpha:  ampl =  0.1813   ( 3.3 %)
+    e-/hole pair  1 beta :  ampl =  0.7800   (60.8 %)
+    e-/hole pair  2 beta :  ampl =  0.3682   (13.6 %)
+    e-/hole pair  3 beta :  ampl =  0.3252   (10.6 %)
+    e-/hole pair  4 beta :  ampl =  0.1726   ( 3.0 %)
+  These amplitudes account for 91.2 % of total amplitude
+
+  Excited state 94:   5.4790 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3890   (15.1 %)
+    e-/hole pair  2 alpha:  ampl =  0.2539   ( 6.4 %)
+    e-/hole pair  3 alpha:  ampl =  0.1603   ( 2.6 %)
+    e-/hole pair  1 beta :  ampl =  0.5436   (29.5 %)
+    e-/hole pair  2 beta :  ampl =  0.3945   (15.6 %)
+    e-/hole pair  3 beta :  ampl =  0.3435   (11.8 %)
+    e-/hole pair  4 beta :  ampl =  0.2195   ( 4.8 %)
+    e-/hole pair  5 beta :  ampl =  0.2176   ( 4.7 %)
+    e-/hole pair  6 beta :  ampl =  0.1574   ( 2.5 %)
+  These amplitudes account for 93.1 % of total amplitude
+
+  Excited state 95:   5.4853 eV 
+    e-/hole pair  1 alpha:  ampl =  0.2741   ( 7.5 %)
+    e-/hole pair  2 alpha:  ampl =  0.2405   ( 5.8 %)
+    e-/hole pair  1 beta :  ampl =  0.7375   (54.4 %)
+    e-/hole pair  2 beta :  ampl =  0.3229   (10.4 %)
+    e-/hole pair  3 beta :  ampl =  0.3121   ( 9.7 %)
+    e-/hole pair  4 beta :  ampl =  0.2507   ( 6.3 %)
+  These amplitudes account for 94.1 % of total amplitude
+
+  Excited state 96:   5.4975 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3950   (15.6 %)
+    e-/hole pair  2 alpha:  ampl =  0.1570   ( 2.5 %)
+    e-/hole pair  1 beta :  ampl =  0.7922   (62.8 %)
+    e-/hole pair  2 beta :  ampl =  0.3573   (12.8 %)
+  These amplitudes account for 93.6 % of total amplitude
+
+  Excited state 97:   5.5016 eV 
+    e-/hole pair  1 alpha:  ampl =  0.8581   (73.6 %)
+    e-/hole pair  1 beta :  ampl =  0.3784   (14.3 %)
+    e-/hole pair  2 beta :  ampl =  0.1899   ( 3.6 %)
+    e-/hole pair  3 beta :  ampl =  0.1820   ( 3.3 %)
+  These amplitudes account for 94.9 % of total amplitude
+
+  Excited state 98:   5.5103 eV 
+    e-/hole pair  1 alpha:  ampl =  0.8340   (69.6 %)
+    e-/hole pair  1 beta :  ampl =  0.4586   (21.0 %)
+    e-/hole pair  2 beta :  ampl =  0.1950   ( 3.8 %)
+  These amplitudes account for 94.4 % of total amplitude
+
+  Excited state 99:   5.5220 eV 
+    e-/hole pair  1 alpha:  ampl =  0.9067   (82.2 %)
+    e-/hole pair  1 beta :  ampl =  0.3145   ( 9.9 %)
+    e-/hole pair  2 beta :  ampl =  0.1661   ( 2.8 %)
+  These amplitudes account for 94.8 % of total amplitude
+
+  Excited state 100:   5.5259 eV 
+    e-/hole pair  1 alpha:  ampl =  0.3830   (14.7 %)
+    e-/hole pair  2 alpha:  ampl =  0.2424   ( 5.9 %)
+    e-/hole pair  1 beta :  ampl =  0.7314   (53.5 %)
+    e-/hole pair  2 beta :  ampl =  0.4195   (17.6 %)
+  These amplitudes account for 91.6 % of total amplitude
+
+ =======================================================
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+******** -30.2096 -26.0642 -26.0623 -26.0611 -19.1843 -19.1834 -19.1832
+-19.1826 -19.1807 -19.1740 -19.1733 -19.1722 -19.1704 -19.1683 -19.1577
+-14.4177 -14.4156 -14.4086 -14.4030 -14.3795 -14.3772 -10.3582 -10.3581
+-10.3524 -10.3518 -10.3481 -10.3019 -10.2899 -10.2894 -10.2855 -10.2831
+-10.2812 -10.2807 -10.2760 -10.2739 -10.2678 -10.2670 -10.2659 -10.2593
+-10.2494 -10.2492 -10.2486 -10.2479 -10.2477 -10.2472 -10.2463 -10.2451
+-10.2396 -10.2382 -10.2365 -10.2365 -10.2364 -10.2360 -10.2351 -10.2341
+ -3.7020  -2.4792  -2.4757  -2.4734  -1.1250  -1.1125  -1.1117  -1.1104
+ -1.1092  -1.0827  -1.0783  -1.0463  -1.0402  -1.0377  -1.0281  -0.9981
+ -0.9981  -0.9893  -0.9860  -0.9760  -0.9749  -0.9079  -0.9069  -0.8656
+ -0.8623  -0.8498  -0.8415  -0.8360  -0.8102  -0.8048  -0.8010  -0.7894
+ -0.7843  -0.7784  -0.7681  -0.7441  -0.7359  -0.7102  -0.7024  -0.6856
+ -0.6777  -0.6773  -0.6650  -0.6580  -0.6541  -0.6538  -0.6499  -0.6379
+ -0.6346  -0.6303  -0.6252  -0.6193  -0.5992  -0.5858  -0.5831  -0.5706
+ -0.5602  -0.5599  -0.5541  -0.5512  -0.5498  -0.5485  -0.5426  -0.5376
+ -0.5349  -0.5322  -0.5287  -0.5270  -0.5253  -0.5216  -0.5200  -0.5161
+ -0.5143  -0.5099  -0.5066  -0.5038  -0.5014  -0.4997  -0.4949  -0.4930
+ -0.4886  -0.4875  -0.4842  -0.4814  -0.4786  -0.4778  -0.4753  -0.4747
+ -0.4710  -0.4679  -0.4649  -0.4627  -0.4603  -0.4588  -0.4572  -0.4542
+ -0.4518  -0.4490  -0.4481  -0.4459  -0.4445  -0.4352  -0.4342  -0.4328
+ -0.4300  -0.4290  -0.4243  -0.4211  -0.4163  -0.4146  -0.4123  -0.4053
+ -0.4044  -0.4005  -0.3998  -0.3984  -0.3963  -0.3909  -0.3856  -0.3826
+ -0.3821  -0.3788  -0.3781  -0.3733  -0.3725  -0.3680  -0.3613  -0.3527
+ -0.3420  -0.3336  -0.3311  -0.3264  -0.3244  -0.3218  -0.3201  -0.3154
+ -0.3148  -0.3137  -0.3097  -0.3072  -0.3055  -0.2918  -0.2873  -0.2817
+ -0.2792  -0.2747  -0.2704  -0.2690  -0.2211  -0.2205
+ -- Virtual --
+  0.0155   0.0180   0.0192   0.0201   0.0213   0.0243   0.0259   0.0271
+  0.0294   0.0328   0.0341   0.0362   0.0368   0.0382   0.0439   0.0443
+  0.0455   0.0488   0.0505   0.0530   0.0553   0.0567   0.0583   0.0592
+  0.0607   0.0627   0.0633   0.0655   0.0671   0.0687   0.0696   0.0731
+  0.0739   0.0748   0.0767   0.0773   0.0805   0.0813   0.0821   0.0835
+  0.0863   0.0886   0.0898   0.0904   0.0929   0.0936   0.0950   0.0968
+  0.1002   0.1020   0.1022   0.1041   0.1055   0.1072   0.1098   0.1102
+  0.1107   0.1112   0.1131   0.1151   0.1167   0.1175   0.1178   0.1197
+  0.1203   0.1226   0.1234   0.1249   0.1262   0.1265   0.1278   0.1296
+  0.1304   0.1327   0.1335   0.1353   0.1359   0.1371   0.1385   0.1395
+  0.1410   0.1418   0.1437   0.1452   0.1454   0.1477   0.1488   0.1493
+  0.1499   0.1520   0.1543   0.1556   0.1564   0.1576   0.1587   0.1602
+  0.1620   0.1635   0.1646   0.1657   0.1658   0.1669   0.1679   0.1692
+  0.1705   0.1730   0.1743   0.1761   0.1765   0.1770   0.1787   0.1792
+  0.1798   0.1829   0.1838   0.1848   0.1859   0.1885   0.1909   0.1921
+  0.1938   0.1946   0.1959   0.1971   0.1981   0.1996   0.2010   0.2027
+  0.2035   0.2046   0.2060   0.2084   0.2086   0.2097   0.2126   0.2140
+  0.2144   0.2153   0.2178   0.2187   0.2191   0.2225   0.2239   0.2257
+  0.2265   0.2285   0.2296   0.2302   0.2312   0.2322   0.2339   0.2348
+  0.2359   0.2368   0.2395   0.2416   0.2421   0.2439   0.2443   0.2448
+  0.2457   0.2479   0.2486   0.2501   0.2519   0.2532   0.2541   0.2563
+  0.2583   0.2590   0.2598   0.2606   0.2629   0.2641   0.2651   0.2654
+  0.2680   0.2688   0.2694   0.2701   0.2724   0.2735   0.2752   0.2764
+  0.2767   0.2774   0.2790   0.2800   0.2810   0.2824   0.2825   0.2849
+  0.2856   0.2862   0.2876   0.2884   0.2896   0.2922   0.2928   0.2931
+  0.2950   0.2956   0.2966   0.2990   0.2993   0.2999   0.3019   0.3034
+  0.3045   0.3052   0.3066   0.3072   0.3102   0.3108   0.3120   0.3135
+  0.3140   0.3154   0.3168   0.3180   0.3188   0.3206   0.3216   0.3231
+  0.3246   0.3248   0.3256   0.3268   0.3280   0.3300   0.3304   0.3317
+  0.3326   0.3335   0.3358   0.3368   0.3373   0.3389   0.3400   0.3411
+  0.3426   0.3442   0.3452   0.3458   0.3470   0.3491   0.3499   0.3524
+  0.3527   0.3535   0.3555   0.3561   0.3575   0.3585   0.3602   0.3609
+  0.3619   0.3637   0.3650   0.3663   0.3672   0.3708   0.3717   0.3721
+  0.3730   0.3742   0.3763   0.3778   0.3795   0.3815   0.3824   0.3826
+  0.3837   0.3854   0.3858   0.3875   0.3900   0.3913   0.3934   0.3944
+  0.3946   0.3971   0.4002   0.4010   0.4015   0.4025   0.4054   0.4057
+  0.4066   0.4084   0.4094   0.4113   0.4114   0.4133   0.4142   0.4153
+  0.4158   0.4178   0.4196   0.4204   0.4222   0.4242   0.4254   0.4264
+  0.4283   0.4283   0.4300   0.4319   0.4344   0.4351   0.4361   0.4373
+  0.4387   0.4402   0.4415   0.4438   0.4450   0.4463   0.4474   0.4490
+  0.4513   0.4524   0.4531   0.4558   0.4573   0.4584   0.4593   0.4629
+  0.4646   0.4656   0.4677   0.4688   0.4710   0.4727   0.4737   0.4740
+  0.4761   0.4777   0.4792   0.4801   0.4818   0.4836   0.4849   0.4872
+  0.4881   0.4900   0.4910   0.4929   0.4947   0.4957   0.4978   0.4990
+  0.5003   0.5030   0.5042   0.5053   0.5063   0.5075   0.5101   0.5103
+  0.5116   0.5135   0.5156   0.5177   0.5186   0.5199   0.5223   0.5241
+  0.5244   0.5259   0.5273   0.5281   0.5302   0.5316   0.5361   0.5367
+  0.5383   0.5393   0.5415   0.5439   0.5446   0.5459   0.5486   0.5494
+  0.5511   0.5532   0.5534   0.5566   0.5579   0.5583   0.5604   0.5614
+  0.5646   0.5659   0.5672   0.5699   0.5706   0.5726   0.5728   0.5748
+  0.5771   0.5780   0.5804   0.5805   0.5832   0.5847   0.5859   0.5873
+  0.5904   0.5929   0.5940   0.5955   0.5969   0.5983   0.5992   0.6021
+  0.6029   0.6058   0.6071   0.6087   0.6104   0.6109   0.6141   0.6149
+  0.6161   0.6181   0.6194   0.6227   0.6236   0.6243   0.6255   0.6269
+  0.6282   0.6287   0.6307   0.6315   0.6320   0.6347   0.6373   0.6389
+  0.6394   0.6411   0.6443   0.6451   0.6466   0.6500   0.6507   0.6536
+  0.6548   0.6561   0.6582   0.6597   0.6607   0.6619   0.6632   0.6646
+  0.6670   0.6688   0.6701   0.6716   0.6727   0.6729   0.6740   0.6752
+  0.6781   0.6805   0.6820   0.6826   0.6855   0.6894   0.6899   0.6925
+  0.6927   0.6948   0.6956   0.6981   0.6986   0.7001   0.7020   0.7023
+  0.7050   0.7061   0.7069   0.7091   0.7111   0.7131   0.7140   0.7166
+  0.7180   0.7191   0.7197   0.7217   0.7228   0.7243   0.7268   0.7274
+  0.7295   0.7303   0.7305   0.7319   0.7333   0.7353   0.7363   0.7384
+  0.7404   0.7439   0.7449   0.7456   0.7460   0.7471   0.7516   0.7517
+  0.7530   0.7538   0.7558   0.7588   0.7599   0.7617   0.7629   0.7649
+  0.7657   0.7664   0.7689   0.7698   0.7718   0.7734   0.7754   0.7779
+  0.7786   0.7802   0.7826   0.7847   0.7859   0.7867   0.7890   0.7918
+  0.7929   0.7938   0.7947   0.7976   0.8001   0.8003   0.8026   0.8056
+  0.8081   0.8094   0.8110   0.8126   0.8136   0.8148   0.8169   0.8200
+  0.8202   0.8208   0.8235   0.8258   0.8266   0.8288   0.8291   0.8327
+  0.8332   0.8371   0.8391   0.8398   0.8403   0.8435   0.8453   0.8460
+  0.8471   0.8503   0.8523   0.8545   0.8559   0.8570   0.8586   0.8592
+  0.8622   0.8640   0.8663   0.8682   0.8698   0.8711   0.8739   0.8752
+  0.8766   0.8788   0.8806   0.8832   0.8835   0.8857   0.8868   0.8888
+  0.8918   0.8938   0.8962   0.8973   0.9008   0.9014   0.9041   0.9044
+  0.9049   0.9068   0.9095   0.9109   0.9131   0.9150   0.9173   0.9183
+  0.9208   0.9234   0.9254   0.9280   0.9300   0.9326   0.9344   0.9361
+  0.9374   0.9381   0.9410   0.9426   0.9432   0.9450   0.9475   0.9493
+  0.9527   0.9553   0.9582   0.9602   0.9614   0.9638   0.9652   0.9677
+  0.9692   0.9730   0.9734   0.9756   0.9779   0.9810   0.9836   0.9865
+  0.9879   0.9895   0.9910   0.9934   0.9952   0.9985   0.9999   1.0014
+  1.0045   1.0060   1.0094   1.0127   1.0159   1.0175   1.0181   1.0217
+  1.0228   1.0281   1.0291   1.0327   1.0384   1.0400   1.0430   1.0432
+  1.0455   1.0458   1.0483   1.0513   1.0532   1.0588   1.0603   1.0606
+  1.0638   1.0675   1.0697   1.0703   1.0740   1.0773   1.0805   1.0828
+  1.0854   1.0891   1.0925   1.0945   1.0963   1.0986   1.1007   1.1035
+  1.1061   1.1065   1.1096   1.1148   1.1162   1.1177   1.1205   1.1238
+  1.1252   1.1284   1.1313   1.1322   1.1367   1.1412   1.1435   1.1470
+  1.1531   1.1549   1.1558   1.1586   1.1606   1.1647   1.1655   1.1676
+  1.1701   1.1713   1.1749   1.1760   1.1821   1.1864   1.1873   1.1887
+  1.1918   1.1934   1.1990   1.2016   1.2031   1.2076   1.2083   1.2144
+  1.2153   1.2165   1.2188   1.2208   1.2249   1.2288   1.2342   1.2350
+  1.2377   1.2395   1.2440   1.2466   1.2498   1.2516   1.2553   1.2571
+  1.2609   1.2642   1.2673   1.2700   1.2742   1.2773   1.2782   1.2803
+  1.2841   1.2877   1.2902   1.2935   1.2956   1.2994   1.3001   1.3025
+  1.3056   1.3098   1.3121   1.3172   1.3187   1.3221   1.3239   1.3265
+  1.3299   1.3311   1.3339   1.3375   1.3385   1.3445   1.3462   1.3481
+  1.3515   1.3536   1.3572   1.3606   1.3610   1.3643   1.3661   1.3706
+  1.3751   1.3766   1.3793   1.3809   1.3853   1.3894   1.3906   1.3921
+  1.3951   1.4001   1.4017   1.4037   1.4087   1.4112   1.4138   1.4168
+  1.4203   1.4210   1.4268   1.4292   1.4328   1.4344   1.4376   1.4415
+  1.4437   1.4458   1.4487   1.4511   1.4537   1.4558   1.4572   1.4578
+  1.4637   1.4688   1.4714   1.4742   1.4747   1.4782   1.4814   1.4852
+  1.4877   1.4903   1.4930   1.4948   1.4989   1.4998   1.5038   1.5093
+  1.5106   1.5131   1.5146   1.5203   1.5211   1.5270   1.5326   1.5336
+  1.5349   1.5380   1.5423   1.5467   1.5509   1.5563   1.5576   1.5605
+  1.5631   1.5651   1.5703   1.5720   1.5741   1.5789   1.5817   1.5822
+  1.5850   1.5883   1.5897   1.5941   1.5956   1.5980   1.6022   1.6065
+  1.6085   1.6114   1.6135   1.6167   1.6189   1.6234   1.6244   1.6307
+  1.6340   1.6346   1.6352   1.6386   1.6442   1.6474   1.6535   1.6570
+  1.6576   1.6579   1.6609   1.6651   1.6656   1.6697   1.6709   1.6735
+  1.6756   1.6805   1.6848   1.6887   1.6901   1.6942   1.6971   1.6980
+  1.7006   1.7021   1.7021   1.7100   1.7131   1.7154   1.7156   1.7194
+  1.7222   1.7234   1.7267   1.7282   1.7324   1.7349   1.7376   1.7406
+  1.7450   1.7479   1.7500   1.7523   1.7554   1.7577   1.7598   1.7631
+  1.7649   1.7662   1.7672   1.7716   1.7764   1.7793   1.7812   1.7828
+  1.7838   1.7904   1.7915   1.7934   1.7982   1.8008   1.8041   1.8045
+  1.8073   1.8110   1.8127   1.8152   1.8193   1.8211   1.8221   1.8248
+  1.8282   1.8308   1.8327   1.8367   1.8377   1.8385   1.8414   1.8481
+  1.8493   1.8521   1.8544   1.8552   1.8609   1.8625   1.8633   1.8686
+  1.8710   1.8739   1.8818   1.8830   1.8866   1.8900   1.8936   1.8966
+  1.8979   1.9002   1.9033   1.9045   1.9066   1.9088   1.9118   1.9153
+  1.9168   1.9190   1.9233   1.9260   1.9297   1.9344   1.9359   1.9375
+  1.9414   1.9454   1.9488   1.9519   1.9528   1.9544   1.9580   1.9615
+  1.9636   1.9685   1.9743   1.9765   1.9793   1.9812   1.9834   1.9840
+  1.9866   1.9896   1.9926   1.9942   1.9948   1.9975   1.9998   2.0013
+  2.0034   2.0078   2.0098   2.0131   2.0155   2.0202   2.0233   2.0270
+  2.0289   2.0298   2.0346   2.0367   2.0383   2.0405   2.0433   2.0458
+  2.0463   2.0497   2.0531   2.0547   2.0571   2.0593   2.0619   2.0642
+  2.0716   2.0721   2.0742   2.0812   2.0841   2.0855   2.0868   2.0871
+  2.0943   2.0951   2.0993   2.1010   2.1023   2.1053   2.1062   2.1120
+  2.1137   2.1178   2.1205   2.1229   2.1237   2.1267   2.1281   2.1327
+  2.1366   2.1419   2.1429   2.1460   2.1488   2.1510   2.1549   2.1592
+  2.1635   2.1643   2.1673   2.1714   2.1735   2.1763   2.1775   2.1827
+  2.1845   2.1878   2.1892   2.1911   2.1919   2.1972   2.1993   2.2054
+  2.2058   2.2104   2.2113   2.2145   2.2158   2.2196   2.2231   2.2288
+  2.2298   2.2310   2.2370   2.2399   2.2424   2.2438   2.2468   2.2508
+  2.2536   2.2563   2.2592   2.2609   2.2691   2.2696   2.2710   2.2747
+  2.2789   2.2821   2.2836   2.2900   2.2930   2.2954   2.2977   2.3009
+  2.3043   2.3055   2.3066   2.3122   2.3164   2.3197   2.3250   2.3282
+  2.3334   2.3376   2.3388   2.3407   2.3417   2.3505   2.3533   2.3560
+  2.3585   2.3623   2.3639   2.3671   2.3706   2.3742   2.3764   2.3801
+  2.3809   2.3837   2.3870   2.3892   2.3977   2.4003   2.4076   2.4109
+  2.4149   2.4185   2.4243   2.4281   2.4302   2.4322   2.4359   2.4390
+  2.4433   2.4486   2.4506   2.4572   2.4609   2.4646   2.4688   2.4713
+  2.4767   2.4782   2.4793   2.4841   2.4853   2.4893   2.4940   2.4969
+  2.4983   2.5058   2.5116   2.5160   2.5176   2.5203   2.5219   2.5244
+  2.5282   2.5331   2.5355   2.5362   2.5452   2.5542   2.5558   2.5579
+  2.5585   2.5631   2.5645   2.5722   2.5779   2.5788   2.5884   2.5905
+  2.5914   2.5991   2.5996   2.6024   2.6076   2.6126   2.6196   2.6265
+  2.6288   2.6355   2.6403   2.6406   2.6434   2.6489   2.6529   2.6562
+  2.6611   2.6641   2.6751   2.6778   2.6824   2.6858   2.6889   2.6953
+  2.6993   2.7019   2.7073   2.7142   2.7167   2.7187   2.7238   2.7283
+  2.7316   2.7334   2.7394   2.7424   2.7489   2.7558   2.7571   2.7608
+  2.7658   2.7679   2.7692   2.7778   2.7793   2.7830   2.7900   2.7934
+  2.7980   2.7998   2.8053   2.8094   2.8101   2.8151   2.8207   2.8321
+  2.8325   2.8378   2.8394   2.8462   2.8527   2.8622   2.8650   2.8705
+  2.8715   2.8763   2.8813   2.8849   2.8904   2.8937   2.8979   2.9079
+  2.9135   2.9181   2.9219   2.9288   2.9349   2.9396   2.9504   2.9529
+  2.9541   2.9632   2.9700   2.9786   2.9791   2.9816   2.9940   2.9945
+  2.9999   3.0054   3.0161   3.0263   3.0278   3.0434   3.0444   3.0497
+  3.0550   3.0654   3.0750   3.0798   3.0931   3.1052   3.1099   3.1173
+  3.1193   3.1332   3.1485   3.1505   3.1661   3.1695   3.1807   3.1963
+  3.2308   3.2381   3.2464   3.2589   3.2657   3.2775   3.3061   3.3073
+  3.3249   3.3371   3.3421   3.3498   3.3641   3.3672   3.3821   3.3926
+  3.4013   3.4052   3.4300   3.4405   3.4565   3.4586   3.4790   3.4882
+  3.5092   3.5147   3.5259   3.5470   3.5582   3.5678   3.5735   3.5756
+  3.5816   3.5926   3.5944   3.5989   3.6135   3.6159   3.6219   3.6342
+  3.6375   3.6428   3.6470   3.6570   3.6603   3.6675   3.6717   3.6774
+  3.6817   3.6873   3.6958   3.7058   3.7150   3.7260   3.7320   3.7370
+  3.7506   3.7560   3.7609   3.7655   3.7694   3.7791   3.7865   3.8047
+  3.8121   3.8188   3.8291   3.8419   3.8494   3.8552   3.8665   3.8743
+  3.8806   3.8904   3.8946   3.8983   3.9002   3.9157   3.9272   3.9303
+  3.9686   3.9709   3.9866   3.9947   4.0057   4.0145   4.0244   4.0312
+  4.0467   4.0697   4.0800   4.1266   4.1342   4.1404   4.1589   4.1883
+  4.1947   4.2212   4.2379   4.2737   4.3020   4.3424   4.3699   4.4203
+  4.4360   4.4774   4.5836   4.6385   4.7171   4.8443   4.8943
+ 
+ Beta MOs
+ -- Occupied --
+******** -30.1140 -25.9838 -25.9832 -25.9823 -19.1842 -19.1834 -19.1832
+-19.1807 -19.1800 -19.1730 -19.1705 -19.1686 -19.1665 -19.1642 -19.1533
+-14.4177 -14.4156 -14.4087 -14.4030 -14.3795 -14.3772 -10.3582 -10.3581
+-10.3524 -10.3518 -10.3481 -10.3019 -10.2900 -10.2894 -10.2856 -10.2832
+-10.2812 -10.2807 -10.2760 -10.2739 -10.2678 -10.2670 -10.2659 -10.2593
+-10.2493 -10.2491 -10.2486 -10.2479 -10.2476 -10.2472 -10.2463 -10.2450
+-10.2393 -10.2382 -10.2365 -10.2363 -10.2362 -10.2358 -10.2351 -10.2341
+ -3.4805  -2.2402  -2.2400  -2.2386  -1.1226  -1.1125  -1.1117  -1.1103
+ -1.1091  -1.0764  -1.0717  -1.0404  -1.0326  -1.0296  -1.0229  -0.9981
+ -0.9981  -0.9892  -0.9853  -0.9760  -0.9749  -0.9070  -0.9060  -0.8652
+ -0.8621  -0.8488  -0.8414  -0.8355  -0.8099  -0.8041  -0.8004  -0.7886
+ -0.7829  -0.7778  -0.7678  -0.7437  -0.7357  -0.7098  -0.7022  -0.6846
+ -0.6768  -0.6767  -0.6644  -0.6568  -0.6538  -0.6534  -0.6492  -0.6367
+ -0.6343  -0.6286  -0.6248  -0.6192  -0.5947  -0.5826  -0.5797  -0.5661
+ -0.5597  -0.5543  -0.5499  -0.5481  -0.5469  -0.5427  -0.5346  -0.5340
+ -0.5295  -0.5293  -0.5258  -0.5219  -0.5195  -0.5169  -0.5139  -0.5126
+ -0.5088  -0.5061  -0.4987  -0.4964  -0.4956  -0.4927  -0.4879  -0.4833
+ -0.4806  -0.4793  -0.4771  -0.4744  -0.4719  -0.4704  -0.4660  -0.4652
+ -0.4626  -0.4604  -0.4590  -0.4561  -0.4542  -0.4525  -0.4467  -0.4458
+ -0.4364  -0.4342  -0.4335  -0.4309  -0.4283  -0.4277  -0.4231  -0.4161
+ -0.4151  -0.4147  -0.4115  -0.4039  -0.4005  -0.3998  -0.3988  -0.3965
+ -0.3912  -0.3853  -0.3831  -0.3812  -0.3792  -0.3776  -0.3733  -0.3722
+ -0.3667  -0.3608  -0.3587  -0.3450  -0.3406  -0.3332  -0.3317  -0.3278
+ -0.3234  -0.3215  -0.3180  -0.3158  -0.3141  -0.3136  -0.3119  -0.3089
+ -0.3056  -0.2952  -0.2870  -0.2807  -0.2792  -0.2690  -0.2662  -0.2249
+ -0.2181
+ -- Virtual --
+ -0.0113  -0.0096  -0.0056   0.0156   0.0182   0.0192   0.0205   0.0238
+  0.0242   0.0261   0.0271   0.0296   0.0323   0.0328   0.0341   0.0362
+  0.0371   0.0384   0.0404   0.0441   0.0444   0.0458   0.0488   0.0506
+  0.0535   0.0555   0.0581   0.0590   0.0595   0.0614   0.0630   0.0639
+  0.0657   0.0673   0.0690   0.0697   0.0732   0.0740   0.0750   0.0770
+  0.0775   0.0807   0.0818   0.0822   0.0836   0.0865   0.0887   0.0901
+  0.0910   0.0932   0.0942   0.0952   0.0970   0.1004   0.1021   0.1026
+  0.1042   0.1056   0.1073   0.1098   0.1105   0.1108   0.1114   0.1132
+  0.1151   0.1168   0.1176   0.1179   0.1198   0.1205   0.1227   0.1239
+  0.1254   0.1265   0.1266   0.1279   0.1297   0.1305   0.1328   0.1337
+  0.1354   0.1360   0.1373   0.1386   0.1396   0.1412   0.1419   0.1438
+  0.1453   0.1456   0.1478   0.1488   0.1494   0.1501   0.1520   0.1544
+  0.1557   0.1565   0.1577   0.1588   0.1604   0.1622   0.1635   0.1647
+  0.1658   0.1659   0.1670   0.1680   0.1693   0.1707   0.1730   0.1745
+  0.1763   0.1766   0.1771   0.1788   0.1793   0.1801   0.1830   0.1839
+  0.1852   0.1860   0.1888   0.1910   0.1923   0.1940   0.1946   0.1960
+  0.1972   0.1986   0.1997   0.2012   0.2030   0.2036   0.2048   0.2061
+  0.2085   0.2088   0.2099   0.2128   0.2141   0.2146   0.2155   0.2183
+  0.2189   0.2196   0.2230   0.2243   0.2259   0.2267   0.2290   0.2299
+  0.2304   0.2315   0.2328   0.2340   0.2351   0.2362   0.2370   0.2398
+  0.2419   0.2423   0.2441   0.2447   0.2451   0.2464   0.2483   0.2489
+  0.2505   0.2522   0.2535   0.2544   0.2566   0.2584   0.2593   0.2601
+  0.2608   0.2630   0.2643   0.2653   0.2657   0.2683   0.2690   0.2698
+  0.2705   0.2732   0.2738   0.2757   0.2766   0.2769   0.2776   0.2792
+  0.2803   0.2816   0.2826   0.2828   0.2855   0.2859   0.2864   0.2882
+  0.2887   0.2900   0.2926   0.2931   0.2933   0.2955   0.2957   0.2971
+  0.2993   0.2996   0.3004   0.3024   0.3041   0.3048   0.3060   0.3069
+  0.3077   0.3104   0.3112   0.3124   0.3141   0.3153   0.3157   0.3173
+  0.3187   0.3193   0.3217   0.3222   0.3236   0.3250   0.3257   0.3263
+  0.3273   0.3289   0.3302   0.3306   0.3321   0.3329   0.3351   0.3363
+  0.3374   0.3381   0.3395   0.3405   0.3418   0.3430   0.3455   0.3458
+  0.3472   0.3475   0.3494   0.3510   0.3529   0.3533   0.3553   0.3563
+  0.3570   0.3581   0.3595   0.3608   0.3621   0.3629   0.3645   0.3658
+  0.3673   0.3687   0.3719   0.3726   0.3730   0.3740   0.3747   0.3775
+  0.3786   0.3803   0.3819   0.3830   0.3836   0.3847   0.3862   0.3873
+  0.3887   0.3907   0.3918   0.3937   0.3948   0.3961   0.3978   0.4007
+  0.4019   0.4023   0.4029   0.4057   0.4069   0.4076   0.4095   0.4107
+  0.4117   0.4126   0.4141   0.4146   0.4160   0.4162   0.4186   0.4202
+  0.4212   0.4234   0.4252   0.4260   0.4268   0.4288   0.4294   0.4309
+  0.4325   0.4348   0.4359   0.4367   0.4377   0.4391   0.4405   0.4428
+  0.4445   0.4453   0.4473   0.4485   0.4503   0.4518   0.4530   0.4536
+  0.4568   0.4578   0.4591   0.4601   0.4632   0.4654   0.4663   0.4681
+  0.4691   0.4716   0.4733   0.4744   0.4748   0.4769   0.4784   0.4799
+  0.4818   0.4823   0.4842   0.4856   0.4878   0.4893   0.4907   0.4914
+  0.4939   0.4950   0.4969   0.4983   0.5000   0.5012   0.5037   0.5051
+  0.5061   0.5071   0.5080   0.5104   0.5116   0.5128   0.5142   0.5163
+  0.5182   0.5191   0.5205   0.5232   0.5247   0.5250   0.5263   0.5281
+  0.5290   0.5314   0.5327   0.5369   0.5378   0.5392   0.5404   0.5423
+  0.5448   0.5458   0.5466   0.5496   0.5500   0.5521   0.5536   0.5542
+  0.5570   0.5587   0.5594   0.5610   0.5627   0.5653   0.5663   0.5677
+  0.5707   0.5712   0.5731   0.5735   0.5758   0.5785   0.5787   0.5806
+  0.5819   0.5836   0.5863   0.5872   0.5891   0.5911   0.5936   0.5945
+  0.5962   0.5980   0.5992   0.5997   0.6028   0.6042   0.6065   0.6075
+  0.6093   0.6115   0.6125   0.6147   0.6158   0.6173   0.6187   0.6200
+  0.6232   0.6243   0.6250   0.6263   0.6273   0.6288   0.6296   0.6314
+  0.6324   0.6325   0.6355   0.6380   0.6393   0.6409   0.6443   0.6451
+  0.6457   0.6473   0.6506   0.6511   0.6539   0.6563   0.6565   0.6588
+  0.6608   0.6616   0.6628   0.6635   0.6653   0.6686   0.6696   0.6709
+  0.6723   0.6730   0.6743   0.6750   0.6754   0.6785   0.6812   0.6828
+  0.6832   0.6860   0.6898   0.6902   0.6930   0.6934   0.6952   0.6960
+  0.6989   0.6995   0.7007   0.7024   0.7028   0.7053   0.7064   0.7077
+  0.7105   0.7117   0.7135   0.7142   0.7167   0.7187   0.7194   0.7201
+  0.7221   0.7232   0.7248   0.7270   0.7278   0.7301   0.7307   0.7312
+  0.7326   0.7336   0.7356   0.7368   0.7393   0.7406   0.7445   0.7454
+  0.7463   0.7468   0.7477   0.7519   0.7521   0.7536   0.7542   0.7562
+  0.7590   0.7606   0.7620   0.7637   0.7652   0.7664   0.7669   0.7692
+  0.7707   0.7723   0.7742   0.7766   0.7784   0.7795   0.7806   0.7829
+  0.7850   0.7862   0.7871   0.7897   0.7923   0.7935   0.7939   0.7952
+  0.7984   0.8008   0.8014   0.8036   0.8060   0.8086   0.8099   0.8115
+  0.8134   0.8141   0.8157   0.8175   0.8205   0.8209   0.8212   0.8241
+  0.8261   0.8274   0.8295   0.8302   0.8332   0.8339   0.8375   0.8395
+  0.8406   0.8412   0.8447   0.8460   0.8464   0.8480   0.8510   0.8526
+  0.8555   0.8563   0.8576   0.8591   0.8604   0.8625   0.8642   0.8670
+  0.8689   0.8703   0.8720   0.8745   0.8757   0.8774   0.8793   0.8818
+  0.8837   0.8840   0.8861   0.8874   0.8894   0.8924   0.8947   0.8967
+  0.8981   0.9017   0.9018   0.9049   0.9051   0.9056   0.9074   0.9102
+  0.9115   0.9141   0.9153   0.9180   0.9188   0.9215   0.9239   0.9259
+  0.9288   0.9303   0.9332   0.9349   0.9371   0.9384   0.9386   0.9414
+  0.9430   0.9440   0.9464   0.9484   0.9498   0.9536   0.9567   0.9591
+  0.9606   0.9628   0.9645   0.9664   0.9681   0.9707   0.9733   0.9742
+  0.9762   0.9788   0.9814   0.9841   0.9872   0.9884   0.9904   0.9918
+  0.9943   0.9963   0.9990   1.0006   1.0019   1.0051   1.0070   1.0099
+  1.0134   1.0168   1.0180   1.0186   1.0223   1.0232   1.0289   1.0303
+  1.0337   1.0391   1.0408   1.0436   1.0446   1.0464   1.0469   1.0487
+  1.0523   1.0542   1.0595   1.0611   1.0614   1.0644   1.0682   1.0703
+  1.0713   1.0755   1.0781   1.0812   1.0840   1.0861   1.0905   1.0932
+  1.0947   1.0973   1.1000   1.1017   1.1042   1.1068   1.1078   1.1116
+  1.1156   1.1166   1.1185   1.1216   1.1246   1.1266   1.1294   1.1319
+  1.1331   1.1373   1.1418   1.1445   1.1481   1.1539   1.1561   1.1572
+  1.1604   1.1616   1.1657   1.1671   1.1691   1.1715   1.1722   1.1767
+  1.1772   1.1833   1.1872   1.1898   1.1906   1.1931   1.1948   1.2001
+  1.2027   1.2044   1.2090   1.2095   1.2151   1.2170   1.2188   1.2197
+  1.2222   1.2261   1.2301   1.2353   1.2365   1.2385   1.2404   1.2453
+  1.2501   1.2504   1.2527   1.2576   1.2593   1.2632   1.2670   1.2684
+  1.2713   1.2753   1.2789   1.2798   1.2826   1.2868   1.2887   1.2922
+  1.2945   1.2984   1.3003   1.3016   1.3047   1.3072   1.3124   1.3130
+  1.3184   1.3193   1.3243   1.3269   1.3281   1.3322   1.3343   1.3351
+  1.3392   1.3396   1.3461   1.3473   1.3503   1.3533   1.3561   1.3582
+  1.3620   1.3625   1.3652   1.3675   1.3721   1.3764   1.3785   1.3803
+  1.3827   1.3869   1.3912   1.3919   1.3936   1.3963   1.4022   1.4032
+  1.4062   1.4100   1.4121   1.4149   1.4181   1.4218   1.4220   1.4282
+  1.4307   1.4337   1.4352   1.4389   1.4432   1.4448   1.4465   1.4491
+  1.4523   1.4545   1.4575   1.4584   1.4592   1.4652   1.4702   1.4748
+  1.4752   1.4766   1.4792   1.4823   1.4866   1.4888   1.4917   1.4940
+  1.4958   1.5009   1.5019   1.5050   1.5104   1.5119   1.5147   1.5158
+  1.5223   1.5241   1.5289   1.5341   1.5358   1.5365   1.5396   1.5443
+  1.5484   1.5528   1.5581   1.5588   1.5617   1.5646   1.5666   1.5721
+  1.5734   1.5757   1.5804   1.5826   1.5832   1.5857   1.5903   1.5910
+  1.5958   1.5973   1.5991   1.6033   1.6085   1.6103   1.6124   1.6147
+  1.6189   1.6202   1.6251   1.6264   1.6316   1.6355   1.6357   1.6375
+  1.6405   1.6460   1.6490   1.6552   1.6580   1.6589   1.6598   1.6625
+  1.6667   1.6674   1.6709   1.6737   1.6750   1.6772   1.6821   1.6865
+  1.6896   1.6929   1.6958   1.6988   1.6996   1.7030   1.7041   1.7051
+  1.7118   1.7145   1.7165   1.7179   1.7204   1.7251   1.7258   1.7281
+  1.7301   1.7346   1.7364   1.7388   1.7426   1.7468   1.7495   1.7524
+  1.7539   1.7572   1.7600   1.7611   1.7642   1.7661   1.7679   1.7691
+  1.7727   1.7779   1.7819   1.7827   1.7851   1.7865   1.7922   1.7934
+  1.7971   1.8011   1.8033   1.8053   1.8057   1.8089   1.8127   1.8163
+  1.8177   1.8206   1.8230   1.8238   1.8267   1.8301   1.8318   1.8337
+  1.8389   1.8405   1.8424   1.8438   1.8488   1.8517   1.8534   1.8559
+  1.8571   1.8624   1.8646   1.8661   1.8719   1.8737   1.8775   1.8833
+  1.8850   1.8881   1.8908   1.8950   1.8989   1.8996   1.9014   1.9057
+  1.9071   1.9086   1.9104   1.9134   1.9171   1.9179   1.9209   1.9254
+  1.9289   1.9328   1.9358   1.9382   1.9403   1.9449   1.9470   1.9503
+  1.9534   1.9555   1.9561   1.9625   1.9639   1.9666   1.9709   1.9755
+  1.9773   1.9806   1.9828   1.9849   1.9870   1.9876   1.9933   1.9939
+  1.9955   1.9957   1.9994   2.0017   2.0030   2.0050   2.0103   2.0123
+  2.0155   2.0169   2.0222   2.0244   2.0285   2.0302   2.0312   2.0361
+  2.0381   2.0392   2.0416   2.0447   2.0471   2.0482   2.0504   2.0541
+  2.0556   2.0602   2.0614   2.0640   2.0655   2.0728   2.0740   2.0757
+  2.0830   2.0855   2.0877   2.0884   2.0885   2.0954   2.0965   2.1000
+  2.1028   2.1036   2.1062   2.1092   2.1137   2.1152   2.1196   2.1223
+  2.1240   2.1251   2.1280   2.1309   2.1337   2.1372   2.1433   2.1446
+  2.1490   2.1501   2.1520   2.1564   2.1641   2.1658   2.1659   2.1691
+  2.1724   2.1751   2.1772   2.1804   2.1836   2.1864   2.1895   2.1912
+  2.1925   2.1939   2.1992   2.2002   2.2067   2.2080   2.2122   2.2132
+  2.2159   2.2183   2.2200   2.2249   2.2297   2.2309   2.2320   2.2387
+  2.2419   2.2462   2.2466   2.2494   2.2527   2.2550   2.2583   2.2608
+  2.2634   2.2700   2.2708   2.2722   2.2764   2.2806   2.2836   2.2875
+  2.2923   2.2944   2.2978   2.2994   2.3027   2.3066   2.3074   2.3107
+  2.3133   2.3186   2.3219   2.3258   2.3287   2.3342   2.3387   2.3409
+  2.3422   2.3434   2.3527   2.3549   2.3572   2.3606   2.3639   2.3663
+  2.3693   2.3730   2.3760   2.3792   2.3815   2.3821   2.3847   2.3888
+  2.3922   2.3990   2.4027   2.4101   2.4150   2.4173   2.4221   2.4261
+  2.4296   2.4325   2.4354   2.4388   2.4419   2.4438   2.4524   2.4535
+  2.4586   2.4619   2.4664   2.4711   2.4741   2.4781   2.4809   2.4843
+  2.4850   2.4873   2.4922   2.4964   2.4989   2.4998   2.5078   2.5147
+  2.5177   2.5192   2.5226   2.5235   2.5256   2.5298   2.5340   2.5373
+  2.5374   2.5499   2.5553   2.5572   2.5599   2.5620   2.5640   2.5651
+  2.5730   2.5802   2.5814   2.5900   2.5922   2.5926   2.5999   2.6009
+  2.6030   2.6085   2.6135   2.6213   2.6273   2.6298   2.6367   2.6411
+  2.6423   2.6449   2.6500   2.6534   2.6569   2.6637   2.6666   2.6771
+  2.6798   2.6837   2.6869   2.6907   2.6964   2.7010   2.7045   2.7093
+  2.7157   2.7176   2.7205   2.7258   2.7310   2.7329   2.7353   2.7415
+  2.7466   2.7512   2.7565   2.7589   2.7622   2.7683   2.7688   2.7712
+  2.7795   2.7802   2.7848   2.7941   2.7956   2.7992   2.8006   2.8067
+  2.8120   2.8130   2.8172   2.8214   2.8333   2.8352   2.8400   2.8437
+  2.8467   2.8534   2.8642   2.8675   2.8720   2.8728   2.8773   2.8824
+  2.8865   2.8919   2.8968   2.8998   2.9094   2.9157   2.9201   2.9235
+  2.9325   2.9400   2.9431   2.9521   2.9533   2.9653   2.9674   2.9734
+  2.9798   2.9813   2.9881   2.9954   3.0012   3.0016   3.0091   3.0199
+  3.0283   3.0346   3.0450   3.0504   3.0580   3.0644   3.0672   3.0760
+  3.0890   3.0984   3.1110   3.1175   3.1196   3.1225   3.1339   3.1506
+  3.1583   3.1674   3.1707   3.1826   3.1980   3.2317   3.2398   3.2484
+  3.2596   3.2674   3.2818   3.3074   3.3090   3.3273   3.3389   3.3437
+  3.3529   3.3658   3.3687   3.3845   3.3963   3.4032   3.4075   3.4325
+  3.4433   3.4580   3.4613   3.4795   3.4910   3.5116   3.5184   3.5303
+  3.5515   3.5597   3.5686   3.5745   3.5769   3.5828   3.5957   3.5973
+  3.6039   3.6160   3.6181   3.6240   3.6393   3.6405   3.6481   3.6500
+  3.6591   3.6672   3.6716   3.6728   3.6799   3.6878   3.6921   3.6985
+  3.7106   3.7200   3.7328   3.7347   3.7438   3.7534   3.7592   3.7633
+  3.7696   3.7732   3.7806   3.7931   3.8106   3.8199   3.8260   3.8341
+  3.8465   3.8526   3.8592   3.8772   3.8835   3.8866   3.8998   3.9036
+  3.9085   3.9091   3.9233   3.9373   3.9425   3.9776   3.9857   3.9931
+  3.9977   4.0203   4.0306   4.0404   4.0431   4.0668   4.0855   4.1030
+  4.1373   4.1492   4.1713   4.1985   4.2066   4.2269   4.2297   4.2968
+  4.3349   4.3610   4.4153   4.4467   4.4653   4.4998   4.5366   4.6080
+  4.7332   4.8100   4.8477   4.9039
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)    Spin (a.u.)
+  --------------------------------------------------------
+      1 C                     0.601340      -0.022334
+      2 C                     1.043005       0.024180
+      3 C                     1.021239       0.003150
+      4 C                     1.028738       0.000129
+      5 C                     0.433489       0.013428
+      6 C                     0.415371      -0.014318
+      7 H                    -1.174554       0.000028
+      8 O                    -1.136124       0.118695
+      9 C                     0.106169      -0.001347
+     10 O                    -0.868506       0.001004
+     11 N                     0.062952      -0.000135
+     12 H                    -0.094133      -0.000134
+     13 C                     1.120088      -0.000147
+     14 H                    -0.573705       0.000016
+     15 H                    -0.500271      -0.000009
+     16 C                     1.362729       0.000075
+     17 H                    -0.507323      -0.000003
+     18 H                    -0.615425       0.000045
+     19 C                     1.454335       0.000061
+     20 H                    -0.661639      -0.000121
+     21 H                    -0.651487       0.000006
+     22 N                    -0.323702       0.000057
+     23 H                     0.001796      -0.000013
+     24 C                     1.418955      -0.001500
+     25 H                    -1.319166      -0.000679
+     26 H                    -0.685930      -0.000206
+     27 C                     2.088188       0.000799
+     28 H                    -0.730766      -0.000242
+     29 H                    -1.352531       0.000745
+     30 C                     1.567617      -0.000312
+     31 H                    -0.600206      -0.000021
+     32 H                    -0.611797      -0.000019
+     33 C                     1.377891      -0.000962
+     34 H                    -0.880615      -0.000556
+     35 H                    -0.654365       0.000119
+     36 N                     0.775878      -0.000497
+     37 H                    -0.176505       0.005540
+     38 C                     0.238213      -0.006223
+     39 O                    -0.895291      -0.000053
+     40 C                     1.652628       0.009512
+     41 H                    -0.433804       0.000872
+     42 H                    -0.573515       0.000943
+     43 C                     1.614014       0.006252
+     44 H                    -0.638494      -0.001807
+     45 H                    -0.832480       0.000392
+     46 C                     0.894837      -0.000028
+     47 O                    -0.896028       0.000403
+     48 N                     0.935687      -0.002152
+     49 C                     0.968623       0.000368
+     50 H                    -0.393624      -0.002014
+     51 C                     1.820685      -0.000511
+     52 H                    -0.709290       0.000312
+     53 H                    -0.623077       0.000085
+     54 C                     0.854049       0.000021
+     55 H                    -0.605442       0.000029
+     56 H                    -0.795071      -0.000549
+     57 C                     1.269485      -0.000100
+     58 H                    -0.593568       0.000019
+     59 H                    -0.580442       0.000008
+     60 H                    -0.470464       0.000009
+     61 H                    -0.587165      -0.000003
+     62 C                    -0.167961      -0.001707
+     63 C                     1.838322       0.002080
+     64 O                    -0.881073       0.000166
+     65 C                     1.304176       0.003031
+     66 C                     0.865665       0.021511
+     67 C                     0.454594       0.012607
+     68 C                     0.573894      -0.019796
+     69 C                     0.208751      -0.015621
+     70 H                    -1.145970       0.000099
+     71 O                    -1.185184       0.132432
+     72 C                    -0.359973       0.003802
+     73 O                    -1.170709       0.155784
+     74 C                     0.689410       0.006579
+     75 O                    -0.905080       0.080852
+     76 O                    -1.029044       0.006507
+     77 H                    -1.089947       0.000050
+     78 O                    -1.033679       0.121184
+     79 H                    -1.331423       0.000008
+     80 O                    -1.142786       0.112908
+     81 Fe                    2.349106       4.247025
+     82 N                    -0.286731      -0.000007
+     83 H                    -0.038648      -0.000027
+     84 N                     0.179052       0.000702
+     85 H                    -0.055823      -0.000080
+     86 C                     0.974122      -0.000084
+     87 H                    -0.440526       0.000002
+     88 H                    -0.609757       0.000022
+     89 C                     1.224014       0.000069
+     90 H                    -0.489515       0.000014
+     91 H                    -0.387361       0.000000
+     92 C                     1.473897      -0.000140
+     93 H                    -0.596039      -0.000002
+     94 H                    -0.579517      -0.000095
+     95 H                    -1.103540       0.000003
+     96 H                    -1.486212      -0.000187
+  --------------------------------------------------------
+  Sum of atomic charges =    -3.000000
+  Sum of spin   charges =     5.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+               -14.4096
+    Dipole Moment (Debye)
+         X      -7.5031      Y      -4.6044      Z       6.5223
+       Tot      10.9561
+    Quadrupole Moments (Debye-Ang)
+        XX    -497.0810     XY      22.7630     YY    -458.6579
+        XZ      15.4616     YZ     -36.2197     ZZ    -369.0492
+    Octopole Moments (Debye-Ang^2)
+       XXX    -171.8000    XXY      94.4932    XYY    -194.3586
+       YYY    -374.9629    XXZ     666.6167    XYZ      -8.8400
+       YYZ     107.8035    XZZ     -87.8219    YZZ     -12.0761
+       ZZZ     166.2866
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX  -54705.8199   XXXY    2193.5902   XXYY  -10992.1617
+      XYYY     -26.4604   YYYY  -11456.6982   XXXZ    1511.9636
+      XXYZ   -1227.3921   XYYZ     450.4942   YYYZ     -44.1801
+      XXZZ   -9028.2139   XYZZ      48.0155   YYZZ   -2349.8482
+      XZZZ     477.3205   YZZZ    -165.1397   ZZZZ   -3421.0646
+ -----------------------------------------------------------------
+ Total job time:  745721.30s(wall), 13242487.78s(cpu) 
+ Sat Mar 16 22:53:29 2024
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
