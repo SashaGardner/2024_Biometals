@@ -1,0 +1,33 @@
+Molecule,snapshot,calculation,charge,spin,method,basis set,solvation (dielectric),output file,input file
+FeAB,01,FeAB cc C-fac OPT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_ccL_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FeABO_ccL_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FeAB,01,FeAB cc C-fac TDDFT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_ccL_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100.out,C_FeABO_ccL_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100.in
+FeAB,02,FeAB cc N-fac OPT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_N_ccL_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt_5.out,C_FeABO_N_ccL_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt_5.in
+FeAB,02,FeAB cc N-fac TDDFT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_N_ccL_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100_2.out,C_FeABO_N_ccL_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100_2.in
+FeAB,03,FeAB ct C-mer OPT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_ctL_C_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.out,C_FeABO_ctL_C_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.in
+FeAB,03,FeAB ct C-mer TDDFT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_ctL_C_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100.out,C_FeABO_ctL_C_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100.in
+FeAB,04,FeAB ct N-mer OPT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_ctL_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.out,C_FeABO_ctL_3sextet_SfS_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.in
+FeAB,04,FeAB ct N-mer TDDFT,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FeABO_ctL_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100.out,C_FeABO_ctL_3sextet_SfS_camb3lyp_augccpDVZ_pcmH2O_tddft100.in
+FeAB* enol,09,FeAB* enol cc C-fac OPT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar2_enol_ccL_2sextet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.out,C_FeABstar2_enol_ccL_2sextet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.in
+FeAB* enol,09,FeAB* enol cc C-fac TDDFT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar2_enol_ccL_2sextet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.out,C_FeABstar2_enol_ccL_2sextet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.in
+FeAB* enol,10,FeAB* enol cc N-fac OPT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar_enol_ccL_2sextet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FeABstar_enol_ccL_2sextet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FeAB* enol,10,FeAB* enol cc N-fac TDDFT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar_enol_ccL_2sextet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.out,C_FeABstar_enol_ccL_2sextet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.in
+FeAB* enol,11,FeAB* enol cc C-mer OPT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar_enol_ctL_C_3sextet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FeABstar_enol_ctL_C_3sextet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FeAB* enol,11,FeAB* enol cc C-mer TDDFT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar_enol_ctL_C_3sextet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.out,C_FeABstar_enol_ctL_C_3sextet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.in
+FeAB* enol,12,FeAB* enol cc N-mer OPT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar_enol_ctL_N_3sexet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FeABstar_enol_ctL_N_3sexet_SkS_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FeAB* enol,12,FeAB* enol cc N-mer TDDFT,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FeABstar_enol_ctL_N_3sexet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.out,C_FeABstar_enol_ctL_N_3sexet_SkS_camb3lyp_augccpVDZ_pcmH2O_tddft100.in
+FePB,13,cc l-front -opt,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB_ccL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FePB_ccL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FePB,13,cc l-front -tddft,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB_ccL_3sextet_camb3lyp_augccpVDZ_pcmH2O_tddft100.out,C_FePB_ccL_3sextet_camb3lyp_augccpVDZ_pcmH2O_tddft100.in
+FePB,14,cc s-front -opt,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB2_ccL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt_4.out,C_FePB2_ccL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt_4.in
+FePB,14,cc s-front -tddft,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB2_ccL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100_4.out,C_FePB2_ccL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100_4.in
+FePB,15,ct l-trans -opt,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB_ctL2_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.out,C_FePB_ctL2_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.in
+FePB,15,ct l-trans -tddft,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.out,C_FePB_ctL2_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in
+FePB,16,ct s-trans -opt,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB_ctL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FePB_ctL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FePB,16,ct s-trans -tddft,-3,6,B3LYP-D3(BJ),cc-pVDZ,cpcm (78.39),C_FePB_ctL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.out,C_FePB_ctL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in
+FePB* enol,21,R enol cc p-front -opt,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_L_ccL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FePBstar_enol_L_ccL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FePB* enol,21,R enol cc p-front -tddft,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_L_ccL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.out,C_FePBstar_enol_L_ccL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in
+FePB* enol,22,R enol cc m-front -opt,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_ccL_2pentet_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.out,C_FePBstar_enol_ccL_2pentet_b3lypD3bj_ccpVDZ_pcmH2O_opt_2.in
+FePB* enol,22,R enol cc m-front -tddft,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_ccL_2sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100_2.out,C_FePBstar_enol_ccL_2sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100_2.in
+FePB* enol,23,R enol ct p-trans -opt,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_L_ctL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FePBstar_enol_L_ctL_3sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FePB* enol,23,R enol ct p-trans -tddft,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_L_ctL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.out,C_FePBstar_enol_L_ctL_3sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in
+FePB* enol,24,R enol ct m-trans -opt,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_ctL_2sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.out,C_FePBstar_enol_ctL_2sextet_b3lypD3bj_ccpVDZ_pcmH2O_opt.in
+FePB* enol,24,R enol ct m-trans -tddft,-2,6,CAM-B3LYP,aug-ccpVDZ,cpcm (78.39),C_FePBstar_enol_ctL_S_2sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.out,C_FePBstar_enol_ctL_S_2sextet_camb3lyo_augccpVDZ_pcmH2O_tddft100.in
