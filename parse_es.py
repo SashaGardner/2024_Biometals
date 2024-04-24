@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 
+#Extracts excitation data from Q-chem TD-DFT files without NTOs, delete NTO data prior to parsing data or will not work
+
 # Modified from Yuezhi Mao https://github.com/YuezhiMao python_qiput file parse_tddft
 # https://github.com/YuezhiMao/python_qinput/blob/38d0e27c861e636487ef05ac64f8c68820676dba/parse_tddft
 
