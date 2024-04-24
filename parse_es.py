@@ -1,5 +1,8 @@
 #! /usr/bin/env python3
 
+# Modified from Yuezhi Mao https://github.com/YuezhiMao python_qiput file parse_tddft
+# https://github.com/YuezhiMao/python_qinput/blob/38d0e27c861e636487ef05ac64f8c68820676dba/parse_tddft
+
 import os, sys, glob, re
 import numpy as np
 from optparse import OptionParser
